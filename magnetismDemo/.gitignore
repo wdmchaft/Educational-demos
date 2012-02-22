@@ -1,0 +1,9 @@
+MW/*.swp
+MW/build/
+MW/*.pbxuser
+MW/*.perspective
+MW/*.perspectivev3
+MW/*.mode1v3
+MW/*.mode2v3
+MW/*.orig
+MW/.svn/

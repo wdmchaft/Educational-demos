@@ -1,0 +1,212 @@
+// !$*UTF8*$!
+{
+	1D3623250D0F684500981E51 /* cameraDemoAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {810, 1222}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 372}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* cameraDemo */ = {
+		activeExec = 0;
+		executables = (
+			843452F3128B954F00134494 /* cameraDemo */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* cameraDemoViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {635, 403}}";
+			sepNavSelRange = "{244, 66}";
+			sepNavVisRange = "{0, 514}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* cameraDemoViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {831, 2158}}";
+			sepNavSelRange = "{458, 10}";
+			sepNavVisRange = "{1932, 480}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 843452F3128B954F00134494 /* cameraDemo */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* cameraDemo */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* cameraDemo */,
+		);
+		codeSenseManager = 843452FA128B956D00134494 /* Code sense */;
+		executables = (
+			843452F3128B954F00134494 /* cameraDemo */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 313106531;
+			PBXWorkspaceStateSaveDate = 313106531;
+		};
+		perUserProjectItems = {
+			840499BD12AAF4E000CADED3 /* PBXTextBookmark */ = 840499BD12AAF4E000CADED3 /* PBXTextBookmark */;
+			84345394128BAFBB00134494 /* PBXTextBookmark */ = 84345394128BAFBB00134494 /* PBXTextBookmark */;
+			84345397128BAFBB00134494 /* PBXTextBookmark */ = 84345397128BAFBB00134494 /* PBXTextBookmark */;
+			8434555C128C99F100134494 /* PBXTextBookmark */ = 8434555C128C99F100134494 /* PBXTextBookmark */;
+			8434563E128CC06B00134494 /* PBXTextBookmark */ = 8434563E128CC06B00134494 /* PBXTextBookmark */;
+			84C5F193128CF7E3007DC66F /* PlistBookmark */ = 84C5F193128CF7E3007DC66F /* PlistBookmark */;
+			84C5F195128CF7E3007DC66F /* PBXTextBookmark */ = 84C5F195128CF7E3007DC66F /* PBXTextBookmark */;
+		};
+		sourceControlManager = 843452F9128B956D00134494 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	840499BD12AAF4E000CADED3 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* cameraDemoViewController.m */;
+		name = "cameraDemoViewController.m: 18";
+		rLen = 10;
+		rLoc = 458;
+		rType = 0;
+		vrLen = 480;
+		vrLoc = 1932;
+	};
+	843452F3128B954F00134494 /* cameraDemo */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = cameraDemo;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	843452F9128B956D00134494 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	843452FA128B956D00134494 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	84345394128BAFBB00134494 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 84345395128BAFBB00134494 /* DrinkCategory.m */;
+		name = "DrinkCategory.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 415;
+		vrLoc = 42;
+	};
+	84345395128BAFBB00134494 /* DrinkCategory.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = DrinkCategory.m;
+		path = /Users/admin/Documents/iwantthisdrink_July30/iwantthisdrink/Classes/DrinkCategory.m;
+		sourceTree = "<absolute>";
+	};
+	84345397128BAFBB00134494 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 84345398128BAFBB00134494 /* simonsingsViewController.mm */;
+		name = "simonsingsViewController.mm: 52";
+		rLen = 2592;
+		rLoc = 2354;
+		rType = 0;
+		vrLen = 747;
+		vrLoc = 4710;
+	};
+	84345398128BAFBB00134494 /* simonsingsViewController.mm */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.objcpp;
+		name = simonsingsViewController.mm;
+		path = /Users/admin/Documents/simonsings_Sept1/Classes/simonsingsViewController.mm;
+		sourceTree = "<absolute>";
+	};
+	8434555C128C99F100134494 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* cameraDemoAppDelegate.m */;
+		name = "cameraDemoAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 372;
+		vrLoc = 0;
+	};
+	8434563E128CC06B00134494 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* cameraDemoViewController.h */;
+		name = "cameraDemoViewController.h: 11";
+		rLen = 66;
+		rLoc = 244;
+		rType = 0;
+		vrLen = 514;
+		vrLoc = 0;
+	};
+	84C5F193128CF7E3007DC66F /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* cameraDemo-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleSignature,
+		);
+		name = "/Users/admin/educational demos/cameraDemo/cameraDemo-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	84C5F195128CF7E3007DC66F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* cameraDemoViewController.m */;
+		name = "cameraDemoViewController.m: 18";
+		rLen = 10;
+		rLoc = 458;
+		rType = 0;
+		vrLen = 532;
+		vrLoc = 1853;
+	};
+}

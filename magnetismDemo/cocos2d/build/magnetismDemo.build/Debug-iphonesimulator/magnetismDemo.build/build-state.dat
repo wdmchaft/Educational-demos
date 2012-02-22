@@ -1,0 +1,1224 @@
+TmagnetismDemo
+v7
+r0
+t312335135.849107
+cCheck dependencies
+cProcessInfoPlistFile "/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/magnetismDemo.app/Info.plist" Resources/Info.plist
+cCpResource build/Debug-iphonesimulator/magnetismDemo.app/Default.png Resources/Default.png
+cCpResource build/Debug-iphonesimulator/magnetismDemo.app/fps_images.png Resources/fps_images.png
+cCpResource build/Debug-iphonesimulator/magnetismDemo.app/Icon.png Resources/Icon.png
+cCpResource build/Debug-iphonesimulator/magnetismDemo.app/bat.png Resources/bat.png
+cCpResource build/Debug-iphonesimulator/magnetismDemo.app/cyanbat.png Resources/cyanbat.png
+cCpResource build/Debug-iphonesimulator/magnetismDemo.app/redbat.png Resources/redbat.png
+cCpResource build/Debug-iphonesimulator/magnetismDemo.app/whitebat.png Resources/whitebat.png
+cCpResource build/Debug-iphonesimulator/magnetismDemo.app/explosion.png Resources/explosion.png
+cCpResource build/Debug-iphonesimulator/magnetismDemo.app/kaboom!.wav Resources/kaboom!.wav
+cCpResource build/Debug-iphonesimulator/magnetismDemo.app/batSplosion.png Resources/batSplosion.png
+cProcessPCH++ /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-gqidkzlinfhpxjdokidjzhpvntob/MW_Prefix.pch.gch MW_Prefix.pch normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-acwtngnxfzdozodlkoatwweidats/MW_Prefix.pch.gch MW_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-beezaviyhckluehhdsebjivromqz/MW_Prefix.pch.pth MW_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+cCompileC build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/Objects-normal/i386/cocosDemoAppDelegate.o "/Users/admin/educational demos/magnetismDemo/cocos2d/Classes/cocosDemoAppDelegate.mm" normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/Objects-normal/i386/gameScene.o "/Users/admin/educational demos/magnetismDemo/cocos2d/Classes/gameScene.mm" normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/Objects-normal/i386/menuScene.o "/Users/admin/educational demos/magnetismDemo/cocos2d/Classes/../menuScene.mm" normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/Objects-normal/i386/main.o "/Users/admin/educational demos/magnetismDemo/cocos2d/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/Objects-normal/i386/magneticBat.o "/Users/admin/educational demos/magnetismDemo/cocos2d/Classes/magneticBat.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/magnetismDemo.app/magnetismDemo" normal i386
+cAnalyze "/Users/admin/educational demos/magnetismDemo/cocos2d/main.m"
+cAnalyze "/Users/admin/educational demos/magnetismDemo/cocos2d/Classes/magneticBat.m"
+cGenerateDSYMFile "/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/magnetismDemo.app.dSYM" "/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/magnetismDemo.app/magnetismDemo"
+cTouch "/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/magnetismDemo.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004C7436C60000000000000132
+t1282684614
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004C01F5AE00000000000C05A0
+t1275196846
+s787872
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004BFF3B7600000000001C8900
+t1275018102
+s1870080
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004BFF3B620000000000000A23
+t1275018082
+s2595
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c000000004BFDFDDC00000000000A8290
+t1274936796
+s688784
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c000000004BFDFD850000000000236AB0
+t1274936709
+s2321072
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+c000000004BFDFDB200000000000022F0
+t1274936754
+s8944
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c000000004BFF3B9A00000000000244F0
+t1275018138
+s148720
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004BFDFF0A000000000000094F
+t1274937098
+s2383
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGLDrawable.h
+c000000004BFDFF0A0000000000000A61
+t1274937098
+s2657
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004BFDFF0A0000000000009369
+t1274937098
+s37737
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004BFDFF0A0000000000003C4A
+t1274937098
+s15434
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004BFDFF120000000000019D60
+t1274937106
+s105824
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004C0458E90000000000151D30
+t1275353321
+s1383728
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/objc/objc.h
+c000000004BFDF9F40000000000000A2F
+t1274935796
+s2607
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/stdlib.h
+c000000004A5C14A70000000000002DF5
+t1247548583
+s11765
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/string.h
+c000000004A5C14A70000000000001731
+t1247548583
+s5937
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/sys/time.h
+c000000004A73D6550000000000001E17
+t1249105493
+s7703
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/lib/libz.dylib
+c000000004AD4F6ED0000000000005D2C
+t1255470829
+s23852
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/Classes/../menuScene.mm
+c000000004CDC27410000000000000175
+t1289496385
+s373
+i"menuScene.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/Classes/cocosDemoAppDelegate.h
+c000000004CDC275400000000000000C1
+t1289496404
+s193
+i<UIKit/UIKit.h>
+i"menuScene.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/Classes/cocosDemoAppDelegate.mm
+c000000004CDC27650000000000000908
+t1289496421
+s2312
+i"cocosDemoAppDelegate.h"
+i"cocos2d.h"
+i"gameScene.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/Classes/gameScene.h
+c000000004CDCAF400000000000000153
+t1289531200
+s339
+i"cocos2d.h"
+i"magneticBat.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/Classes/gameScene.mm
+c000000004CE439530000000000000B69
+t1290025299
+s2921
+i<stdlib.h>
+i<AudioToolbox/AudioToolbox.h>
+i"gameScene.h"
+i"magneticBat.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/Classes/magneticBat.h
+c000000004CE435D80000000000000226
+t1290024408
+s550
+i<Foundation/Foundation.h>
+i"cocos2d.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/Classes/magneticBat.m
+c000000004CE4397E00000000000007D9
+t1290025342
+s2009
+i"magneticBat.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/MW_Prefix.pch
+c000000004CC31FA700000000000000E3
+t1287856039
+s227
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/Resources/Default.png
+c000000004CC31FA700000000000077AB
+t1287856039
+s30635
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/Resources/Icon.png
+c000000004CC31FA7000000000000246F
+t1287856039
+s9327
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/Resources/bat.png
+c000000004CCB92BE000000000000085D
+t1288409790
+s2141
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/Resources/batSplosion.png
+c000000004CDC8982000000000000034F
+t1289521538
+s847
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/Resources/cyanbat.png
+c000000004CCB93AF0000000000000D2A
+t1288410031
+s3370
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/Resources/explosion.png
+c000000004CCBA2690000000000009964
+t1288413801
+s39268
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/Resources/fps_images.png
+c000000004CC31FA7000000000000183B
+t1287856039
+s6203
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/Resources/kaboom!.wav
+c000000004CCBA34F000000000000E362
+t1288414031
+s58210
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/Resources/redbat.png
+c000000004CCB93BC0000000000000D14
+t1288410044
+s3348
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/Resources/whitebat.png
+c000000004CCB93930000000000000D25
+t1288410003
+s3365
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/libcocos2d libraries.a
+c000000004CDCB12A0000000000548730
+t1289531690
+s5539632
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/magnetismDemo.app
+t1290025344
+s510
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/magnetismDemo.app.dSYM
+t1290025344
+s102
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/magnetismDemo.app/Default.png
+t1289531690
+s30635
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/magnetismDemo.app/Icon.png
+t1289531690
+s9327
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/magnetismDemo.app/Info.plist
+t1289571892
+s663
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/magnetismDemo.app/PkgInfo
+t1289571892
+s8
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/magnetismDemo.app/bat.png
+t1289531690
+s2141
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/magnetismDemo.app/batSplosion.png
+t1289531690
+s847
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/magnetismDemo.app/cyanbat.png
+t1289531690
+s3370
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/magnetismDemo.app/explosion.png
+t1289531690
+s39268
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/magnetismDemo.app/fps_images.png
+t1289531690
+s6203
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/magnetismDemo.app/kaboom!.wav
+t1289531690
+s58210
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/magnetismDemo.app/magnetismDemo
+t1290025344
+s2540984
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/magnetismDemo.app/redbat.png
+t1289531690
+s3348
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/magnetismDemo.app/whitebat.png
+t1289531690
+s3365
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/Objects-normal/i386/cocosDemoAppDelegate.o
+t1290024532
+s57392
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/Objects-normal/i386/gameScene.o
+t1290025344
+s55692
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/Objects-normal/i386/magneticBat.o
+t1290025344
+s19132
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/Objects-normal/i386/magnetismDemo.LinkFileList
+c000000004CDCB12A0000000000000305
+t1289531690
+s773
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/Objects-normal/i386/main.o
+t1289531692
+s6448
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/Objects-normal/i386/menuScene.o
+t1290024533
+s43452
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/StaticAnalyzer/normal/i386/magneticBat.plist
+t1290642335
+s276
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/StaticAnalyzer/normal/i386/main.plist
+t1290642335
+s276
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCAction.h
+c000000004CC31FA70000000000001325
+t1287856039
+s4901
+i<UIKit/UIKit.h>
+i<sys/time.h>
+i"ccTypes.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCActionManager.h
+c000000004CC31FA70000000000000C0E
+t1287856039
+s3086
+i"CCAction.h"
+i"Support/ccArray.h"
+i"Support/ccHashSet.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCAtlasNode.h
+c000000004CC31FA70000000000000912
+t1287856039
+s2322
+i"CCTextureAtlas.h"
+i"CCNode.h"
+i"CCProtocols.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCBitmapFontAtlas.h
+c000000004CC31FA70000000000001009
+t1287856039
+s4105
+i"CCAtlasNode.h"
+i"CCSpriteSheet.h"
+i"Support/ccHashSet.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCBlockSupport.h
+c000000004CC31FA70000000000000430
+t1287856039
+s1072
+i<Foundation/Foundation.h>
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCCamera.h
+c000000004CC31FA70000000000000815
+t1287856039
+s2069
+i"CCNode.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCCameraAction.h
+c000000004CC31FA70000000000000676
+t1287856039
+s1654
+i"CCIntervalAction.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCCompatibility.h
+c000000004CC31FA70000000000003A7C
+t1287856039
+s14972
+i<Foundation/Foundation.h>
+i"cocos2d.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCConfiguration.h
+c000000004CC31FA70000000000000680
+t1287856039
+s1664
+i<OpenGLES/ES1/gl.h>
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCDirector.h
+c000000004CC31FA700000000000035F1
+t1287856039
+s13809
+i"ccConfig.h"
+i"ccTypes.h"
+i"Support/EAGLView.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCDrawingPrimitives.h
+c000000004CC31FA7000000000000084A
+t1287856039
+s2122
+i<CoreGraphics/CGGeometry.h>
+i<objc/objc.h>
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCEaseAction.h
+c000000004CC31FA70000000000001338
+t1287856039
+s4920
+i"CCIntervalAction.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCGrabber.h
+c000000004CC31FA700000000000002C0
+t1287856039
+s704
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<UIKit/UIKit.h>
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCGrid.h
+c000000004CC31FA70000000000000B16
+t1287856039
+s2838
+i<UIKit/UIKit.h>
+i"CCNode.h"
+i"CCCamera.h"
+i"ccTypes.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCGrid3DAction.h
+c000000004CC31FA700000000000016A5
+t1287856039
+s5797
+i"CCGridAction.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCGridAction.h
+c000000004CC31FA7000000000000116D
+t1287856039
+s4461
+i<UIKit/UIKit.h>
+i"CCIntervalAction.h"
+i"CCInstantAction.h"
+i"CCGrid.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCInstantAction.h
+c000000004CC31FA70000000000000DD5
+t1287856039
+s3541
+i<UIKit/UIKit.h>
+i"CCAction.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCIntervalAction.h
+c000000004CC31FA70000000000002F31
+t1287856039
+s12081
+i"CCNode.h"
+i"CCAction.h"
+i"CCProtocols.h"
+i<sys/time.h>
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCLabel.h
+c000000004CC31FA700000000000006E7
+t1287856039
+s1767
+i"CCTexture2D.h"
+i"CCSprite.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCLabelAtlas.h
+c000000004CC31FA70000000000000653
+t1287856039
+s1619
+i"CCAtlasNode.h"
+i"CCTextureAtlas.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCLayer.h
+c000000004CC31FA70000000000001063
+t1287856039
+s4195
+i<UIKit/UIKit.h>
+i"CCProtocols.h"
+i"CCNode.h"
+i"CCTouchDelegateProtocol.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCMenu.h
+c000000004CC31FA700000000000007B3
+t1287856039
+s1971
+i<UIKit/UIKit.h>
+i"CCMenuItem.h"
+i"CCLayer.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCMenuItem.h
+c000000004CC31FA70000000000002EC1
+t1287856039
+s11969
+i"CCBlockSupport.h"
+i"CCNode.h"
+i"CCProtocols.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCMotionStreak.h
+c000000004CC31FA700000000000007F3
+t1287856039
+s2035
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCRibbon.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCNode.h
+c000000004CC31FA70000000000003594
+t1287856039
+s13716
+i<OpenGLES/ES1/gl.h>
+i"CCAction.h"
+i"ccTypes.h"
+i"CCTexture2D.h"
+i"CCProtocols.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCPVRTexture.h
+c000000004CC31FA70000000000000CA5
+t1287856039
+s3237
+i<UIKit/UIKit.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCPageTurn3DAction.h
+c000000004CC31FA7000000000000030A
+t1287856039
+s778
+i"CCGrid3DAction.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCPageTurnTransition.h
+c000000004CC31FA700000000000005BA
+t1287856039
+s1466
+i"CCTransition.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCParallaxNode.h
+c000000004CC31FA7000000000000041B
+t1287856039
+s1051
+i"CCNode.h"
+i"Support/ccArray.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCParticleExamples.h
+c000000004CC31FA70000000000000591
+t1287856039
+s1425
+i"CCPointParticleSystem.h"
+i"CCQuadParticleSystem.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCParticleSystem.h
+c000000004CC31FA700000000000021B8
+t1287856039
+s8632
+i"CCProtocols.h"
+i"CCNode.h"
+i"ccTypes.h"
+i"ccConfig.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCPointParticleSystem.h
+c000000004CC31FA700000000000003B4
+t1287856039
+s948
+i"CCParticleSystem.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCProgressTimer.h
+c000000004CC31FA7000000000000080F
+t1287856039
+s2063
+i<Foundation/Foundation.h>
+i"CCSprite.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCProgressTimerActions.h
+c000000004CC31FA70000000000000553
+t1287856039
+s1363
+i<Foundation/Foundation.h>
+i"CCProgressTimer.h"
+i"CCIntervalAction.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCPropertyAction.h
+c000000004CC31FA70000000000000607
+t1287856039
+s1543
+i<Foundation/Foundation.h>
+i"CCIntervalAction.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCProtocols.h
+c000000004CC31FA70000000000000AC3
+t1287856039
+s2755
+i"ccTypes.h"
+i"CCTexture2D.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCQuadParticleSystem.h
+c000000004CC31FA7000000000000045E
+t1287856039
+s1118
+i"CCParticleSystem.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCRadialTransition.h
+c000000004CC31FA700000000000002B8
+t1287856039
+s696
+i"CCTransition.h"
+i"CCProgressTimer.h"
+i"CCProgressTimerActions.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCRenderTexture.h
+c000000004CC31FA7000000000000072F
+t1287856039
+s1839
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCSprite.h"
+i"Support/OpenGL_Internal.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCRibbon.h
+c000000004CC31FA70000000000000C96
+t1287856039
+s3222
+i"CCNode.h"
+i"CCTexture2D.h"
+i"CCProtocols.h"
+i<OpenGLES/ES1/gl.h>
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCScene.h
+c000000004CC31FA70000000000000356
+t1287856039
+s854
+i<UIKit/UIKit.h>
+i"CCNode.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCScheduler.h
+c000000004CC31FA70000000000000A9F
+t1287856039
+s2719
+i<UIKit/UIKit.h>
+i"ccTypes.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCSprite.h
+c000000004CC31FA70000000000002B45
+t1287856039
+s11077
+i"CCNode.h"
+i"CCProtocols.h"
+i"CCTextureAtlas.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCSpriteFrame.h
+c000000004CC31FA70000000000000EE7
+t1287856039
+s3815
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCProtocols.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCSpriteFrameCache.h
+c000000004CC31FA70000000000000CC0
+t1287856039
+s3264
+i<Foundation/Foundation.h>
+i"CCSpriteFrame.h"
+i"CCTexture2D.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCSpriteSheet.h
+c000000004CC31FA7000000000000145F
+t1287856039
+s5215
+i"CCNode.h"
+i"CCProtocols.h"
+i"CCTextureAtlas.h"
+i"ccMacros.h"
+i"Support/ccArray.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCTMXLayer.h
+c000000004CC31FA700000000000014D2
+t1287856039
+s5330
+i"CCAtlasNode.h"
+i"CCSpriteSheet.h"
+i"Support/ccArray.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCTMXObjectGroup.h
+c000000004CC31FA700000000000005CC
+t1287856039
+s1484
+i"CCAtlasNode.h"
+i"CCSpriteSheet.h"
+i"Support/ccArray.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCTMXTiledMap.h
+c000000004CC31FA70000000000001181
+t1287856039
+s4481
+i"CCAtlasNode.h"
+i"CCSpriteSheet.h"
+i"Support/ccArray.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCTMXXMLParser.h
+c000000004CC31FA700000000000012A4
+t1287856039
+s4772
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCTexture2D.h
+c000000004CC31FA70000000000002609
+t1287856039
+s9737
+i<UIKit/UIKit.h>
+i<OpenGLES/ES1/gl.h>
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCTextureAtlas.h
+c000000004CC31FA7000000000000113D
+t1287856039
+s4413
+i"CCTexture2D.h"
+i"ccTypes.h"
+i"ccConfig.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCTextureCache.h
+c000000004CC31FA70000000000000EE7
+t1287856039
+s3815
+i<Foundation/Foundation.h>
+i"CCTexture2D.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCTileMapAtlas.h
+c000000004CC31FA7000000000000085A
+t1287856039
+s2138
+i"CCTextureAtlas.h"
+i"CCAtlasNode.h"
+i"Support/TGAlib.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCTiledGridAction.h
+c000000004CC31FA700000000000016DC
+t1287856039
+s5852
+i"CCGridAction.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCTouchDelegateProtocol.h
+c000000004CC31FA7000000000000078B
+t1287856039
+s1931
+i<UIKit/UIKit.h>
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCTouchDispatcher.h
+c000000004CC31FA70000000000000C8C
+t1287856039
+s3212
+i"CCTouchDelegateProtocol.h"
+i"Support/EAGLView.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCTouchHandler.h
+c000000004CC31FA70000000000000886
+t1287856039
+s2182
+i"CCTouchDelegateProtocol.h"
+i"CCTouchDispatcher.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/CCTransition.h
+c000000004CC31FA70000000000001DF5
+t1287856039
+s7669
+i"CCScene.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/Support/CCFileUtils.h
+c000000004CC31FA70000000000000251
+t1287856039
+s593
+i<Foundation/Foundation.h>
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/Support/CCProfiling.h
+c000000004CC31FA700000000000002DC
+t1287856039
+s732
+i<Foundation/Foundation.h>
+i<sys/time.h>
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/Support/CGPointExtension.h
+c000000004CC31FA70000000000001E13
+t1287856039
+s7699
+i<CoreGraphics/CGGeometry.h>
+i<math.h>
+i<objc/objc.h>
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/Support/EAGLView.h
+c000000004CC31FA70000000000001781
+t1287856039
+s6017
+i<UIKit/UIKit.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/EAGLDrawable.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/Support/OpenGL_Internal.h
+c000000004CC31FA700000000000011A7
+t1287856039
+s4519
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/Support/TGAlib.h
+c000000004CC31FA70000000000000444
+t1287856039
+s1092
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/Support/ccArray.h
+c000000004CC31FA70000000000002E36
+t1287856039
+s11830
+i<Foundation/Foundation.h>
+i<stdlib.h>
+i<string.h>
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/Support/ccHashSet.h
+c000000004CC31FA700000000000011BE
+t1287856039
+s4542
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/ccConfig.h
+c000000004CC31FA70000000000001159
+t1287856039
+s4441
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/ccMacros.h
+c000000004CC31FA70000000000000A61
+t1287856039
+s2657
+i<math.h>
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/ccTypes.h
+c000000004CC31FA7000000000000131E
+t1287856039
+s4894
+i<objc/objc.h>
+i<CoreGraphics/CGGeometry.h>
+i<OpenGLES/ES1/gl.h>
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/libs/cocos2d/cocos2d.h
+c000000004CC31FA70000000000000B14
+t1287856039
+s2836
+i"ccConfig.h"
+i"CCBlockSupport.h"
+i"CCAction.h"
+i"CCCamera.h"
+i"CCCameraAction.h"
+i"CCProtocols.h"
+i"CCNode.h"
+i"CCDirector.h"
+i"CCTouchDispatcher.h"
+i"CCTouchDelegateProtocol.h"
+i"CCInstantAction.h"
+i"CCIntervalAction.h"
+i"CCEaseAction.h"
+i"CCLabel.h"
+i"CCLayer.h"
+i"CCMenu.h"
+i"CCMenuItem.h"
+i"CCParticleSystem.h"
+i"CCPointParticleSystem.h"
+i"CCQuadParticleSystem.h"
+i"CCParticleExamples.h"
+i"CCDrawingPrimitives.h"
+i"CCScene.h"
+i"CCScheduler.h"
+i"CCSprite.h"
+i"CCSpriteFrame.h"
+i"CCSpriteSheet.h"
+i"CCSpriteFrameCache.h"
+i"CCTextureCache.h"
+i"CCTransition.h"
+i"CCTextureAtlas.h"
+i"CCLabelAtlas.h"
+i"CCAtlasNode.h"
+i"CCEaseAction.h"
+i"CCTiledGridAction.h"
+i"CCGrabber.h"
+i"CCGrid.h"
+i"CCGrid3DAction.h"
+i"CCGridAction.h"
+i"CCBitmapFontAtlas.h"
+i"CCParallaxNode.h"
+i"CCActionManager.h"
+i"CCTMXTiledMap.h"
+i"CCTMXLayer.h"
+i"CCTMXObjectGroup.h"
+i"CCTMXXMLParser.h"
+i"CCTileMapAtlas.h"
+i"CCRenderTexture.h"
+i"CCMotionStreak.h"
+i"CCPageTurn3DAction.h"
+i"CCPageTurnTransition.h"
+i"CCTexture2D.h"
+i"CCPVRTexture.h"
+i"CCTouchHandler.h"
+i"CCConfiguration.h"
+i"CCRadialTransition.h"
+i"CCProgressTimerActions.h"
+i"CCPropertyAction.h"
+i"ccTypes.h"
+i"ccMacros.h"
+i"Support/OpenGL_Internal.h"
+i"Support/EAGLView.h"
+i"Support/CCFileUtils.h"
+i"Support/CGPointExtension.h"
+i"Support/ccArray.h"
+i"Support/CCProfiling.h"
+i"CCCompatibility.h"
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/main.m
+c000000004CDC268B00000000000000DF
+t1289496203
+s223
+i<UIKit/UIKit.h>
+
+N/Users/admin/educational demos/magnetismDemo/cocos2d/menuScene.h
+c000000004CDC27380000000000000097
+t1289496376
+s151
+i<Foundation/Foundation.h>
+i"cocos2d.h"
+i"gameScene.h"
+
+N/var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-acwtngnxfzdozodlkoatwweidats/MW_Prefix.pch.gch
+t1289531691
+s15232016
+
+N/var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-beezaviyhckluehhdsebjivromqz/MW_Prefix.pch.pth
+t1290642335
+s2690716
+
+N/var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-gqidkzlinfhpxjdokidjzhpvntob/MW_Prefix.pch.gch
+t1289531692
+s16247696
+
+NResources/Info.plist
+c000000004CDCB3D800000000000003B1
+t1289532376
+s945
+
+CAnalyze "/Users/admin/educational demos/magnetismDemo/cocos2d/Classes/magneticBat.m"
+s312335135.755859
+e312335135.848952
+r1
+xAnalyze
+x/Users/admin/educational demos/magnetismDemo/cocos2d/Classes/magneticBat.m
+lSLF07#2@82"Analyze /Users/admin/educational demos/magnetismDemo/cocos2d/Classes/magneticBat.m312335135#312335135#0(0"0(0#0#74"/Users/admin/educational demos/magnetismDemo/cocos2d/Classes/magneticBat.m8627975072#2302"    cd "/Users/admin/educational demos/magnetismDemo/cocos2d"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/magnetismDemo-generated-files.hmap" "-I/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/magnetismDemo-own-target-headers.hmap" "-I/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/magnetismDemo-all-target-headers.hmap" -iquote "/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/magnetismDemo-project-headers.hmap" -Wall "-F/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator" "-I/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/include" -Iapi/inc "-I/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/DerivedSources/i386" "-I/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/DerivedSources" -include /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-beezaviyhckluehhdsebjivromqz/MW_Prefix.pch --analyze "/Users/admin/educational demos/magnetismDemo/cocos2d/Classes/magneticBat.m" -o "/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/StaticAnalyzer/normal/i386/magneticBat.plist"0#
+
+CAnalyze "/Users/admin/educational demos/magnetismDemo/cocos2d/main.m"
+s312335135.753943
+e312335135.827666
+r1
+xAnalyze
+x/Users/admin/educational demos/magnetismDemo/cocos2d/main.m
+lSLF07#2@67"Analyze /Users/admin/educational demos/magnetismDemo/cocos2d/main.m312335135#312335135#0(0"0(0#0#59"/Users/admin/educational demos/magnetismDemo/cocos2d/main.m8634499584#2280"    cd "/Users/admin/educational demos/magnetismDemo/cocos2d"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/magnetismDemo-generated-files.hmap" "-I/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/magnetismDemo-own-target-headers.hmap" "-I/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/magnetismDemo-all-target-headers.hmap" -iquote "/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/magnetismDemo-project-headers.hmap" -Wall "-F/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator" "-I/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/include" -Iapi/inc "-I/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/DerivedSources/i386" "-I/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/DerivedSources" -include /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-beezaviyhckluehhdsebjivromqz/MW_Prefix.pch --analyze "/Users/admin/educational demos/magnetismDemo/cocos2d/main.m" -o "/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/StaticAnalyzer/normal/i386/main.plist"0#
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies312335135#312335135#0(0"0(0#1#0"8642646720#0"0#
+
+CCompileC build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/Objects-normal/i386/cocosDemoAppDelegate.o "/Users/admin/educational demos/magnetismDemo/cocos2d/Classes/cocosDemoAppDelegate.mm" normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s311717331.916451
+e311717332.977886
+r1
+xCompileC
+xbuild/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/Objects-normal/i386/cocosDemoAppDelegate.o
+x/Users/admin/educational demos/magnetismDemo/cocos2d/Classes/cocosDemoAppDelegate.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/admin/educational demos/magnetismDemo/cocos2d/Classes/cocosDemoAppDelegate.mm311717331#311717332#0(0"0(0#0#84"/Users/admin/educational demos/magnetismDemo/cocos2d/Classes/cocosDemoAppDelegate.mm8626491296#2333"    cd "/Users/admin/educational demos/magnetismDemo/cocos2d"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/magnetismDemo-generated-files.hmap" "-I/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/magnetismDemo-own-target-headers.hmap" "-I/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/magnetismDemo-all-target-headers.hmap" -iquote "/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/magnetismDemo-project-headers.hmap" -Wall "-F/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator" "-I/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/include" -Iapi/inc "-I/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/DerivedSources/i386" "-I/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/DerivedSources" -include /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-gqidkzlinfhpxjdokidjzhpvntob/MW_Prefix.pch -c "/Users/admin/educational demos/magnetismDemo/cocos2d/Classes/cocosDemoAppDelegate.mm" -o "/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/Objects-normal/i386/cocosDemoAppDelegate.o"0#
+
+CCompileC build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/Objects-normal/i386/gameScene.o "/Users/admin/educational demos/magnetismDemo/cocos2d/Classes/gameScene.mm" normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s311718144.160595
+e311718144.402544
+r1
+xCompileC
+xbuild/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/Objects-normal/i386/gameScene.o
+x/Users/admin/educational demos/magnetismDemo/cocos2d/Classes/gameScene.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/admin/educational demos/magnetismDemo/cocos2d/Classes/gameScene.mm311718144#311718144#0(0"0(0#0#73"/Users/admin/educational demos/magnetismDemo/cocos2d/Classes/gameScene.mm8629885696#2311"    cd "/Users/admin/educational demos/magnetismDemo/cocos2d"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/magnetismDemo-generated-files.hmap" "-I/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/magnetismDemo-own-target-headers.hmap" "-I/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/magnetismDemo-all-target-headers.hmap" -iquote "/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/magnetismDemo-project-headers.hmap" -Wall "-F/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator" "-I/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/include" -Iapi/inc "-I/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/DerivedSources/i386" "-I/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/DerivedSources" -include /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-gqidkzlinfhpxjdokidjzhpvntob/MW_Prefix.pch -c "/Users/admin/educational demos/magnetismDemo/cocos2d/Classes/gameScene.mm" -o "/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/Objects-normal/i386/gameScene.o"0#
+
+CCompileC build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/Objects-normal/i386/magneticBat.o "/Users/admin/educational demos/magnetismDemo/cocos2d/Classes/magneticBat.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s311718144.175936
+e311718144.323168
+r1
+xCompileC
+xbuild/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/Objects-normal/i386/magneticBat.o
+x/Users/admin/educational demos/magnetismDemo/cocos2d/Classes/magneticBat.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/admin/educational demos/magnetismDemo/cocos2d/Classes/magneticBat.m311718144#311718144#0(0"0(0#0#74"/Users/admin/educational demos/magnetismDemo/cocos2d/Classes/magneticBat.m8629505696#2293"    cd "/Users/admin/educational demos/magnetismDemo/cocos2d"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/magnetismDemo-generated-files.hmap" "-I/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/magnetismDemo-own-target-headers.hmap" "-I/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/magnetismDemo-all-target-headers.hmap" -iquote "/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/magnetismDemo-project-headers.hmap" -Wall "-F/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator" "-I/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/include" -Iapi/inc "-I/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/DerivedSources/i386" "-I/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/DerivedSources" -include /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-acwtngnxfzdozodlkoatwweidats/MW_Prefix.pch -c "/Users/admin/educational demos/magnetismDemo/cocos2d/Classes/magneticBat.m" -o "/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/Objects-normal/i386/magneticBat.o"0#
+
+CCompileC build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/Objects-normal/i386/main.o "/Users/admin/educational demos/magnetismDemo/cocos2d/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s311224492.304053
+e311224492.373100
+r1
+xCompileC
+xbuild/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/Objects-normal/i386/main.o
+x/Users/admin/educational demos/magnetismDemo/cocos2d/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/admin/educational demos/magnetismDemo/cocos2d/main.m311224492#311224492#0(0"0(0#0#59"/Users/admin/educational demos/magnetismDemo/cocos2d/main.m8639921088#2271"    cd "/Users/admin/educational demos/magnetismDemo/cocos2d"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/magnetismDemo-generated-files.hmap" "-I/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/magnetismDemo-own-target-headers.hmap" "-I/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/magnetismDemo-all-target-headers.hmap" -iquote "/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/magnetismDemo-project-headers.hmap" -Wall "-F/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator" "-I/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/include" -Iapi/inc "-I/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/DerivedSources/i386" "-I/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/DerivedSources" -include /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-acwtngnxfzdozodlkoatwweidats/MW_Prefix.pch -c "/Users/admin/educational demos/magnetismDemo/cocos2d/main.m" -o "/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/Objects-normal/i386/main.o"0#
+
+CCompileC build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/Objects-normal/i386/menuScene.o "/Users/admin/educational demos/magnetismDemo/cocos2d/Classes/../menuScene.mm" normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s311717332.950489
+e311717333.079253
+r1
+xCompileC
+xbuild/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/Objects-normal/i386/menuScene.o
+x/Users/admin/educational demos/magnetismDemo/cocos2d/Classes/../menuScene.mm
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/admin/educational demos/magnetismDemo/cocos2d/Classes/../menuScene.mm311717332#311717333#0(0"0(0#0#76"/Users/admin/educational demos/magnetismDemo/cocos2d/Classes/../menuScene.mm8633240064#2314"    cd "/Users/admin/educational demos/magnetismDemo/cocos2d"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/magnetismDemo-generated-files.hmap" "-I/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/magnetismDemo-own-target-headers.hmap" "-I/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/magnetismDemo-all-target-headers.hmap" -iquote "/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/magnetismDemo-project-headers.hmap" -Wall "-F/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator" "-I/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/include" -Iapi/inc "-I/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/DerivedSources/i386" "-I/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/DerivedSources" -include /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-gqidkzlinfhpxjdokidjzhpvntob/MW_Prefix.pch -c "/Users/admin/educational demos/magnetismDemo/cocos2d/Classes/../menuScene.mm" -o "/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/Objects-normal/i386/menuScene.o"0#
+
+CCpResource build/Debug-iphonesimulator/magnetismDemo.app/Default.png Resources/Default.png
+s311224490.646824
+e311224490.696857
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/magnetismDemo.app/Default.png
+xResources/Default.png
+lSLF07#2@26"Copy Resources/Default.png311224490#311224490#0(0"0(0#0#74"/Users/admin/educational demos/magnetismDemo/cocos2d/Resources/Default.png8633550016#581"    cd "/Users/admin/educational demos/magnetismDemo/cocos2d"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/admin/educational demos/magnetismDemo/cocos2d/Resources/Default.png" "/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/magnetismDemo.app"0#
+
+CCpResource build/Debug-iphonesimulator/magnetismDemo.app/Icon.png Resources/Icon.png
+s311224490.648742
+e311224490.697817
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/magnetismDemo.app/Icon.png
+xResources/Icon.png
+lSLF07#2@23"Copy Resources/Icon.png311224490#311224490#0(0"0(0#0#71"/Users/admin/educational demos/magnetismDemo/cocos2d/Resources/Icon.png8633346400#578"    cd "/Users/admin/educational demos/magnetismDemo/cocos2d"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/admin/educational demos/magnetismDemo/cocos2d/Resources/Icon.png" "/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/magnetismDemo.app"0#
+
+CCpResource build/Debug-iphonesimulator/magnetismDemo.app/bat.png Resources/bat.png
+s311224490.649428
+e311224490.685001
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/magnetismDemo.app/bat.png
+xResources/bat.png
+lSLF07#2@22"Copy Resources/bat.png311224490#311224490#0(0"0(0#0#70"/Users/admin/educational demos/magnetismDemo/cocos2d/Resources/bat.png8633290656#577"    cd "/Users/admin/educational demos/magnetismDemo/cocos2d"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/admin/educational demos/magnetismDemo/cocos2d/Resources/bat.png" "/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/magnetismDemo.app"0#
+
+CCpResource build/Debug-iphonesimulator/magnetismDemo.app/batSplosion.png Resources/batSplosion.png
+s311224490.653175
+e311224490.698233
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/magnetismDemo.app/batSplosion.png
+xResources/batSplosion.png
+lSLF07#2@30"Copy Resources/batSplosion.png311224490#311224490#0(0"0(0#0#78"/Users/admin/educational demos/magnetismDemo/cocos2d/Resources/batSplosion.png8632823200#585"    cd "/Users/admin/educational demos/magnetismDemo/cocos2d"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/admin/educational demos/magnetismDemo/cocos2d/Resources/batSplosion.png" "/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/magnetismDemo.app"0#
+
+CCpResource build/Debug-iphonesimulator/magnetismDemo.app/cyanbat.png Resources/cyanbat.png
+s311224490.650072
+e311224490.698711
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/magnetismDemo.app/cyanbat.png
+xResources/cyanbat.png
+lSLF07#2@26"Copy Resources/cyanbat.png311224490#311224490#0(0"0(0#0#74"/Users/admin/educational demos/magnetismDemo/cocos2d/Resources/cyanbat.png8633194240#581"    cd "/Users/admin/educational demos/magnetismDemo/cocos2d"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/admin/educational demos/magnetismDemo/cocos2d/Resources/cyanbat.png" "/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/magnetismDemo.app"0#
+
+CCpResource build/Debug-iphonesimulator/magnetismDemo.app/explosion.png Resources/explosion.png
+s311224490.651950
+e311224490.697464
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/magnetismDemo.app/explosion.png
+xResources/explosion.png
+lSLF07#2@28"Copy Resources/explosion.png311224490#311224490#0(0"0(0#0#76"/Users/admin/educational demos/magnetismDemo/cocos2d/Resources/explosion.png8633020416#583"    cd "/Users/admin/educational demos/magnetismDemo/cocos2d"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/admin/educational demos/magnetismDemo/cocos2d/Resources/explosion.png" "/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/magnetismDemo.app"0#
+
+CCpResource build/Debug-iphonesimulator/magnetismDemo.app/fps_images.png Resources/fps_images.png
+s311224490.647595
+e311224490.697245
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/magnetismDemo.app/fps_images.png
+xResources/fps_images.png
+lSLF07#2@29"Copy Resources/fps_images.png311224490#311224490#0(0"0(0#0#77"/Users/admin/educational demos/magnetismDemo/cocos2d/Resources/fps_images.png8633427136#584"    cd "/Users/admin/educational demos/magnetismDemo/cocos2d"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/admin/educational demos/magnetismDemo/cocos2d/Resources/fps_images.png" "/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/magnetismDemo.app"0#
+
+CCpResource build/Debug-iphonesimulator/magnetismDemo.app/kaboom!.wav Resources/kaboom!.wav
+s311224490.652565
+e311224490.700177
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/magnetismDemo.app/kaboom!.wav
+xResources/kaboom!.wav
+lSLF07#2@26"Copy Resources/kaboom!.wav311224490#311224490#0(0"0(0#0#74"/Users/admin/educational demos/magnetismDemo/cocos2d/Resources/kaboom!.wav8632921920#581"    cd "/Users/admin/educational demos/magnetismDemo/cocos2d"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/admin/educational demos/magnetismDemo/cocos2d/Resources/kaboom!.wav" "/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/magnetismDemo.app"0#
+
+CCpResource build/Debug-iphonesimulator/magnetismDemo.app/redbat.png Resources/redbat.png
+s311224490.650680
+e311224490.685239
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/magnetismDemo.app/redbat.png
+xResources/redbat.png
+lSLF07#2@25"Copy Resources/redbat.png311224490#311224490#0(0"0(0#0#73"/Users/admin/educational demos/magnetismDemo/cocos2d/Resources/redbat.png8633150272#580"    cd "/Users/admin/educational demos/magnetismDemo/cocos2d"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/admin/educational demos/magnetismDemo/cocos2d/Resources/redbat.png" "/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/magnetismDemo.app"0#
+
+CCpResource build/Debug-iphonesimulator/magnetismDemo.app/whitebat.png Resources/whitebat.png
+s311224490.651275
+e311224490.698049
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/magnetismDemo.app/whitebat.png
+xResources/whitebat.png
+lSLF07#2@27"Copy Resources/whitebat.png311224490#311224490#0(0"0(0#0#75"/Users/admin/educational demos/magnetismDemo/cocos2d/Resources/whitebat.png8633077472#582"    cd "/Users/admin/educational demos/magnetismDemo/cocos2d"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/admin/educational demos/magnetismDemo/cocos2d/Resources/whitebat.png" "/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/magnetismDemo.app"0#
+
+CGenerateDSYMFile "/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/magnetismDemo.app.dSYM" "/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/magnetismDemo.app/magnetismDemo"
+s311718144.666872
+e311718144.849945
+r1
+xGenerateDSYMFile
+x/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/magnetismDemo.app.dSYM
+x/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/magnetismDemo.app/magnetismDemo
+lSLF07#2@127"GenerateDSYMFile build/Debug-iphonesimulator/magnetismDemo.app.dSYM build/Debug-iphonesimulator/magnetismDemo.app/magnetismDemo311718144#311718144#0(0"0(0#0#112"/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/magnetismDemo.app/magnetismDemo8633502560#511"    cd "/Users/admin/educational demos/magnetismDemo/cocos2d"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil "/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/magnetismDemo.app/magnetismDemo" -o "/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/magnetismDemo.app.dSYM"0#
+
+CLd "/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/magnetismDemo.app/magnetismDemo" normal i386
+s311718144.402637
+e311718144.666760
+r1
+xLd
+x/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/magnetismDemo.app/magnetismDemo
+xnormal
+xi386
+lSLF07#2@117"Link /Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/magnetismDemo.app/magnetismDemo311718144#311718144#0(0"0(0#0#0"8627939296#1344"    cd "/Users/admin/educational demos/magnetismDemo/cocos2d"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk "-L/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator" -Lapi/lib "-L/Users/admin/educational demos/magnetismDemo/cocos2d/api/lib" "-F/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator" -filelist "/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/Objects-normal/i386/magnetismDemo.LinkFileList" -mmacosx-version-min=10.6 -all_load -ObjC -Xlinker -objc_abi_version -Xlinker 2 -framework CoreGraphics -framework Foundation -framework OpenGLES -framework QuartzCore -framework UIKit -framework AudioToolbox -framework OpenAL -lz -framework AVFoundation "-lcocos2d libraries" -framework CoreAudio -framework CoreFoundation -o "/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/magnetismDemo.app/magnetismDemo"0#
+
+CProcessInfoPlistFile "/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/magnetismDemo.app/Info.plist" Resources/Info.plist
+s311264692.659526
+e311264692.674782
+r1
+xProcessInfoPlistFile
+x/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/magnetismDemo.app/Info.plist
+xResources/Info.plist
+lSLF07#2@28"Process Resources/Info.plist311264692#311264692#0(0"0(0#0#73"/Users/admin/educational demos/magnetismDemo/cocos2d/Resources/Info.plist8606015296#603"    cd "/Users/admin/educational demos/magnetismDemo/cocos2d"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility Resources/Info.plist -genpkginfo "/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/magnetismDemo.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/magnetismDemo.app/Info.plist"0#
+
+CProcessPCH /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-acwtngnxfzdozodlkoatwweidats/MW_Prefix.pch.gch MW_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s311224490.701387
+e311224491.934330
+r1
+xProcessPCH
+x/var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-acwtngnxfzdozodlkoatwweidats/MW_Prefix.pch.gch
+xMW_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@24"Precompile MW_Prefix.pch311224490#311224491#0(0"0(0#0#66"/Users/admin/educational demos/magnetismDemo/cocos2d/MW_Prefix.pch8640158624#2130"    cd "/Users/admin/educational demos/magnetismDemo/cocos2d"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/magnetismDemo-generated-files.hmap" "-I/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/magnetismDemo-own-target-headers.hmap" "-I/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/magnetismDemo-all-target-headers.hmap" -iquote "/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/magnetismDemo-project-headers.hmap" -Wall "-F/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator" "-I/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/include" -Iapi/inc "-I/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/DerivedSources/i386" "-I/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/DerivedSources" -c "/Users/admin/educational demos/magnetismDemo/cocos2d/MW_Prefix.pch" -o /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-acwtngnxfzdozodlkoatwweidats/MW_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-beezaviyhckluehhdsebjivromqz/MW_Prefix.pch.pth MW_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s312335135.514792
+e312335135.752738
+r1
+xProcessPCH
+x/var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-beezaviyhckluehhdsebjivromqz/MW_Prefix.pch.pth
+xMW_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF07#2@24"Precompile MW_Prefix.pch312335135#312335135#0(0"0(0#0#66"/Users/admin/educational demos/magnetismDemo/cocos2d/MW_Prefix.pch8621198464#2121"    cd "/Users/admin/educational demos/magnetismDemo/cocos2d"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/magnetismDemo-generated-files.hmap" "-I/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/magnetismDemo-own-target-headers.hmap" "-I/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/magnetismDemo-all-target-headers.hmap" -iquote "/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/magnetismDemo-project-headers.hmap" -Wall "-F/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator" "-I/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/include" -Iapi/inc "-I/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/DerivedSources/i386" "-I/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/DerivedSources" -c "/Users/admin/educational demos/magnetismDemo/cocos2d/MW_Prefix.pch" -o /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-beezaviyhckluehhdsebjivromqz/MW_Prefix.pch.pth0#
+
+CProcessPCH++ /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-gqidkzlinfhpxjdokidjzhpvntob/MW_Prefix.pch.gch MW_Prefix.pch normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s311224490.700428
+e311224492.060678
+r1
+xProcessPCH++
+x/var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-gqidkzlinfhpxjdokidjzhpvntob/MW_Prefix.pch.gch
+xMW_Prefix.pch
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@24"Precompile MW_Prefix.pch311224490#311224492#0(0"0(0#0#66"/Users/admin/educational demos/magnetismDemo/cocos2d/MW_Prefix.pch8641687904#2151"    cd "/Users/admin/educational demos/magnetismDemo/cocos2d"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/magnetismDemo-generated-files.hmap" "-I/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/magnetismDemo-own-target-headers.hmap" "-I/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/magnetismDemo-all-target-headers.hmap" -iquote "/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/magnetismDemo-project-headers.hmap" -Wall "-F/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator" "-I/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/include" -Iapi/inc "-I/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/DerivedSources/i386" "-I/Users/admin/educational demos/magnetismDemo/cocos2d/build/magnetismDemo.build/Debug-iphonesimulator/magnetismDemo.build/DerivedSources" -c "/Users/admin/educational demos/magnetismDemo/cocos2d/MW_Prefix.pch" -o /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-gqidkzlinfhpxjdokidjzhpvntob/MW_Prefix.pch.gch0#
+
+CTouch "/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/magnetismDemo.app"
+s311718144.850044
+e311718144.852646
+r1
+xTouch
+x/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/magnetismDemo.app
+lSLF07#2@104"Touch /Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/magnetismDemo.app311718144#311718144#0(0"0(0#0#0"8633343360#378"    cd "/Users/admin/educational demos/magnetismDemo/cocos2d"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c "/Users/admin/educational demos/magnetismDemo/cocos2d/build/Debug-iphonesimulator/magnetismDemo.app"0#
+

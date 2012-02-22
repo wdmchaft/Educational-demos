@@ -1,0 +1,2563 @@
+TaccelDemo
+v7
+r0
+t311214916.056738
+cCheck dependencies
+cCpResource build/Debug-iphoneos/accelDemo.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+cProcessInfoPlistFile "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/Info.plist" Resources/Info.plist
+cCopyPNGFile "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/Default.png" Resources/Default.png
+cCopyPNGFile "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/fps_images.png" Resources/fps_images.png
+cCopyPNGFile "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/Icon.png" Resources/Icon.png
+cCopyPNGFile "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/bat.png" Resources/bat.png
+cCopyPNGFile "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/cyanbat.png" Resources/cyanbat.png
+cCopyPNGFile "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/redbat.png" Resources/redbat.png
+cCopyPNGFile "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/whitebat.png" Resources/whitebat.png
+cCopyPNGFile "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/explosion.png" Resources/explosion.png
+cCpResource build/Debug-iphoneos/accelDemo.app/kaboom!.wav Resources/kaboom!.wav
+cCopyPNGFile "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/batSlide.png" Resources/batSlide.png
+cProcessPCH++ /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-dvmiypxrghdfubbqrmouhrbwpiqv/MW_Prefix.pch.gch MW_Prefix.pch normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-bneywibpfegnagdzafztazwniggv/MW_Prefix.pch.gch MW_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv7/accelAppDelegate.o "/Users/admin/educational demos/accelDemo/accelerometer/Classes/accelAppDelegate.mm" normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv7/gameScene.o "/Users/admin/educational demos/accelDemo/accelerometer/Classes/gameScene.mm" normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv7/menuScene.o "/Users/admin/educational demos/accelDemo/accelerometer/Classes/../menuScene.mm" normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv7/main.o "/Users/admin/educational demos/accelDemo/accelerometer/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/accelDemo" normal armv7
+cGenerateDSYMFile "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app.dSYM" "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/accelDemo"
+cProcessProductPackaging "/Users/admin/Library/MobileDevice/Provisioning Profiles/463B3041-A4D3-4A43-B46F-902416633BB4.mobileprovision" "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/embedded.mobileprovision"
+cTouch "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app"
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist "/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo.xcent"
+cCodeSign "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app"
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk
+c000000004C7436AA0000000000000110
+t1282684586
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
+c000000004C5B401F00000000000001A7
+t1281048607
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+c000000004C5B401F00000000000001E5
+t1281048607
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004C0473C400000000001AA470
+t1275360196
+s1746032
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
+c000000004BFDFA920000000000004180
+t1274935954
+s16768
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004BFF3B9E000000000037E540
+t1275018142
+s3663168
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004BFF3B700000000000000A23
+t1275018096
+s2595
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c000000004BFE064A00000000000D4300
+t1274938954
+s869120
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c000000004BFE05C8000000000037F880
+t1274938824
+s3668096
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFE06FA000000000034A850
+t1274939130
+s3450960
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+c000000004BFE05F600000000000022F0
+t1274938870
+s8944
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFE07D200000000003E1EB0
+t1274939346
+s4071088
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFE07B10000000000001466
+t1274939313
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c000000004BFF3BC30000000000043900
+t1275018179
+s276736
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004BFE09B7000000000000094F
+t1274939831
+s2383
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGLDrawable.h
+c000000004BFE09B70000000000000A61
+t1274939831
+s2657
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004BFE09B70000000000009369
+t1274939831
+s37737
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004BFE09B70000000000003C4A
+t1274939831
+s15434
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004BFE09CA000000000002C690
+t1274939850
+s181904
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004C045AEF0000000000253180
+t1275353839
+s2437504
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C296E2A00000000000009CD
+t1277783594
+s2509
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C296F120000000002D563E0
+t1277783826
+s47539168
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/math.h
+c000000004BF4BCB400000000000004F1
+t1274330292
+s1265
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/objc/objc.h
+c000000004BFDF9B70000000000000A2F
+t1274935735
+s2607
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/stdlib.h
+c000000004BF75A3D0000000000002DF5
+t1274501693
+s11765
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/string.h
+c000000004BF75A3D0000000000001731
+t1274501693
+s5937
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/sys/time.h
+c000000004C5A15120000000000001E17
+t1280972050
+s7703
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/lib/libz.dylib
+c000000004BFDF16F0000000000020FF0
+t1274933615
+s135152
+
+N/Users/admin/Documents/accelDemo/MW/Classes/../menuScene.h
+c000000004CDA18C20000000000000097
+t1289361602
+s151
+i<Foundation/Foundation.h>
+i"cocos2d.h"
+i"gameScene.h"
+
+N/Users/admin/Documents/accelDemo/MW/Classes/../menuScene.mm
+c000000004CDA18BC0000000000000283
+t1289361596
+s643
+i"menuScene.h"
+
+N/Users/admin/Documents/accelDemo/MW/Classes/accelAppDelegate.h
+c000000004CDA18C800000000000000BD
+t1289361608
+s189
+i<UIKit/UIKit.h>
+i"menuScene.h"
+
+N/Users/admin/Documents/accelDemo/MW/Classes/accelAppDelegate.mm
+c000000004CDA18DD0000000000000900
+t1289361629
+s2304
+i"accelAppDelegate.h"
+i"cocos2d.h"
+i"gameScene.h"
+
+N/Users/admin/Documents/accelDemo/MW/Classes/gameScene.h
+c000000004CDA3340000000000000025C
+t1289368384
+s604
+i"cocos2d.h"
+
+N/Users/admin/Documents/accelDemo/MW/Classes/gameScene.mm
+c000000004CDAD8E20000000000001E70
+t1289410786
+s7792
+i<stdlib.h>
+i<AudioToolbox/AudioToolbox.h>
+i"gameScene.h"
+
+N/Users/admin/Documents/accelDemo/MW/MW_Prefix.pch
+c000000004CC31FA700000000000000E3
+t1287856039
+s227
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/admin/Documents/accelDemo/MW/Resources/Default.png
+c000000004CC31FA700000000000077AB
+t1287856039
+s30635
+
+N/Users/admin/Documents/accelDemo/MW/Resources/Icon.png
+c000000004CC31FA7000000000000246F
+t1287856039
+s9327
+
+N/Users/admin/Documents/accelDemo/MW/Resources/bat.png
+c000000004CCB92BE000000000000085D
+t1288409790
+s2141
+
+N/Users/admin/Documents/accelDemo/MW/Resources/cyanbat.png
+c000000004CCB93AF0000000000000D2A
+t1288410031
+s3370
+
+N/Users/admin/Documents/accelDemo/MW/Resources/explosion.png
+c000000004CCBA2690000000000009964
+t1288413801
+s39268
+
+N/Users/admin/Documents/accelDemo/MW/Resources/fps_images.png
+c000000004CC31FA7000000000000183B
+t1287856039
+s6203
+
+N/Users/admin/Documents/accelDemo/MW/Resources/kaboom!.wav
+c000000004CCBA34F000000000000E362
+t1288414031
+s58210
+
+N/Users/admin/Documents/accelDemo/MW/Resources/popupbackground_large.png
+c000000004CC31FA7000000000000AB68
+t1287856039
+s43880
+
+N/Users/admin/Documents/accelDemo/MW/Resources/popupbackground_med.png
+c000000004CC31FA70000000000008483
+t1287856039
+s33923
+
+N/Users/admin/Documents/accelDemo/MW/Resources/popupbackground_small.png
+c000000004CC31FA700000000000062BB
+t1287856039
+s25275
+
+N/Users/admin/Documents/accelDemo/MW/Resources/redbat.png
+c000000004CCB93BC0000000000000D14
+t1288410044
+s3348
+
+N/Users/admin/Documents/accelDemo/MW/Resources/whitebat.png
+c000000004CCB93930000000000000D25
+t1288410003
+s3365
+
+N/Users/admin/Documents/accelDemo/MW/TutorialScript.plist
+c000000004CC31FA7000000000000096E
+t1287856039
+s2414
+
+N/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app
+t1289445490
+s748
+
+N/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app.dSYM
+t1289445490
+s102
+
+N/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/Default.png
+t1289362456
+s31932
+
+N/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/Icon.png
+t1289362456
+s10022
+
+N/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/Info.plist
+t1289362456
+s750
+
+N/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/PkgInfo
+t1289362456
+s8
+
+N/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/ResourceRules.plist
+t1289362456
+s485
+
+N/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/TutorialScript.plist
+t1289362456
+s2547
+
+N/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/accelDemo
+t1289445489
+s1085536
+
+N/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/bat.png
+t1289362456
+s2317
+
+N/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/cyanbat.png
+t1289362456
+s3318
+
+N/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/embedded.mobileprovision
+t1289362459
+s7538
+
+N/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/explosion.png
+t1289362457
+s38926
+
+N/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/fps_images.png
+t1289362456
+s7188
+
+N/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/kaboom!.wav
+t1289362457
+s58210
+
+N/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/popupbackground_large.png
+t1289362457
+s41237
+
+N/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/popupbackground_med.png
+t1289362456
+s31969
+
+N/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/popupbackground_small.png
+t1289362456
+s24196
+
+N/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/redbat.png
+t1289362457
+s3295
+
+N/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/whitebat.png
+t1289362457
+s3312
+
+N/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/libcocos2d libraries.a
+c000000004CDB606F0000000000334650
+t1289445487
+s3360336
+
+N/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv6/accelAppDelegate.o
+t1289368450
+s56056
+
+N/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv6/accelDemo.LinkFileList
+c000000004CDA1C1800000000000001EA
+t1289362456
+s490
+
+N/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv6/gameScene.o
+t1289407677
+s60256
+
+N/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv6/main.o
+t1289362459
+s6564
+
+N/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv6/menuScene.o
+t1289408168
+s43136
+
+N/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv7/accelAppDelegate.o
+t1289445489
+s56000
+
+N/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv7/accelDemo.LinkFileList
+c000000004CDB607000000000000001EA
+t1289445488
+s490
+
+N/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv7/gameScene.o
+t1289445489
+s58688
+
+N/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv7/main.o
+t1289445489
+s6536
+
+N/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv7/menuScene.o
+t1289445489
+s43080
+
+N/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo.xcent
+t1289362459
+s430
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCAction.h
+c000000004CC31FA70000000000001325
+t1287856039
+s4901
+i<UIKit/UIKit.h>
+i<sys/time.h>
+i"ccTypes.h"
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCActionManager.h
+c000000004CC31FA70000000000000C0E
+t1287856039
+s3086
+i"CCAction.h"
+i"Support/ccArray.h"
+i"Support/ccHashSet.h"
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCAtlasNode.h
+c000000004CC31FA70000000000000912
+t1287856039
+s2322
+i"CCTextureAtlas.h"
+i"CCNode.h"
+i"CCProtocols.h"
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCBitmapFontAtlas.h
+c000000004CC31FA70000000000001009
+t1287856039
+s4105
+i"CCAtlasNode.h"
+i"CCSpriteSheet.h"
+i"Support/ccHashSet.h"
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCBlockSupport.h
+c000000004CC31FA70000000000000430
+t1287856039
+s1072
+i<Foundation/Foundation.h>
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCCamera.h
+c000000004CC31FA70000000000000815
+t1287856039
+s2069
+i"CCNode.h"
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCCameraAction.h
+c000000004CC31FA70000000000000676
+t1287856039
+s1654
+i"CCIntervalAction.h"
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCCompatibility.h
+c000000004CC31FA70000000000003A7C
+t1287856039
+s14972
+i<Foundation/Foundation.h>
+i"cocos2d.h"
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCConfiguration.h
+c000000004CC31FA70000000000000680
+t1287856039
+s1664
+i<OpenGLES/ES1/gl.h>
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCDirector.h
+c000000004CC31FA700000000000035F1
+t1287856039
+s13809
+i"ccConfig.h"
+i"ccTypes.h"
+i"Support/EAGLView.h"
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCDrawingPrimitives.h
+c000000004CC31FA7000000000000084A
+t1287856039
+s2122
+i<CoreGraphics/CGGeometry.h>
+i<objc/objc.h>
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCEaseAction.h
+c000000004CC31FA70000000000001338
+t1287856039
+s4920
+i"CCIntervalAction.h"
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCGrabber.h
+c000000004CC31FA700000000000002C0
+t1287856039
+s704
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<UIKit/UIKit.h>
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCGrid.h
+c000000004CC31FA70000000000000B16
+t1287856039
+s2838
+i<UIKit/UIKit.h>
+i"CCNode.h"
+i"CCCamera.h"
+i"ccTypes.h"
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCGrid3DAction.h
+c000000004CC31FA700000000000016A5
+t1287856039
+s5797
+i"CCGridAction.h"
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCGridAction.h
+c000000004CC31FA7000000000000116D
+t1287856039
+s4461
+i<UIKit/UIKit.h>
+i"CCIntervalAction.h"
+i"CCInstantAction.h"
+i"CCGrid.h"
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCInstantAction.h
+c000000004CC31FA70000000000000DD5
+t1287856039
+s3541
+i<UIKit/UIKit.h>
+i"CCAction.h"
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCIntervalAction.h
+c000000004CC31FA70000000000002F31
+t1287856039
+s12081
+i"CCNode.h"
+i"CCAction.h"
+i"CCProtocols.h"
+i<sys/time.h>
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCLabel.h
+c000000004CC31FA700000000000006E7
+t1287856039
+s1767
+i"CCTexture2D.h"
+i"CCSprite.h"
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCLabelAtlas.h
+c000000004CC31FA70000000000000653
+t1287856039
+s1619
+i"CCAtlasNode.h"
+i"CCTextureAtlas.h"
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCLayer.h
+c000000004CC31FA70000000000001063
+t1287856039
+s4195
+i<UIKit/UIKit.h>
+i"CCProtocols.h"
+i"CCNode.h"
+i"CCTouchDelegateProtocol.h"
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCMenu.h
+c000000004CC31FA700000000000007B3
+t1287856039
+s1971
+i<UIKit/UIKit.h>
+i"CCMenuItem.h"
+i"CCLayer.h"
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCMenuItem.h
+c000000004CC31FA70000000000002EC1
+t1287856039
+s11969
+i"CCBlockSupport.h"
+i"CCNode.h"
+i"CCProtocols.h"
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCMotionStreak.h
+c000000004CC31FA700000000000007F3
+t1287856039
+s2035
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCRibbon.h"
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCNode.h
+c000000004CC31FA70000000000003594
+t1287856039
+s13716
+i<OpenGLES/ES1/gl.h>
+i"CCAction.h"
+i"ccTypes.h"
+i"CCTexture2D.h"
+i"CCProtocols.h"
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCPVRTexture.h
+c000000004CC31FA70000000000000CA5
+t1287856039
+s3237
+i<UIKit/UIKit.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCPageTurn3DAction.h
+c000000004CC31FA7000000000000030A
+t1287856039
+s778
+i"CCGrid3DAction.h"
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCPageTurnTransition.h
+c000000004CC31FA700000000000005BA
+t1287856039
+s1466
+i"CCTransition.h"
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCParallaxNode.h
+c000000004CC31FA7000000000000041B
+t1287856039
+s1051
+i"CCNode.h"
+i"Support/ccArray.h"
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCParticleExamples.h
+c000000004CC31FA70000000000000591
+t1287856039
+s1425
+i"CCPointParticleSystem.h"
+i"CCQuadParticleSystem.h"
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCParticleSystem.h
+c000000004CC31FA700000000000021B8
+t1287856039
+s8632
+i"CCProtocols.h"
+i"CCNode.h"
+i"ccTypes.h"
+i"ccConfig.h"
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCPointParticleSystem.h
+c000000004CC31FA700000000000003B4
+t1287856039
+s948
+i"CCParticleSystem.h"
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCProgressTimer.h
+c000000004CC31FA7000000000000080F
+t1287856039
+s2063
+i<Foundation/Foundation.h>
+i"CCSprite.h"
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCProgressTimerActions.h
+c000000004CC31FA70000000000000553
+t1287856039
+s1363
+i<Foundation/Foundation.h>
+i"CCProgressTimer.h"
+i"CCIntervalAction.h"
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCPropertyAction.h
+c000000004CC31FA70000000000000607
+t1287856039
+s1543
+i<Foundation/Foundation.h>
+i"CCIntervalAction.h"
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCProtocols.h
+c000000004CC31FA70000000000000AC3
+t1287856039
+s2755
+i"ccTypes.h"
+i"CCTexture2D.h"
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCQuadParticleSystem.h
+c000000004CC31FA7000000000000045E
+t1287856039
+s1118
+i"CCParticleSystem.h"
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCRadialTransition.h
+c000000004CC31FA700000000000002B8
+t1287856039
+s696
+i"CCTransition.h"
+i"CCProgressTimer.h"
+i"CCProgressTimerActions.h"
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCRenderTexture.h
+c000000004CC31FA7000000000000072F
+t1287856039
+s1839
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCSprite.h"
+i"Support/OpenGL_Internal.h"
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCRibbon.h
+c000000004CC31FA70000000000000C96
+t1287856039
+s3222
+i"CCNode.h"
+i"CCTexture2D.h"
+i"CCProtocols.h"
+i<OpenGLES/ES1/gl.h>
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCScene.h
+c000000004CC31FA70000000000000356
+t1287856039
+s854
+i<UIKit/UIKit.h>
+i"CCNode.h"
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCScheduler.h
+c000000004CC31FA70000000000000A9F
+t1287856039
+s2719
+i<UIKit/UIKit.h>
+i"ccTypes.h"
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCSprite.h
+c000000004CC31FA70000000000002B45
+t1287856039
+s11077
+i"CCNode.h"
+i"CCProtocols.h"
+i"CCTextureAtlas.h"
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCSpriteFrame.h
+c000000004CC31FA70000000000000EE7
+t1287856039
+s3815
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCProtocols.h"
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCSpriteFrameCache.h
+c000000004CC31FA70000000000000CC0
+t1287856039
+s3264
+i<Foundation/Foundation.h>
+i"CCSpriteFrame.h"
+i"CCTexture2D.h"
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCSpriteSheet.h
+c000000004CC31FA7000000000000145F
+t1287856039
+s5215
+i"CCNode.h"
+i"CCProtocols.h"
+i"CCTextureAtlas.h"
+i"ccMacros.h"
+i"Support/ccArray.h"
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCTMXLayer.h
+c000000004CC31FA700000000000014D2
+t1287856039
+s5330
+i"CCAtlasNode.h"
+i"CCSpriteSheet.h"
+i"Support/ccArray.h"
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCTMXObjectGroup.h
+c000000004CC31FA700000000000005CC
+t1287856039
+s1484
+i"CCAtlasNode.h"
+i"CCSpriteSheet.h"
+i"Support/ccArray.h"
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCTMXTiledMap.h
+c000000004CC31FA70000000000001181
+t1287856039
+s4481
+i"CCAtlasNode.h"
+i"CCSpriteSheet.h"
+i"Support/ccArray.h"
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCTMXXMLParser.h
+c000000004CC31FA700000000000012A4
+t1287856039
+s4772
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCTexture2D.h
+c000000004CC31FA70000000000002609
+t1287856039
+s9737
+i<UIKit/UIKit.h>
+i<OpenGLES/ES1/gl.h>
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCTextureAtlas.h
+c000000004CC31FA7000000000000113D
+t1287856039
+s4413
+i"CCTexture2D.h"
+i"ccTypes.h"
+i"ccConfig.h"
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCTextureCache.h
+c000000004CC31FA70000000000000EE7
+t1287856039
+s3815
+i<Foundation/Foundation.h>
+i"CCTexture2D.h"
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCTileMapAtlas.h
+c000000004CC31FA7000000000000085A
+t1287856039
+s2138
+i"CCTextureAtlas.h"
+i"CCAtlasNode.h"
+i"Support/TGAlib.h"
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCTiledGridAction.h
+c000000004CC31FA700000000000016DC
+t1287856039
+s5852
+i"CCGridAction.h"
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCTouchDelegateProtocol.h
+c000000004CC31FA7000000000000078B
+t1287856039
+s1931
+i<UIKit/UIKit.h>
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCTouchDispatcher.h
+c000000004CC31FA70000000000000C8C
+t1287856039
+s3212
+i"CCTouchDelegateProtocol.h"
+i"Support/EAGLView.h"
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCTouchHandler.h
+c000000004CC31FA70000000000000886
+t1287856039
+s2182
+i"CCTouchDelegateProtocol.h"
+i"CCTouchDispatcher.h"
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/CCTransition.h
+c000000004CC31FA70000000000001DF5
+t1287856039
+s7669
+i"CCScene.h"
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/Support/CCFileUtils.h
+c000000004CC31FA70000000000000251
+t1287856039
+s593
+i<Foundation/Foundation.h>
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/Support/CCProfiling.h
+c000000004CC31FA700000000000002DC
+t1287856039
+s732
+i<Foundation/Foundation.h>
+i<sys/time.h>
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/Support/CGPointExtension.h
+c000000004CC31FA70000000000001E13
+t1287856039
+s7699
+i<CoreGraphics/CGGeometry.h>
+i<math.h>
+i<objc/objc.h>
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/Support/EAGLView.h
+c000000004CC31FA70000000000001781
+t1287856039
+s6017
+i<UIKit/UIKit.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/EAGLDrawable.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/Support/OpenGL_Internal.h
+c000000004CC31FA700000000000011A7
+t1287856039
+s4519
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/Support/TGAlib.h
+c000000004CC31FA70000000000000444
+t1287856039
+s1092
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/Support/ccArray.h
+c000000004CC31FA70000000000002E36
+t1287856039
+s11830
+i<Foundation/Foundation.h>
+i<stdlib.h>
+i<string.h>
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/Support/ccHashSet.h
+c000000004CC31FA700000000000011BE
+t1287856039
+s4542
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/ccConfig.h
+c000000004CC31FA70000000000001159
+t1287856039
+s4441
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/ccMacros.h
+c000000004CC31FA70000000000000A61
+t1287856039
+s2657
+i<math.h>
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/ccTypes.h
+c000000004CC31FA7000000000000131E
+t1287856039
+s4894
+i<objc/objc.h>
+i<CoreGraphics/CGGeometry.h>
+i<OpenGLES/ES1/gl.h>
+
+N/Users/admin/Documents/accelDemo/MW/libs/cocos2d/cocos2d.h
+c000000004CC31FA70000000000000B14
+t1287856039
+s2836
+i"ccConfig.h"
+i"CCBlockSupport.h"
+i"CCAction.h"
+i"CCCamera.h"
+i"CCCameraAction.h"
+i"CCProtocols.h"
+i"CCNode.h"
+i"CCDirector.h"
+i"CCTouchDispatcher.h"
+i"CCTouchDelegateProtocol.h"
+i"CCInstantAction.h"
+i"CCIntervalAction.h"
+i"CCEaseAction.h"
+i"CCLabel.h"
+i"CCLayer.h"
+i"CCMenu.h"
+i"CCMenuItem.h"
+i"CCParticleSystem.h"
+i"CCPointParticleSystem.h"
+i"CCQuadParticleSystem.h"
+i"CCParticleExamples.h"
+i"CCDrawingPrimitives.h"
+i"CCScene.h"
+i"CCScheduler.h"
+i"CCSprite.h"
+i"CCSpriteFrame.h"
+i"CCSpriteSheet.h"
+i"CCSpriteFrameCache.h"
+i"CCTextureCache.h"
+i"CCTransition.h"
+i"CCTextureAtlas.h"
+i"CCLabelAtlas.h"
+i"CCAtlasNode.h"
+i"CCEaseAction.h"
+i"CCTiledGridAction.h"
+i"CCGrabber.h"
+i"CCGrid.h"
+i"CCGrid3DAction.h"
+i"CCGridAction.h"
+i"CCBitmapFontAtlas.h"
+i"CCParallaxNode.h"
+i"CCActionManager.h"
+i"CCTMXTiledMap.h"
+i"CCTMXLayer.h"
+i"CCTMXObjectGroup.h"
+i"CCTMXXMLParser.h"
+i"CCTileMapAtlas.h"
+i"CCRenderTexture.h"
+i"CCMotionStreak.h"
+i"CCPageTurn3DAction.h"
+i"CCPageTurnTransition.h"
+i"CCTexture2D.h"
+i"CCPVRTexture.h"
+i"CCTouchHandler.h"
+i"CCConfiguration.h"
+i"CCRadialTransition.h"
+i"CCProgressTimerActions.h"
+i"CCPropertyAction.h"
+i"ccTypes.h"
+i"ccMacros.h"
+i"Support/OpenGL_Internal.h"
+i"Support/EAGLView.h"
+i"Support/CCFileUtils.h"
+i"Support/CGPointExtension.h"
+i"Support/ccArray.h"
+i"Support/CCProfiling.h"
+i"CCCompatibility.h"
+
+N/Users/admin/Documents/accelDemo/MW/main.m
+c000000004CDADF9D00000000000000DB
+t1289412509
+s219
+i<UIKit/UIKit.h>
+
+N/Users/admin/Documents/accelDemo/MW/menuScene.h
+c000000004CDA18C20000000000000097
+t1289361602
+s151
+i<Foundation/Foundation.h>
+i"cocos2d.h"
+i"gameScene.h"
+
+N/Users/admin/Documents/accelDemo/MW/menuScene.mm
+c000000004CDA18BC0000000000000283
+t1289361596
+s643
+i"menuScene.h"
+
+N/Users/admin/Library/MobileDevice/Provisioning Profiles/187A9A26-C454-407E-ADDD-4D3AE15C3B36.mobileprovision
+c000000004CCC14BB0000000000001D72
+t1288443067
+s7538
+
+N/Users/admin/Library/MobileDevice/Provisioning Profiles/463B3041-A4D3-4A43-B46F-902416633BB4.mobileprovision
+c000000004CDC87EB0000000000001E1D
+t1289521131
+s7709
+
+N/Users/admin/educational demos/accelDemo/accelerometer/Classes/../menuScene.mm
+c000000004CDA18BC0000000000000283
+t1289361596
+s643
+i"menuScene.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/Classes/accelAppDelegate.h
+c000000004CDA18C800000000000000BD
+t1289361608
+s189
+i<UIKit/UIKit.h>
+i"menuScene.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/Classes/accelAppDelegate.mm
+c000000004CDA18DD0000000000000900
+t1289361629
+s2304
+i"accelAppDelegate.h"
+i"cocos2d.h"
+i"gameScene.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/Classes/gameScene.h
+c000000004CDC2A5B000000000000025D
+t1289497179
+s605
+i"cocos2d.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/Classes/gameScene.mm
+c000000004CDC2FA80000000000001E6E
+t1289498536
+s7790
+i<stdlib.h>
+i<AudioToolbox/AudioToolbox.h>
+i"gameScene.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/MW_Prefix.pch
+c000000004CC31FA700000000000000E3
+t1287856039
+s227
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/admin/educational demos/accelDemo/accelerometer/Resources/Default.png
+c000000004CC31FA700000000000077AB
+t1287856039
+s30635
+
+N/Users/admin/educational demos/accelDemo/accelerometer/Resources/Icon.png
+c000000004CC31FA7000000000000246F
+t1287856039
+s9327
+
+N/Users/admin/educational demos/accelDemo/accelerometer/Resources/bat.png
+c000000004CCB92BE000000000000085D
+t1288409790
+s2141
+
+N/Users/admin/educational demos/accelDemo/accelerometer/Resources/batSlide.png
+c000000004CDC8957000000000000040C
+t1289521495
+s1036
+
+N/Users/admin/educational demos/accelDemo/accelerometer/Resources/cyanbat.png
+c000000004CCB93AF0000000000000D2A
+t1288410031
+s3370
+
+N/Users/admin/educational demos/accelDemo/accelerometer/Resources/explosion.png
+c000000004CCBA2690000000000009964
+t1288413801
+s39268
+
+N/Users/admin/educational demos/accelDemo/accelerometer/Resources/fps_images.png
+c000000004CC31FA7000000000000183B
+t1287856039
+s6203
+
+N/Users/admin/educational demos/accelDemo/accelerometer/Resources/kaboom!.wav
+c000000004CCBA34F000000000000E362
+t1288414031
+s58210
+
+N/Users/admin/educational demos/accelDemo/accelerometer/Resources/redbat.png
+c000000004CCB93BC0000000000000D14
+t1288410044
+s3348
+
+N/Users/admin/educational demos/accelDemo/accelerometer/Resources/whitebat.png
+c000000004CCB93930000000000000D25
+t1288410003
+s3365
+
+N/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app
+t1289522116
+s646
+
+N/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app.dSYM
+t1289522115
+s102
+
+N/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/Default.png
+t1289496708
+s31932
+
+N/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/Icon.png
+t1289496708
+s10022
+
+N/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/Info.plist
+t1289521852
+s781
+
+N/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/PkgInfo
+t1289521852
+s8
+
+N/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/ResourceRules.plist
+t1289496708
+s485
+
+N/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/accelDemo
+t1289522115
+s1088848
+
+N/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/bat.png
+t1289496708
+s2317
+
+N/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/batSlide.png
+t1289521852
+s1206
+
+N/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/cyanbat.png
+t1289496708
+s3318
+
+N/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/embedded.mobileprovision
+t1289521279
+s7709
+
+N/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/explosion.png
+t1289496708
+s38926
+
+N/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/fps_images.png
+t1289496708
+s7188
+
+N/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/kaboom!.wav
+t1289496708
+s58210
+
+N/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/redbat.png
+t1289496708
+s3295
+
+N/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/whitebat.png
+t1289496708
+s3312
+
+N/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/libcocos2d libraries.a
+c000000004CDC8BC20000000000335828
+t1289522114
+s3364904
+
+N/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv6/accelAppDelegate.o
+t1289521279
+s56160
+
+N/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv6/accelDemo.LinkFileList
+c000000004CDC887D0000000000000236
+t1289521277
+s566
+
+N/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv6/gameScene.o
+t1289521279
+s60268
+
+N/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv6/main.o
+t1289521279
+s6600
+
+N/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv6/menuScene.o
+t1289521279
+s43232
+
+N/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv7/accelAppDelegate.o
+t1289522115
+s56096
+
+N/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv7/accelDemo.LinkFileList
+c000000004CDC28840000000000000236
+t1289496708
+s566
+
+N/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv7/gameScene.o
+t1289522115
+s58688
+
+N/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv7/main.o
+t1289496710
+s6572
+
+N/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv7/menuScene.o
+t1289522115
+s43176
+
+N/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo.xcent
+t1289521852
+s416
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCAction.h
+c000000004CC31FA70000000000001325
+t1287856039
+s4901
+i<UIKit/UIKit.h>
+i<sys/time.h>
+i"ccTypes.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCActionManager.h
+c000000004CC31FA70000000000000C0E
+t1287856039
+s3086
+i"CCAction.h"
+i"Support/ccArray.h"
+i"Support/ccHashSet.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCAtlasNode.h
+c000000004CC31FA70000000000000912
+t1287856039
+s2322
+i"CCTextureAtlas.h"
+i"CCNode.h"
+i"CCProtocols.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCBitmapFontAtlas.h
+c000000004CC31FA70000000000001009
+t1287856039
+s4105
+i"CCAtlasNode.h"
+i"CCSpriteSheet.h"
+i"Support/ccHashSet.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCBlockSupport.h
+c000000004CC31FA70000000000000430
+t1287856039
+s1072
+i<Foundation/Foundation.h>
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCCamera.h
+c000000004CC31FA70000000000000815
+t1287856039
+s2069
+i"CCNode.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCCameraAction.h
+c000000004CC31FA70000000000000676
+t1287856039
+s1654
+i"CCIntervalAction.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCCompatibility.h
+c000000004CC31FA70000000000003A7C
+t1287856039
+s14972
+i<Foundation/Foundation.h>
+i"cocos2d.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCConfiguration.h
+c000000004CC31FA70000000000000680
+t1287856039
+s1664
+i<OpenGLES/ES1/gl.h>
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCDirector.h
+c000000004CC31FA700000000000035F1
+t1287856039
+s13809
+i"ccConfig.h"
+i"ccTypes.h"
+i"Support/EAGLView.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCDrawingPrimitives.h
+c000000004CC31FA7000000000000084A
+t1287856039
+s2122
+i<CoreGraphics/CGGeometry.h>
+i<objc/objc.h>
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCEaseAction.h
+c000000004CC31FA70000000000001338
+t1287856039
+s4920
+i"CCIntervalAction.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCGrabber.h
+c000000004CC31FA700000000000002C0
+t1287856039
+s704
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<UIKit/UIKit.h>
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCGrid.h
+c000000004CC31FA70000000000000B16
+t1287856039
+s2838
+i<UIKit/UIKit.h>
+i"CCNode.h"
+i"CCCamera.h"
+i"ccTypes.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCGrid3DAction.h
+c000000004CC31FA700000000000016A5
+t1287856039
+s5797
+i"CCGridAction.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCGridAction.h
+c000000004CC31FA7000000000000116D
+t1287856039
+s4461
+i<UIKit/UIKit.h>
+i"CCIntervalAction.h"
+i"CCInstantAction.h"
+i"CCGrid.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCInstantAction.h
+c000000004CC31FA70000000000000DD5
+t1287856039
+s3541
+i<UIKit/UIKit.h>
+i"CCAction.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCIntervalAction.h
+c000000004CC31FA70000000000002F31
+t1287856039
+s12081
+i"CCNode.h"
+i"CCAction.h"
+i"CCProtocols.h"
+i<sys/time.h>
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCLabel.h
+c000000004CC31FA700000000000006E7
+t1287856039
+s1767
+i"CCTexture2D.h"
+i"CCSprite.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCLabelAtlas.h
+c000000004CC31FA70000000000000653
+t1287856039
+s1619
+i"CCAtlasNode.h"
+i"CCTextureAtlas.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCLayer.h
+c000000004CC31FA70000000000001063
+t1287856039
+s4195
+i<UIKit/UIKit.h>
+i"CCProtocols.h"
+i"CCNode.h"
+i"CCTouchDelegateProtocol.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCMenu.h
+c000000004CC31FA700000000000007B3
+t1287856039
+s1971
+i<UIKit/UIKit.h>
+i"CCMenuItem.h"
+i"CCLayer.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCMenuItem.h
+c000000004CC31FA70000000000002EC1
+t1287856039
+s11969
+i"CCBlockSupport.h"
+i"CCNode.h"
+i"CCProtocols.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCMotionStreak.h
+c000000004CC31FA700000000000007F3
+t1287856039
+s2035
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCRibbon.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCNode.h
+c000000004CC31FA70000000000003594
+t1287856039
+s13716
+i<OpenGLES/ES1/gl.h>
+i"CCAction.h"
+i"ccTypes.h"
+i"CCTexture2D.h"
+i"CCProtocols.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCPVRTexture.h
+c000000004CC31FA70000000000000CA5
+t1287856039
+s3237
+i<UIKit/UIKit.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCPageTurn3DAction.h
+c000000004CC31FA7000000000000030A
+t1287856039
+s778
+i"CCGrid3DAction.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCPageTurnTransition.h
+c000000004CC31FA700000000000005BA
+t1287856039
+s1466
+i"CCTransition.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCParallaxNode.h
+c000000004CC31FA7000000000000041B
+t1287856039
+s1051
+i"CCNode.h"
+i"Support/ccArray.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCParticleExamples.h
+c000000004CC31FA70000000000000591
+t1287856039
+s1425
+i"CCPointParticleSystem.h"
+i"CCQuadParticleSystem.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCParticleSystem.h
+c000000004CC31FA700000000000021B8
+t1287856039
+s8632
+i"CCProtocols.h"
+i"CCNode.h"
+i"ccTypes.h"
+i"ccConfig.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCPointParticleSystem.h
+c000000004CC31FA700000000000003B4
+t1287856039
+s948
+i"CCParticleSystem.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCProgressTimer.h
+c000000004CC31FA7000000000000080F
+t1287856039
+s2063
+i<Foundation/Foundation.h>
+i"CCSprite.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCProgressTimerActions.h
+c000000004CC31FA70000000000000553
+t1287856039
+s1363
+i<Foundation/Foundation.h>
+i"CCProgressTimer.h"
+i"CCIntervalAction.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCPropertyAction.h
+c000000004CC31FA70000000000000607
+t1287856039
+s1543
+i<Foundation/Foundation.h>
+i"CCIntervalAction.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCProtocols.h
+c000000004CC31FA70000000000000AC3
+t1287856039
+s2755
+i"ccTypes.h"
+i"CCTexture2D.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCQuadParticleSystem.h
+c000000004CC31FA7000000000000045E
+t1287856039
+s1118
+i"CCParticleSystem.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCRadialTransition.h
+c000000004CC31FA700000000000002B8
+t1287856039
+s696
+i"CCTransition.h"
+i"CCProgressTimer.h"
+i"CCProgressTimerActions.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCRenderTexture.h
+c000000004CC31FA7000000000000072F
+t1287856039
+s1839
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCSprite.h"
+i"Support/OpenGL_Internal.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCRibbon.h
+c000000004CC31FA70000000000000C96
+t1287856039
+s3222
+i"CCNode.h"
+i"CCTexture2D.h"
+i"CCProtocols.h"
+i<OpenGLES/ES1/gl.h>
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCScene.h
+c000000004CC31FA70000000000000356
+t1287856039
+s854
+i<UIKit/UIKit.h>
+i"CCNode.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCScheduler.h
+c000000004CC31FA70000000000000A9F
+t1287856039
+s2719
+i<UIKit/UIKit.h>
+i"ccTypes.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCSprite.h
+c000000004CC31FA70000000000002B45
+t1287856039
+s11077
+i"CCNode.h"
+i"CCProtocols.h"
+i"CCTextureAtlas.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCSpriteFrame.h
+c000000004CC31FA70000000000000EE7
+t1287856039
+s3815
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCProtocols.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCSpriteFrameCache.h
+c000000004CC31FA70000000000000CC0
+t1287856039
+s3264
+i<Foundation/Foundation.h>
+i"CCSpriteFrame.h"
+i"CCTexture2D.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCSpriteSheet.h
+c000000004CC31FA7000000000000145F
+t1287856039
+s5215
+i"CCNode.h"
+i"CCProtocols.h"
+i"CCTextureAtlas.h"
+i"ccMacros.h"
+i"Support/ccArray.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCTMXLayer.h
+c000000004CC31FA700000000000014D2
+t1287856039
+s5330
+i"CCAtlasNode.h"
+i"CCSpriteSheet.h"
+i"Support/ccArray.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCTMXObjectGroup.h
+c000000004CC31FA700000000000005CC
+t1287856039
+s1484
+i"CCAtlasNode.h"
+i"CCSpriteSheet.h"
+i"Support/ccArray.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCTMXTiledMap.h
+c000000004CC31FA70000000000001181
+t1287856039
+s4481
+i"CCAtlasNode.h"
+i"CCSpriteSheet.h"
+i"Support/ccArray.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCTMXXMLParser.h
+c000000004CC31FA700000000000012A4
+t1287856039
+s4772
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCTexture2D.h
+c000000004CC31FA70000000000002609
+t1287856039
+s9737
+i<UIKit/UIKit.h>
+i<OpenGLES/ES1/gl.h>
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCTextureAtlas.h
+c000000004CC31FA7000000000000113D
+t1287856039
+s4413
+i"CCTexture2D.h"
+i"ccTypes.h"
+i"ccConfig.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCTextureCache.h
+c000000004CC31FA70000000000000EE7
+t1287856039
+s3815
+i<Foundation/Foundation.h>
+i"CCTexture2D.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCTileMapAtlas.h
+c000000004CC31FA7000000000000085A
+t1287856039
+s2138
+i"CCTextureAtlas.h"
+i"CCAtlasNode.h"
+i"Support/TGAlib.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCTiledGridAction.h
+c000000004CC31FA700000000000016DC
+t1287856039
+s5852
+i"CCGridAction.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCTouchDelegateProtocol.h
+c000000004CC31FA7000000000000078B
+t1287856039
+s1931
+i<UIKit/UIKit.h>
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCTouchDispatcher.h
+c000000004CC31FA70000000000000C8C
+t1287856039
+s3212
+i"CCTouchDelegateProtocol.h"
+i"Support/EAGLView.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCTouchHandler.h
+c000000004CC31FA70000000000000886
+t1287856039
+s2182
+i"CCTouchDelegateProtocol.h"
+i"CCTouchDispatcher.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/CCTransition.h
+c000000004CC31FA70000000000001DF5
+t1287856039
+s7669
+i"CCScene.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/Support/CCFileUtils.h
+c000000004CC31FA70000000000000251
+t1287856039
+s593
+i<Foundation/Foundation.h>
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/Support/CCProfiling.h
+c000000004CC31FA700000000000002DC
+t1287856039
+s732
+i<Foundation/Foundation.h>
+i<sys/time.h>
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/Support/CGPointExtension.h
+c000000004CC31FA70000000000001E13
+t1287856039
+s7699
+i<CoreGraphics/CGGeometry.h>
+i<math.h>
+i<objc/objc.h>
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/Support/EAGLView.h
+c000000004CC31FA70000000000001781
+t1287856039
+s6017
+i<UIKit/UIKit.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/EAGLDrawable.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/Support/OpenGL_Internal.h
+c000000004CC31FA700000000000011A7
+t1287856039
+s4519
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/Support/TGAlib.h
+c000000004CC31FA70000000000000444
+t1287856039
+s1092
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/Support/ccArray.h
+c000000004CC31FA70000000000002E36
+t1287856039
+s11830
+i<Foundation/Foundation.h>
+i<stdlib.h>
+i<string.h>
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/Support/ccHashSet.h
+c000000004CC31FA700000000000011BE
+t1287856039
+s4542
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/ccConfig.h
+c000000004CC31FA70000000000001159
+t1287856039
+s4441
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/ccMacros.h
+c000000004CC31FA70000000000000A61
+t1287856039
+s2657
+i<math.h>
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/ccTypes.h
+c000000004CC31FA7000000000000131E
+t1287856039
+s4894
+i<objc/objc.h>
+i<CoreGraphics/CGGeometry.h>
+i<OpenGLES/ES1/gl.h>
+
+N/Users/admin/educational demos/accelDemo/accelerometer/libs/cocos2d/cocos2d.h
+c000000004CC31FA70000000000000B14
+t1287856039
+s2836
+i"ccConfig.h"
+i"CCBlockSupport.h"
+i"CCAction.h"
+i"CCCamera.h"
+i"CCCameraAction.h"
+i"CCProtocols.h"
+i"CCNode.h"
+i"CCDirector.h"
+i"CCTouchDispatcher.h"
+i"CCTouchDelegateProtocol.h"
+i"CCInstantAction.h"
+i"CCIntervalAction.h"
+i"CCEaseAction.h"
+i"CCLabel.h"
+i"CCLayer.h"
+i"CCMenu.h"
+i"CCMenuItem.h"
+i"CCParticleSystem.h"
+i"CCPointParticleSystem.h"
+i"CCQuadParticleSystem.h"
+i"CCParticleExamples.h"
+i"CCDrawingPrimitives.h"
+i"CCScene.h"
+i"CCScheduler.h"
+i"CCSprite.h"
+i"CCSpriteFrame.h"
+i"CCSpriteSheet.h"
+i"CCSpriteFrameCache.h"
+i"CCTextureCache.h"
+i"CCTransition.h"
+i"CCTextureAtlas.h"
+i"CCLabelAtlas.h"
+i"CCAtlasNode.h"
+i"CCEaseAction.h"
+i"CCTiledGridAction.h"
+i"CCGrabber.h"
+i"CCGrid.h"
+i"CCGrid3DAction.h"
+i"CCGridAction.h"
+i"CCBitmapFontAtlas.h"
+i"CCParallaxNode.h"
+i"CCActionManager.h"
+i"CCTMXTiledMap.h"
+i"CCTMXLayer.h"
+i"CCTMXObjectGroup.h"
+i"CCTMXXMLParser.h"
+i"CCTileMapAtlas.h"
+i"CCRenderTexture.h"
+i"CCMotionStreak.h"
+i"CCPageTurn3DAction.h"
+i"CCPageTurnTransition.h"
+i"CCTexture2D.h"
+i"CCPVRTexture.h"
+i"CCTouchHandler.h"
+i"CCConfiguration.h"
+i"CCRadialTransition.h"
+i"CCProgressTimerActions.h"
+i"CCPropertyAction.h"
+i"ccTypes.h"
+i"ccMacros.h"
+i"Support/OpenGL_Internal.h"
+i"Support/EAGLView.h"
+i"Support/CCFileUtils.h"
+i"Support/CGPointExtension.h"
+i"Support/ccArray.h"
+i"Support/CCProfiling.h"
+i"CCCompatibility.h"
+
+N/Users/admin/educational demos/accelDemo/accelerometer/main.m
+c000000004CDADF9D00000000000000DB
+t1289412509
+s219
+i<UIKit/UIKit.h>
+
+N/Users/admin/educational demos/accelDemo/accelerometer/menuScene.h
+c000000004CDA18C20000000000000097
+t1289361602
+s151
+i<Foundation/Foundation.h>
+i"cocos2d.h"
+i"gameScene.h"
+
+N/var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-bmxsjbwullqetfgoljoedijzppku/MW_Prefix.pch.gch
+t1289521278
+s10458560
+
+N/var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-bneywibpfegnagdzafztazwniggv/MW_Prefix.pch.gch
+t1289496709
+s10311216
+
+N/var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-bwrzxqbwixelulhbmzikedloorkp/MW_Prefix.pch.gch
+t1289445489
+s10913216
+
+N/var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-cubdihfrwvqpjxcdgjzjqcqyvgsm/MW_Prefix.pch.gch
+t1289362458
+s10458560
+
+N/var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-dvmiypxrghdfubbqrmouhrbwpiqv/MW_Prefix.pch.gch
+t1289496709
+s10913216
+
+N/var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-dydgzkfdprfrwodixqcqofjnejjo/MW_Prefix.pch.gch
+t1289521278
+s9852464
+
+N/var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-forfryieahgdbkbrxfpcpundkjzz/MW_Prefix.pch.gch
+t1289445488
+s10311216
+
+N/var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-gxabivqdejscqegnucpemyhtolhl/MW_Prefix.pch.gch
+t1289362458
+s9852464
+
+NResources/Info.plist
+c000000004CDC8ABB00000000000003AA
+t1289521851
+s938
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies311214914#311214914#0(85"[BWARN]warning: building for deployment target '3.1' requires an armv6 architecture.1(22@77"warning: building for deployment target '3.1' requires an armv6 architecture.311214914#18446744073709551615#0#0(1@0"0(0#1#0"8615242400#0"0#
+
+CCodeSign "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app"
+s311214915.817918
+e311214916.056695
+r1
+xCodeSign
+x/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app
+lSLF07#2@43"CodeSign build/Debug-iphoneos/accelDemo.app311214915#311214916#0(0"0(0#0#89"/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app8611510432#800"    cd "/Users/admin/educational demos/accelDemo/accelerometer"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Christian Damianidis (A56ENZNJ65)" "--resource-rules=/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/ResourceRules.plist" --entitlements "/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo.xcent" "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app"0#
+
+CCodeSign /Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app
+s311138290.085249
+e311138290.518094
+r1
+xCodeSign
+x/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app
+lSLF07#2@43"CodeSign build/Debug-iphoneos/accelDemo.app311138290#311138290#0(0"0(0#0#70"/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app8637057984#716"    cd /Users/admin/Documents/accelDemo/MW    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Christian Damianidis (A56ENZNJ65)" --resource-rules=/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/ResourceRules.plist --entitlements /Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo.xcent /Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app0#
+
+CCompileC build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv6/accelAppDelegate.o "/Users/admin/educational demos/accelDemo/accelerometer/Classes/accelAppDelegate.mm" normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+s311214078.819026
+e311214079.048126
+r1
+xCompileC
+xbuild/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv6/accelAppDelegate.o
+x/Users/admin/educational demos/accelDemo/accelerometer/Classes/accelAppDelegate.mm
+xnormal
+xarmv6
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/admin/educational demos/accelDemo/accelerometer/Classes/accelAppDelegate.mm311214078#311214079#0(0"0(0#0#82"/Users/admin/educational demos/accelDemo/accelerometer/Classes/accelAppDelegate.mm8701236320#2098"    cd "/Users/admin/educational demos/accelDemo/accelerometer"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote "/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-generated-files.hmap" "-I/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-own-target-headers.hmap" "-I/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-all-target-headers.hmap" -iquote "/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-project-headers.hmap" -Wall "-F/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos" "-I/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/include" -Iapi/inc "-I/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/DerivedSources/armv6" "-I/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/DerivedSources" -include /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-bmxsjbwullqetfgoljoedijzppku/MW_Prefix.pch -c "/Users/admin/educational demos/accelDemo/accelerometer/Classes/accelAppDelegate.mm" -o "/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv6/accelAppDelegate.o"0#
+
+CCompileC build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv6/accelAppDelegate.o /Users/admin/Documents/accelDemo/MW/Classes/accelAppDelegate.mm normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+s311061250.598281
+e311061250.861618
+r1
+xCompileC
+xbuild/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv6/accelAppDelegate.o
+x/Users/admin/Documents/accelDemo/MW/Classes/accelAppDelegate.mm
+xnormal
+xarmv6
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/admin/Documents/accelDemo/MW/Classes/accelAppDelegate.mm311061250#311061250#0(0"0(0#0#63"/Users/admin/Documents/accelDemo/MW/Classes/accelAppDelegate.mm8646039392#1867"    cd /Users/admin/Documents/accelDemo/MW    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-generated-files.hmap -I/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-own-target-headers.hmap -I/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-all-target-headers.hmap -iquote /Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-project-headers.hmap -Wall -F/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos -I/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/include -Iapi/inc -I/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/DerivedSources/armv6 -I/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/DerivedSources -include /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-cubdihfrwvqpjxcdgjzjqcqyvgsm/MW_Prefix.pch -c /Users/admin/Documents/accelDemo/MW/Classes/accelAppDelegate.mm -o /Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv6/accelAppDelegate.o0#
+
+CCompileC build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv6/gameScene.o "/Users/admin/educational demos/accelDemo/accelerometer/Classes/gameScene.mm" normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+s311214078.820785
+e311214079.265882
+r1
+xCompileC
+xbuild/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv6/gameScene.o
+x/Users/admin/educational demos/accelDemo/accelerometer/Classes/gameScene.mm
+xnormal
+xarmv6
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/admin/educational demos/accelDemo/accelerometer/Classes/gameScene.mm311214078#311214079#0(0"0(0#0#75"/Users/admin/educational demos/accelDemo/accelerometer/Classes/gameScene.mm8700385248#2084"    cd "/Users/admin/educational demos/accelDemo/accelerometer"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote "/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-generated-files.hmap" "-I/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-own-target-headers.hmap" "-I/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-all-target-headers.hmap" -iquote "/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-project-headers.hmap" -Wall "-F/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos" "-I/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/include" -Iapi/inc "-I/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/DerivedSources/armv6" "-I/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/DerivedSources" -include /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-bmxsjbwullqetfgoljoedijzppku/MW_Prefix.pch -c "/Users/admin/educational demos/accelDemo/accelerometer/Classes/gameScene.mm" -o "/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv6/gameScene.o"0#
+
+CCompileC build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv6/gameScene.o /Users/admin/Documents/accelDemo/MW/Classes/gameScene.mm normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+s311100477.564552
+e311100477.790804
+r1
+xCompileC
+xbuild/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv6/gameScene.o
+x/Users/admin/Documents/accelDemo/MW/Classes/gameScene.mm
+xnormal
+xarmv6
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/admin/Documents/accelDemo/MW/Classes/gameScene.mm311100477#311100477#0(0"0(0#0#56"/Users/admin/Documents/accelDemo/MW/Classes/gameScene.mm8647677728#1853"    cd /Users/admin/Documents/accelDemo/MW    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-generated-files.hmap -I/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-own-target-headers.hmap -I/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-all-target-headers.hmap -iquote /Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-project-headers.hmap -Wall -F/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos -I/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/include -Iapi/inc -I/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/DerivedSources/armv6 -I/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/DerivedSources -include /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-cubdihfrwvqpjxcdgjzjqcqyvgsm/MW_Prefix.pch -c /Users/admin/Documents/accelDemo/MW/Classes/gameScene.mm -o /Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv6/gameScene.o0#
+
+CCompileC build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv6/main.o "/Users/admin/educational demos/accelDemo/accelerometer/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s311214079.211521
+e311214079.271183
+r1
+xCompileC
+xbuild/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv6/main.o
+x/Users/admin/educational demos/accelDemo/accelerometer/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/admin/educational demos/accelDemo/accelerometer/main.m311214079#311214079#0(0"0(0#0#61"/Users/admin/educational demos/accelDemo/accelerometer/main.m8701038912#2044"    cd "/Users/admin/educational demos/accelDemo/accelerometer"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote "/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-generated-files.hmap" "-I/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-own-target-headers.hmap" "-I/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-all-target-headers.hmap" -iquote "/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-project-headers.hmap" -Wall "-F/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos" "-I/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/include" -Iapi/inc "-I/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/DerivedSources/armv6" "-I/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/DerivedSources" -include /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-dydgzkfdprfrwodixqcqofjnejjo/MW_Prefix.pch -c "/Users/admin/educational demos/accelDemo/accelerometer/main.m" -o "/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv6/main.o"0#
+
+CCompileC build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv6/main.o /Users/admin/Documents/accelDemo/MW/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s311055258.970808
+e311055259.042713
+r1
+xCompileC
+xbuild/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv6/main.o
+x/Users/admin/Documents/accelDemo/MW/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/admin/Documents/accelDemo/MW/main.m311055258#311055259#0(0"0(0#0#42"/Users/admin/Documents/accelDemo/MW/main.m8602407584#1813"    cd /Users/admin/Documents/accelDemo/MW    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-generated-files.hmap -I/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-own-target-headers.hmap -I/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-all-target-headers.hmap -iquote /Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-project-headers.hmap -Wall -F/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos -I/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/include -Iapi/inc -I/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/DerivedSources/armv6 -I/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/DerivedSources -include /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-gxabivqdejscqegnucpemyhtolhl/MW_Prefix.pch -c /Users/admin/Documents/accelDemo/MW/main.m -o /Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv6/menuScene.o "/Users/admin/educational demos/accelDemo/accelerometer/Classes/../menuScene.mm" normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+s311214079.048241
+e311214079.211250
+r1
+xCompileC
+xbuild/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv6/menuScene.o
+x/Users/admin/educational demos/accelDemo/accelerometer/Classes/../menuScene.mm
+xnormal
+xarmv6
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/admin/educational demos/accelDemo/accelerometer/Classes/../menuScene.mm311214079#311214079#0(0"0(0#0#78"/Users/admin/educational demos/accelDemo/accelerometer/Classes/../menuScene.mm8695527488#2087"    cd "/Users/admin/educational demos/accelDemo/accelerometer"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote "/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-generated-files.hmap" "-I/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-own-target-headers.hmap" "-I/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-all-target-headers.hmap" -iquote "/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-project-headers.hmap" -Wall "-F/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos" "-I/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/include" -Iapi/inc "-I/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/DerivedSources/armv6" "-I/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/DerivedSources" -include /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-bmxsjbwullqetfgoljoedijzppku/MW_Prefix.pch -c "/Users/admin/educational demos/accelDemo/accelerometer/Classes/../menuScene.mm" -o "/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv6/menuScene.o"0#
+
+CCompileC build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv6/menuScene.o /Users/admin/Documents/accelDemo/MW/Classes/../menuScene.mm normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+s311100968.667561
+e311100968.779187
+r1
+xCompileC
+xbuild/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv6/menuScene.o
+x/Users/admin/Documents/accelDemo/MW/Classes/../menuScene.mm
+xnormal
+xarmv6
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/admin/Documents/accelDemo/MW/Classes/../menuScene.mm311100968#311100968#0(0"0(0#0#59"/Users/admin/Documents/accelDemo/MW/Classes/../menuScene.mm8652761472#1856"    cd /Users/admin/Documents/accelDemo/MW    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-generated-files.hmap -I/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-own-target-headers.hmap -I/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-all-target-headers.hmap -iquote /Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-project-headers.hmap -Wall -F/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos -I/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/include -Iapi/inc -I/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/DerivedSources/armv6 -I/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/DerivedSources -include /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-cubdihfrwvqpjxcdgjzjqcqyvgsm/MW_Prefix.pch -c /Users/admin/Documents/accelDemo/MW/Classes/../menuScene.mm -o /Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv6/menuScene.o0#
+
+CCompileC build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv6/menuScene.o /Users/admin/Documents/accelDemo/MW/menuScene.mm normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+s311061250.861718
+e311061250.988710
+r1
+xCompileC
+xbuild/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv6/menuScene.o
+x/Users/admin/Documents/accelDemo/MW/menuScene.mm
+xnormal
+xarmv6
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/admin/Documents/accelDemo/MW/menuScene.mm311061250#311061250#0(0"0(0#0#48"/Users/admin/Documents/accelDemo/MW/menuScene.mm8645763360#1845"    cd /Users/admin/Documents/accelDemo/MW    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-generated-files.hmap -I/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-own-target-headers.hmap -I/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-all-target-headers.hmap -iquote /Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-project-headers.hmap -Wall -F/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos -I/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/include -Iapi/inc -I/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/DerivedSources/armv6 -I/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/DerivedSources -include /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-cubdihfrwvqpjxcdgjzjqcqyvgsm/MW_Prefix.pch -c /Users/admin/Documents/accelDemo/MW/menuScene.mm -o /Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv6/menuScene.o0#
+
+CCompileC build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv7/accelAppDelegate.o "/Users/admin/educational demos/accelDemo/accelerometer/Classes/accelAppDelegate.mm" normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+s311214914.776386
+e311214915.190152
+r1
+xCompileC
+xbuild/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv7/accelAppDelegate.o
+x/Users/admin/educational demos/accelDemo/accelerometer/Classes/accelAppDelegate.mm
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/admin/educational demos/accelDemo/accelerometer/Classes/accelAppDelegate.mm311214914#311214915#0(0"0(0#0#82"/Users/admin/educational demos/accelDemo/accelerometer/Classes/accelAppDelegate.mm8611868768#2098"    cd "/Users/admin/educational demos/accelDemo/accelerometer"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote "/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-generated-files.hmap" "-I/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-own-target-headers.hmap" "-I/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-all-target-headers.hmap" -iquote "/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-project-headers.hmap" -Wall "-F/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos" "-I/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/include" -Iapi/inc "-I/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/DerivedSources/armv7" "-I/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/DerivedSources" -include /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-dvmiypxrghdfubbqrmouhrbwpiqv/MW_Prefix.pch -c "/Users/admin/educational demos/accelDemo/accelerometer/Classes/accelAppDelegate.mm" -o "/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv7/accelAppDelegate.o"0#
+
+CCompileC build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv7/accelAppDelegate.o /Users/admin/Documents/accelDemo/MW/Classes/accelAppDelegate.mm normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+s311138289.136576
+e311138289.301650
+r1
+xCompileC
+xbuild/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv7/accelAppDelegate.o
+x/Users/admin/Documents/accelDemo/MW/Classes/accelAppDelegate.mm
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/admin/Documents/accelDemo/MW/Classes/accelAppDelegate.mm311138289#311138289#0(0"0(0#0#63"/Users/admin/Documents/accelDemo/MW/Classes/accelAppDelegate.mm8625069312#1867"    cd /Users/admin/Documents/accelDemo/MW    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-generated-files.hmap -I/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-own-target-headers.hmap -I/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-all-target-headers.hmap -iquote /Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-project-headers.hmap -Wall -F/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos -I/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/include -Iapi/inc -I/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/DerivedSources/armv7 -I/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/DerivedSources -include /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-bwrzxqbwixelulhbmzikedloorkp/MW_Prefix.pch -c /Users/admin/Documents/accelDemo/MW/Classes/accelAppDelegate.mm -o /Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv7/accelAppDelegate.o0#
+
+CCompileC build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv7/gameScene.o "/Users/admin/educational demos/accelDemo/accelerometer/Classes/gameScene.mm" normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+s311214914.777457
+e311214915.319025
+r1
+xCompileC
+xbuild/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv7/gameScene.o
+x/Users/admin/educational demos/accelDemo/accelerometer/Classes/gameScene.mm
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/admin/educational demos/accelDemo/accelerometer/Classes/gameScene.mm311214914#311214915#0(0"0(0#0#75"/Users/admin/educational demos/accelDemo/accelerometer/Classes/gameScene.mm8608440544#2084"    cd "/Users/admin/educational demos/accelDemo/accelerometer"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote "/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-generated-files.hmap" "-I/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-own-target-headers.hmap" "-I/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-all-target-headers.hmap" -iquote "/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-project-headers.hmap" -Wall "-F/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos" "-I/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/include" -Iapi/inc "-I/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/DerivedSources/armv7" "-I/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/DerivedSources" -include /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-dvmiypxrghdfubbqrmouhrbwpiqv/MW_Prefix.pch -c "/Users/admin/educational demos/accelDemo/accelerometer/Classes/gameScene.mm" -o "/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv7/gameScene.o"0#
+
+CCompileC build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv7/gameScene.o /Users/admin/Documents/accelDemo/MW/Classes/gameScene.mm normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+s311138289.138359
+e311138289.404175
+r1
+xCompileC
+xbuild/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv7/gameScene.o
+x/Users/admin/Documents/accelDemo/MW/Classes/gameScene.mm
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/admin/Documents/accelDemo/MW/Classes/gameScene.mm311138289#311138289#0(0"0(0#0#56"/Users/admin/Documents/accelDemo/MW/Classes/gameScene.mm8608503584#1853"    cd /Users/admin/Documents/accelDemo/MW    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-generated-files.hmap -I/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-own-target-headers.hmap -I/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-all-target-headers.hmap -iquote /Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-project-headers.hmap -Wall -F/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos -I/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/include -Iapi/inc -I/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/DerivedSources/armv7 -I/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/DerivedSources -include /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-bwrzxqbwixelulhbmzikedloorkp/MW_Prefix.pch -c /Users/admin/Documents/accelDemo/MW/Classes/gameScene.mm -o /Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv7/gameScene.o0#
+
+CCompileC build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv7/main.o "/Users/admin/educational demos/accelDemo/accelerometer/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s311189510.223753
+e311189510.285274
+r1
+xCompileC
+xbuild/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv7/main.o
+x/Users/admin/educational demos/accelDemo/accelerometer/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/admin/educational demos/accelDemo/accelerometer/main.m311189510#311189510#0(0"0(0#0#61"/Users/admin/educational demos/accelDemo/accelerometer/main.m8660780416#2044"    cd "/Users/admin/educational demos/accelDemo/accelerometer"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote "/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-generated-files.hmap" "-I/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-own-target-headers.hmap" "-I/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-all-target-headers.hmap" -iquote "/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-project-headers.hmap" -Wall "-F/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos" "-I/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/include" -Iapi/inc "-I/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/DerivedSources/armv7" "-I/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/DerivedSources" -include /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-bneywibpfegnagdzafztazwniggv/MW_Prefix.pch -c "/Users/admin/educational demos/accelDemo/accelerometer/main.m" -o "/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv7/main.o"0#
+
+CCompileC build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv7/main.o /Users/admin/Documents/accelDemo/MW/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s311138289.404279
+e311138289.467092
+r1
+xCompileC
+xbuild/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv7/main.o
+x/Users/admin/Documents/accelDemo/MW/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/admin/Documents/accelDemo/MW/main.m311138289#311138289#0(0"0(0#0#42"/Users/admin/Documents/accelDemo/MW/main.m8642440192#1813"    cd /Users/admin/Documents/accelDemo/MW    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-generated-files.hmap -I/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-own-target-headers.hmap -I/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-all-target-headers.hmap -iquote /Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-project-headers.hmap -Wall -F/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos -I/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/include -Iapi/inc -I/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/DerivedSources/armv7 -I/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/DerivedSources -include /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-forfryieahgdbkbrxfpcpundkjzz/MW_Prefix.pch -c /Users/admin/Documents/accelDemo/MW/main.m -o /Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv7/main.o0#
+
+CCompileC build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv7/menuScene.o "/Users/admin/educational demos/accelDemo/accelerometer/Classes/../menuScene.mm" normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+s311214915.190263
+e311214915.314157
+r1
+xCompileC
+xbuild/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv7/menuScene.o
+x/Users/admin/educational demos/accelDemo/accelerometer/Classes/../menuScene.mm
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/admin/educational demos/accelDemo/accelerometer/Classes/../menuScene.mm311214915#311214915#0(0"0(0#0#78"/Users/admin/educational demos/accelDemo/accelerometer/Classes/../menuScene.mm8608535648#2087"    cd "/Users/admin/educational demos/accelDemo/accelerometer"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote "/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-generated-files.hmap" "-I/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-own-target-headers.hmap" "-I/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-all-target-headers.hmap" -iquote "/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-project-headers.hmap" -Wall "-F/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos" "-I/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/include" -Iapi/inc "-I/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/DerivedSources/armv7" "-I/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/DerivedSources" -include /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-dvmiypxrghdfubbqrmouhrbwpiqv/MW_Prefix.pch -c "/Users/admin/educational demos/accelDemo/accelerometer/Classes/../menuScene.mm" -o "/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv7/menuScene.o"0#
+
+CCompileC build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv7/menuScene.o /Users/admin/Documents/accelDemo/MW/Classes/../menuScene.mm normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+s311138289.301754
+e311138289.507053
+r1
+xCompileC
+xbuild/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv7/menuScene.o
+x/Users/admin/Documents/accelDemo/MW/Classes/../menuScene.mm
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/admin/Documents/accelDemo/MW/Classes/../menuScene.mm311138289#311138289#0(0"0(0#0#59"/Users/admin/Documents/accelDemo/MW/Classes/../menuScene.mm8632235840#1856"    cd /Users/admin/Documents/accelDemo/MW    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-generated-files.hmap -I/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-own-target-headers.hmap -I/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-all-target-headers.hmap -iquote /Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-project-headers.hmap -Wall -F/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos -I/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/include -Iapi/inc -I/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/DerivedSources/armv7 -I/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/DerivedSources -include /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-bwrzxqbwixelulhbmzikedloorkp/MW_Prefix.pch -c /Users/admin/Documents/accelDemo/MW/Classes/../menuScene.mm -o /Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv7/menuScene.o0#
+
+CCopyPNGFile "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/Default.png" Resources/Default.png
+s311189508.409355
+e311189508.780959
+r1
+xCopyPNGFile
+x/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/Default.png
+xResources/Default.png
+lSLF07#2@80"CopyPNGFile build/Debug-iphoneos/accelDemo.app/Default.png Resources/Default.png311189508#311189508#0(0"0(0#0#76"/Users/admin/educational demos/accelDemo/accelerometer/Resources/Default.png8668098240#690"    cd "/Users/admin/educational demos/accelDemo/accelerometer"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/admin/educational demos/accelDemo/accelerometer/Resources/Default.png" "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/Default.png"0#
+
+CCopyPNGFile "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/Icon.png" Resources/Icon.png
+s311189508.555915
+e311189508.586804
+r1
+xCopyPNGFile
+x/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/Icon.png
+xResources/Icon.png
+lSLF07#2@74"CopyPNGFile build/Debug-iphoneos/accelDemo.app/Icon.png Resources/Icon.png311189508#311189508#0(0"0(0#0#73"/Users/admin/educational demos/accelDemo/accelerometer/Resources/Icon.png8661957088#684"    cd "/Users/admin/educational demos/accelDemo/accelerometer"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/admin/educational demos/accelDemo/accelerometer/Resources/Icon.png" "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/Icon.png"0#
+
+CCopyPNGFile "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/bat.png" Resources/bat.png
+s311189508.586900
+e311189508.652491
+r1
+xCopyPNGFile
+x/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/bat.png
+xResources/bat.png
+lSLF07#2@72"CopyPNGFile build/Debug-iphoneos/accelDemo.app/bat.png Resources/bat.png311189508#311189508#0(0"0(0#0#72"/Users/admin/educational demos/accelDemo/accelerometer/Resources/bat.png8661429856#682"    cd "/Users/admin/educational demos/accelDemo/accelerometer"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/admin/educational demos/accelDemo/accelerometer/Resources/bat.png" "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/bat.png"0#
+
+CCopyPNGFile "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/batSlide.png" Resources/batSlide.png
+s311214652.353937
+e311214652.386525
+r1
+xCopyPNGFile
+x/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/batSlide.png
+xResources/batSlide.png
+lSLF07#2@82"CopyPNGFile build/Debug-iphoneos/accelDemo.app/batSlide.png Resources/batSlide.png311214652#311214652#0(0"0(0#0#77"/Users/admin/educational demos/accelDemo/accelerometer/Resources/batSlide.png8688631776#692"    cd "/Users/admin/educational demos/accelDemo/accelerometer"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/admin/educational demos/accelDemo/accelerometer/Resources/batSlide.png" "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/batSlide.png"0#
+
+CCopyPNGFile "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/cyanbat.png" Resources/cyanbat.png
+s311189508.652593
+e311189508.693707
+r1
+xCopyPNGFile
+x/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/cyanbat.png
+xResources/cyanbat.png
+lSLF07#2@80"CopyPNGFile build/Debug-iphoneos/accelDemo.app/cyanbat.png Resources/cyanbat.png311189508#311189508#0(0"0(0#0#76"/Users/admin/educational demos/accelDemo/accelerometer/Resources/cyanbat.png8647789056#690"    cd "/Users/admin/educational demos/accelDemo/accelerometer"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/admin/educational demos/accelDemo/accelerometer/Resources/cyanbat.png" "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/cyanbat.png"0#
+
+CCopyPNGFile "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/explosion.png" Resources/explosion.png
+s311189508.781060
+e311189508.926860
+r1
+xCopyPNGFile
+x/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/explosion.png
+xResources/explosion.png
+lSLF07#2@84"CopyPNGFile build/Debug-iphoneos/accelDemo.app/explosion.png Resources/explosion.png311189508#311189508#0(0"0(0#0#78"/Users/admin/educational demos/accelDemo/accelerometer/Resources/explosion.png8590303648#694"    cd "/Users/admin/educational demos/accelDemo/accelerometer"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/admin/educational demos/accelDemo/accelerometer/Resources/explosion.png" "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/explosion.png"0#
+
+CCopyPNGFile "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/fps_images.png" Resources/fps_images.png
+s311189508.410119
+e311189508.555818
+r1
+xCopyPNGFile
+x/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/fps_images.png
+xResources/fps_images.png
+lSLF07#2@86"CopyPNGFile build/Debug-iphoneos/accelDemo.app/fps_images.png Resources/fps_images.png311189508#311189508#0(0"0(0#0#79"/Users/admin/educational demos/accelDemo/accelerometer/Resources/fps_images.png8664211616#696"    cd "/Users/admin/educational demos/accelDemo/accelerometer"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/admin/educational demos/accelDemo/accelerometer/Resources/fps_images.png" "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/fps_images.png"0#
+
+CCopyPNGFile "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/redbat.png" Resources/redbat.png
+s311189508.693811
+e311189508.761919
+r1
+xCopyPNGFile
+x/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/redbat.png
+xResources/redbat.png
+lSLF07#2@78"CopyPNGFile build/Debug-iphoneos/accelDemo.app/redbat.png Resources/redbat.png311189508#311189508#0(0"0(0#0#75"/Users/admin/educational demos/accelDemo/accelerometer/Resources/redbat.png8637717600#688"    cd "/Users/admin/educational demos/accelDemo/accelerometer"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/admin/educational demos/accelDemo/accelerometer/Resources/redbat.png" "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/redbat.png"0#
+
+CCopyPNGFile "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/whitebat.png" Resources/whitebat.png
+s311189508.762019
+e311189508.801909
+r1
+xCopyPNGFile
+x/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/whitebat.png
+xResources/whitebat.png
+lSLF07#2@82"CopyPNGFile build/Debug-iphoneos/accelDemo.app/whitebat.png Resources/whitebat.png311189508#311189508#0(0"0(0#0#77"/Users/admin/educational demos/accelDemo/accelerometer/Resources/whitebat.png8626247776#692"    cd "/Users/admin/educational demos/accelDemo/accelerometer"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/admin/educational demos/accelDemo/accelerometer/Resources/whitebat.png" "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/whitebat.png"0#
+
+CCopyPNGFile /Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/Default.png Resources/Default.png
+s311055256.269583
+e311055256.629775
+r1
+xCopyPNGFile
+x/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/Default.png
+xResources/Default.png
+lSLF07#2@80"CopyPNGFile build/Debug-iphoneos/accelDemo.app/Default.png Resources/Default.png311055256#311055256#0(0"0(0#0#57"/Users/admin/Documents/accelDemo/MW/Resources/Default.png8644572768#627"    cd /Users/admin/Documents/accelDemo/MW    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/admin/Documents/accelDemo/MW/Resources/Default.png /Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/Default.png0#
+
+CCopyPNGFile /Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/Icon.png Resources/Icon.png
+s311055256.341884
+e311055256.372877
+r1
+xCopyPNGFile
+x/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/Icon.png
+xResources/Icon.png
+lSLF07#2@74"CopyPNGFile build/Debug-iphoneos/accelDemo.app/Icon.png Resources/Icon.png311055256#311055256#0(0"0(0#0#54"/Users/admin/Documents/accelDemo/MW/Resources/Icon.png8634045952#621"    cd /Users/admin/Documents/accelDemo/MW    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/admin/Documents/accelDemo/MW/Resources/Icon.png /Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/Icon.png0#
+
+CCopyPNGFile /Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/bat.png Resources/bat.png
+s311055256.863568
+e311055256.926751
+r1
+xCopyPNGFile
+x/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/bat.png
+xResources/bat.png
+lSLF07#2@72"CopyPNGFile build/Debug-iphoneos/accelDemo.app/bat.png Resources/bat.png311055256#311055256#0(0"0(0#0#53"/Users/admin/Documents/accelDemo/MW/Resources/bat.png8600125120#619"    cd /Users/admin/Documents/accelDemo/MW    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/admin/Documents/accelDemo/MW/Resources/bat.png /Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/bat.png0#
+
+CCopyPNGFile /Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/cyanbat.png Resources/cyanbat.png
+s311055256.926930
+e311055256.966746
+r1
+xCopyPNGFile
+x/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/cyanbat.png
+xResources/cyanbat.png
+lSLF07#2@80"CopyPNGFile build/Debug-iphoneos/accelDemo.app/cyanbat.png Resources/cyanbat.png311055256#311055256#0(0"0(0#0#57"/Users/admin/Documents/accelDemo/MW/Resources/cyanbat.png8644389888#627"    cd /Users/admin/Documents/accelDemo/MW    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/admin/Documents/accelDemo/MW/Resources/cyanbat.png /Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/cyanbat.png0#
+
+CCopyPNGFile /Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/explosion.png Resources/explosion.png
+s311055257.046194
+e311055257.295301
+r1
+xCopyPNGFile
+x/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/explosion.png
+xResources/explosion.png
+lSLF07#2@84"CopyPNGFile build/Debug-iphoneos/accelDemo.app/explosion.png Resources/explosion.png311055257#311055257#0(0"0(0#0#59"/Users/admin/Documents/accelDemo/MW/Resources/explosion.png8624212352#631"    cd /Users/admin/Documents/accelDemo/MW    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/admin/Documents/accelDemo/MW/Resources/explosion.png /Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/explosion.png0#
+
+CCopyPNGFile /Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/fps_images.png Resources/fps_images.png
+s311055256.270314
+e311055256.341788
+r1
+xCopyPNGFile
+x/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/fps_images.png
+xResources/fps_images.png
+lSLF07#2@86"CopyPNGFile build/Debug-iphoneos/accelDemo.app/fps_images.png Resources/fps_images.png311055256#311055256#0(0"0(0#0#60"/Users/admin/Documents/accelDemo/MW/Resources/fps_images.png8642724480#633"    cd /Users/admin/Documents/accelDemo/MW    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/admin/Documents/accelDemo/MW/Resources/fps_images.png /Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/fps_images.png0#
+
+CCopyPNGFile /Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/popupbackground_large.png Resources/popupbackground_large.png
+s311055256.792598
+e311055257.296466
+r1
+xCopyPNGFile
+x/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/popupbackground_large.png
+xResources/popupbackground_large.png
+lSLF07#2@108"CopyPNGFile build/Debug-iphoneos/accelDemo.app/popupbackground_large.png Resources/popupbackground_large.png311055256#311055257#0(0"0(0#0#71"/Users/admin/Documents/accelDemo/MW/Resources/popupbackground_large.png8600292800#655"    cd /Users/admin/Documents/accelDemo/MW    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/admin/Documents/accelDemo/MW/Resources/popupbackground_large.png /Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/popupbackground_large.png0#
+
+CCopyPNGFile /Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/popupbackground_med.png Resources/popupbackground_med.png
+s311055256.400888
+e311055256.792499
+r1
+xCopyPNGFile
+x/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/popupbackground_med.png
+xResources/popupbackground_med.png
+lSLF07#2@104"CopyPNGFile build/Debug-iphoneos/accelDemo.app/popupbackground_med.png Resources/popupbackground_med.png311055256#311055256#0(0"0(0#0#69"/Users/admin/Documents/accelDemo/MW/Resources/popupbackground_med.png8623196480#651"    cd /Users/admin/Documents/accelDemo/MW    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/admin/Documents/accelDemo/MW/Resources/popupbackground_med.png /Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/popupbackground_med.png0#
+
+CCopyPNGFile /Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/popupbackground_small.png Resources/popupbackground_small.png
+s311055256.629875
+e311055256.863470
+r1
+xCopyPNGFile
+x/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/popupbackground_small.png
+xResources/popupbackground_small.png
+lSLF07#2@108"CopyPNGFile build/Debug-iphoneos/accelDemo.app/popupbackground_small.png Resources/popupbackground_small.png311055256#311055256#0(0"0(0#0#71"/Users/admin/Documents/accelDemo/MW/Resources/popupbackground_small.png8601578976#655"    cd /Users/admin/Documents/accelDemo/MW    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/admin/Documents/accelDemo/MW/Resources/popupbackground_small.png /Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/popupbackground_small.png0#
+
+CCopyPNGFile /Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/redbat.png Resources/redbat.png
+s311055256.966840
+e311055257.006674
+r1
+xCopyPNGFile
+x/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/redbat.png
+xResources/redbat.png
+lSLF07#2@78"CopyPNGFile build/Debug-iphoneos/accelDemo.app/redbat.png Resources/redbat.png311055256#311055257#0(0"0(0#0#56"/Users/admin/Documents/accelDemo/MW/Resources/redbat.png8641519936#625"    cd /Users/admin/Documents/accelDemo/MW    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/admin/Documents/accelDemo/MW/Resources/redbat.png /Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/redbat.png0#
+
+CCopyPNGFile /Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/whitebat.png Resources/whitebat.png
+s311055257.006764
+e311055257.046102
+r1
+xCopyPNGFile
+x/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/whitebat.png
+xResources/whitebat.png
+lSLF07#2@82"CopyPNGFile build/Debug-iphoneos/accelDemo.app/whitebat.png Resources/whitebat.png311055257#311055257#0(0"0(0#0#58"/Users/admin/Documents/accelDemo/MW/Resources/whitebat.png8633699616#629"    cd /Users/admin/Documents/accelDemo/MW    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/admin/Documents/accelDemo/MW/Resources/whitebat.png /Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/whitebat.png0#
+
+CCopyPlistFile /Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/TutorialScript.plist TutorialScript.plist
+s311055256.372972
+e311055256.400788
+r1
+xCopyPlistFile
+x/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/TutorialScript.plist
+xTutorialScript.plist
+lSLF07#2@25"Copy TutorialScript.plist311055256#311055256#0(0"0(0#0#56"/Users/admin/Documents/accelDemo/MW/TutorialScript.plist8631452768#439"    cd /Users/admin/Documents/accelDemo/MW    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 TutorialScript.plist --outdir /Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app0#
+
+CCpResource build/Debug-iphoneos/accelDemo.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+s311189508.380143
+e311189508.388056
+r1
+xCpResource
+xbuild/Debug-iphoneos/accelDemo.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist311189508#311189508#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist8636537440#580"    cd "/Users/admin/educational demos/accelDemo/accelerometer"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app"0#
+
+CCpResource build/Debug-iphoneos/accelDemo.app/kaboom!.wav Resources/kaboom!.wav
+s311189508.802003
+e311189508.808461
+r1
+xCpResource
+xbuild/Debug-iphoneos/accelDemo.app/kaboom!.wav
+xResources/kaboom!.wav
+lSLF07#2@26"Copy Resources/kaboom!.wav311189508#311189508#0(0"0(0#0#76"/Users/admin/educational demos/accelDemo/accelerometer/Resources/kaboom!.wav8653226752#569"    cd "/Users/admin/educational demos/accelDemo/accelerometer"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/admin/educational demos/accelDemo/accelerometer/Resources/kaboom!.wav" "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app"0#
+
+CGenerateDSYMFile "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app.dSYM" "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/accelDemo"
+s311214915.683330
+e311214915.814113
+r1
+xGenerateDSYMFile
+x/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app.dSYM
+x/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/accelDemo
+lSLF07#2@101"GenerateDSYMFile build/Debug-iphoneos/accelDemo.app.dSYM build/Debug-iphoneos/accelDemo.app/accelDemo311214915#311214915#0(0"0(0#0#99"/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/accelDemo8615317568#484"    cd "/Users/admin/educational demos/accelDemo/accelerometer"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/accelDemo" -o "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app.dSYM"0#
+
+CGenerateDSYMFile /Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app.dSYM /Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/accelDemo
+s311138289.969507
+e311138290.082055
+r1
+xGenerateDSYMFile
+x/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app.dSYM
+x/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/accelDemo
+lSLF07#2@101"GenerateDSYMFile build/Debug-iphoneos/accelDemo.app.dSYM build/Debug-iphoneos/accelDemo.app/accelDemo311138289#311138290#0(0"0(0#0#80"/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/accelDemo8640251616#421"    cd /Users/admin/Documents/accelDemo/MW    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/accelDemo -o /Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app.dSYM0#
+
+CLd "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/accelDemo" normal armv6
+s311214079.271275
+e311214079.790219
+r1
+xLd
+x/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/accelDemo
+xnormal
+xarmv6
+lSLF07#2@104"Link /Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/accelDemo311214079#311214079#0(0"0(0#0#0"8698049984#1280"    cd "/Users/admin/educational demos/accelDemo/accelerometer"    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/g++-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk "-L/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos" -Lapi/lib "-L/Users/admin/educational demos/accelDemo/accelerometer/api/lib" "-F/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos" -filelist "/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv6/accelDemo.LinkFileList" -dead_strip -all_load -ObjC -miphoneos-version-min=3.1 -framework CoreGraphics -framework Foundation -framework OpenGLES -framework QuartzCore -framework UIKit -framework AudioToolbox -framework OpenAL -lz -framework AVFoundation "-lcocos2d libraries" -framework CoreAudio -framework CoreFoundation -framework Accelerate -o "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/accelDemo"0#
+
+CLd "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/accelDemo" normal armv7
+s311214915.319201
+e311214915.683223
+r1
+xLd
+x/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/accelDemo
+xnormal
+xarmv7
+lSLF07#2@104"Link /Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/accelDemo311214915#311214915#0(0"0(0#0#0"8610828064#1280"    cd "/Users/admin/educational demos/accelDemo/accelerometer"    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/g++-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk "-L/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos" -Lapi/lib "-L/Users/admin/educational demos/accelDemo/accelerometer/api/lib" "-F/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos" -filelist "/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv7/accelDemo.LinkFileList" -dead_strip -all_load -ObjC -miphoneos-version-min=3.1 -framework CoreGraphics -framework Foundation -framework OpenGLES -framework QuartzCore -framework UIKit -framework AudioToolbox -framework OpenAL -lz -framework AVFoundation "-lcocos2d libraries" -framework CoreAudio -framework CoreFoundation -framework Accelerate -o "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/accelDemo"0#
+
+CLd /Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/accelDemo normal armv6
+s311100968.779326
+e311100969.002850
+r1
+xLd
+x/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/accelDemo
+xnormal
+xarmv6
+lSLF07#2@85"Link /Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/accelDemo311100968#311100969#0(0"0(0#0#0"8640895168#1154"    cd /Users/admin/Documents/accelDemo/MW    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/g++-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos -Lapi/lib -L/Users/admin/Documents/accelDemo/MW/api/lib -F/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos -filelist /Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv6/accelDemo.LinkFileList -dead_strip -all_load -ObjC -miphoneos-version-min=3.1 -framework CoreGraphics -framework Foundation -framework OpenGLES -framework QuartzCore -framework UIKit -framework AudioToolbox -framework OpenAL -lz -framework AVFoundation "-lcocos2d libraries" -framework CoreAudio -framework CoreFoundation -framework Accelerate -o /Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/accelDemo0#
+
+CLd /Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/accelDemo normal armv7
+s311138289.507156
+e311138289.969402
+r1
+xLd
+x/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/accelDemo
+xnormal
+xarmv7
+lSLF07#2@85"Link /Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/accelDemo311138289#311138289#0(0"0(0#0#0"8646337952#1154"    cd /Users/admin/Documents/accelDemo/MW    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/g++-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos -Lapi/lib -L/Users/admin/Documents/accelDemo/MW/api/lib -F/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos -filelist /Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/Objects-normal/armv7/accelDemo.LinkFileList -dead_strip -all_load -ObjC -miphoneos-version-min=3.1 -framework CoreGraphics -framework Foundation -framework OpenGLES -framework QuartzCore -framework UIKit -framework AudioToolbox -framework OpenAL -lz -framework AVFoundation "-lcocos2d libraries" -framework CoreAudio -framework CoreFoundation -framework Accelerate -o /Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/accelDemo0#
+
+CProcessInfoPlistFile "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/Info.plist" Resources/Info.plist
+s311214652.312145
+e311214652.353253
+r1
+xProcessInfoPlistFile
+x/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/Info.plist
+xResources/Info.plist
+lSLF07#2@28"Process Resources/Info.plist311214652#311214652#0(0"0(0#0#75"/Users/admin/educational demos/accelDemo/accelerometer/Resources/Info.plist8693993728#704"    cd "/Users/admin/educational demos/accelDemo/accelerometer"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility Resources/Info.plist -genpkginfo "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/ResourceRules.plist" -o "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/Info.plist"0#
+
+CProcessInfoPlistFile /Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/Info.plist Resources/Info.plist
+s311055256.249753
+e311055256.269472
+r1
+xProcessInfoPlistFile
+x/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/Info.plist
+xResources/Info.plist
+lSLF07#2@28"Process Resources/Info.plist311055256#311055256#0(0"0(0#0#56"/Users/admin/Documents/accelDemo/MW/Resources/Info.plist8604859712#620"    cd /Users/admin/Documents/accelDemo/MW    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility Resources/Info.plist -genpkginfo /Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/ResourceRules.plist -o /Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/Info.plist0#
+
+CProcessPCH /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-bneywibpfegnagdzafztazwniggv/MW_Prefix.pch.gch MW_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s311189508.928219
+e311189509.818207
+r1
+xProcessPCH
+x/var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-bneywibpfegnagdzafztazwniggv/MW_Prefix.pch.gch
+xMW_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@24"Precompile MW_Prefix.pch311189508#311189509#0(0"0(0#0#68"/Users/admin/educational demos/accelDemo/accelerometer/MW_Prefix.pch8647765120#1915"    cd "/Users/admin/educational demos/accelDemo/accelerometer"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote "/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-generated-files.hmap" "-I/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-own-target-headers.hmap" "-I/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-all-target-headers.hmap" -iquote "/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-project-headers.hmap" -Wall "-F/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos" "-I/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/include" -Iapi/inc "-I/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/DerivedSources/armv7" "-I/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/DerivedSources" -c "/Users/admin/educational demos/accelDemo/accelerometer/MW_Prefix.pch" -o /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-bneywibpfegnagdzafztazwniggv/MW_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-dydgzkfdprfrwodixqcqofjnejjo/MW_Prefix.pch.gch MW_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s311214077.738422
+e311214078.593488
+r1
+xProcessPCH
+x/var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-dydgzkfdprfrwodixqcqofjnejjo/MW_Prefix.pch.gch
+xMW_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@24"Precompile MW_Prefix.pch311214077#311214078#0(0"0(0#0#68"/Users/admin/educational demos/accelDemo/accelerometer/MW_Prefix.pch8698908896#1915"    cd "/Users/admin/educational demos/accelDemo/accelerometer"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote "/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-generated-files.hmap" "-I/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-own-target-headers.hmap" "-I/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-all-target-headers.hmap" -iquote "/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-project-headers.hmap" -Wall "-F/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos" "-I/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/include" -Iapi/inc "-I/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/DerivedSources/armv6" "-I/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/DerivedSources" -c "/Users/admin/educational demos/accelDemo/accelerometer/MW_Prefix.pch" -o /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-dydgzkfdprfrwodixqcqofjnejjo/MW_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-forfryieahgdbkbrxfpcpundkjzz/MW_Prefix.pch.gch MW_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s311138288.038287
+e311138288.904925
+r1
+xProcessPCH
+x/var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-forfryieahgdbkbrxfpcpundkjzz/MW_Prefix.pch.gch
+xMW_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@24"Precompile MW_Prefix.pch311138288#311138288#0(0"0(0#0#49"/Users/admin/Documents/accelDemo/MW/MW_Prefix.pch8648448544#1705"    cd /Users/admin/Documents/accelDemo/MW    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-generated-files.hmap -I/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-own-target-headers.hmap -I/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-all-target-headers.hmap -iquote /Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-project-headers.hmap -Wall -F/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos -I/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/include -Iapi/inc -I/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/DerivedSources/armv7 -I/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/DerivedSources -c /Users/admin/Documents/accelDemo/MW/MW_Prefix.pch -o /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-forfryieahgdbkbrxfpcpundkjzz/MW_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-gxabivqdejscqegnucpemyhtolhl/MW_Prefix.pch.gch MW_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s311055257.301770
+e311055258.326118
+r1
+xProcessPCH
+x/var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-gxabivqdejscqegnucpemyhtolhl/MW_Prefix.pch.gch
+xMW_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@24"Precompile MW_Prefix.pch311055257#311055258#0(0"0(0#0#49"/Users/admin/Documents/accelDemo/MW/MW_Prefix.pch8610634720#1705"    cd /Users/admin/Documents/accelDemo/MW    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-generated-files.hmap -I/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-own-target-headers.hmap -I/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-all-target-headers.hmap -iquote /Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-project-headers.hmap -Wall -F/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos -I/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/include -Iapi/inc -I/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/DerivedSources/armv6 -I/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/DerivedSources -c /Users/admin/Documents/accelDemo/MW/MW_Prefix.pch -o /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-gxabivqdejscqegnucpemyhtolhl/MW_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-bmxsjbwullqetfgoljoedijzppku/MW_Prefix.pch.gch MW_Prefix.pch normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+s311214077.737290
+e311214078.818911
+r1
+xProcessPCH++
+x/var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-bmxsjbwullqetfgoljoedijzppku/MW_Prefix.pch.gch
+xMW_Prefix.pch
+xnormal
+xarmv6
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@24"Precompile MW_Prefix.pch311214077#311214078#0(0"0(0#0#68"/Users/admin/educational demos/accelDemo/accelerometer/MW_Prefix.pch8699177568#1936"    cd "/Users/admin/educational demos/accelDemo/accelerometer"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++-header -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote "/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-generated-files.hmap" "-I/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-own-target-headers.hmap" "-I/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-all-target-headers.hmap" -iquote "/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-project-headers.hmap" -Wall "-F/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos" "-I/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/include" -Iapi/inc "-I/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/DerivedSources/armv6" "-I/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/DerivedSources" -c "/Users/admin/educational demos/accelDemo/accelerometer/MW_Prefix.pch" -o /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-bmxsjbwullqetfgoljoedijzppku/MW_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-bwrzxqbwixelulhbmzikedloorkp/MW_Prefix.pch.gch MW_Prefix.pch normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+s311138288.035696
+e311138289.136380
+r1
+xProcessPCH++
+x/var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-bwrzxqbwixelulhbmzikedloorkp/MW_Prefix.pch.gch
+xMW_Prefix.pch
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@24"Precompile MW_Prefix.pch311138288#311138289#0(0"0(0#0#49"/Users/admin/Documents/accelDemo/MW/MW_Prefix.pch8626616128#1726"    cd /Users/admin/Documents/accelDemo/MW    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++-header -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-generated-files.hmap -I/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-own-target-headers.hmap -I/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-all-target-headers.hmap -iquote /Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-project-headers.hmap -Wall -F/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos -I/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/include -Iapi/inc -I/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/DerivedSources/armv7 -I/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/DerivedSources -c /Users/admin/Documents/accelDemo/MW/MW_Prefix.pch -o /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-bwrzxqbwixelulhbmzikedloorkp/MW_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-cubdihfrwvqpjxcdgjzjqcqyvgsm/MW_Prefix.pch.gch MW_Prefix.pch normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+s311055257.300768
+e311055258.720815
+r1
+xProcessPCH++
+x/var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-cubdihfrwvqpjxcdgjzjqcqyvgsm/MW_Prefix.pch.gch
+xMW_Prefix.pch
+xnormal
+xarmv6
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@24"Precompile MW_Prefix.pch311055257#311055258#0(0"0(0#0#49"/Users/admin/Documents/accelDemo/MW/MW_Prefix.pch8613873568#1726"    cd /Users/admin/Documents/accelDemo/MW    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++-header -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote /Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-generated-files.hmap -I/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-own-target-headers.hmap -I/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-all-target-headers.hmap -iquote /Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-project-headers.hmap -Wall -F/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos -I/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/include -Iapi/inc -I/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/DerivedSources/armv6 -I/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/DerivedSources -c /Users/admin/Documents/accelDemo/MW/MW_Prefix.pch -o /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-cubdihfrwvqpjxcdgjzjqcqyvgsm/MW_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-dvmiypxrghdfubbqrmouhrbwpiqv/MW_Prefix.pch.gch MW_Prefix.pch normal armv7 objective-c++ com.apple.compilers.gcc.4_2
+s311189508.926986
+e311189510.009914
+r1
+xProcessPCH++
+x/var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-dvmiypxrghdfubbqrmouhrbwpiqv/MW_Prefix.pch.gch
+xMW_Prefix.pch
+xnormal
+xarmv7
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@24"Precompile MW_Prefix.pch311189508#311189510#0(0"0(0#0#68"/Users/admin/educational demos/accelDemo/accelerometer/MW_Prefix.pch8651400384#1936"    cd "/Users/admin/educational demos/accelDemo/accelerometer"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++-header -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote "/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-generated-files.hmap" "-I/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-own-target-headers.hmap" "-I/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-all-target-headers.hmap" -iquote "/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo-project-headers.hmap" -Wall "-F/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos" "-I/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/include" -Iapi/inc "-I/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/DerivedSources/armv7" "-I/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/DerivedSources" -c "/Users/admin/educational demos/accelDemo/accelerometer/MW_Prefix.pch" -o /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-dvmiypxrghdfubbqrmouhrbwpiqv/MW_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/admin/Library/MobileDevice/Provisioning Profiles/187A9A26-C454-407E-ADDD-4D3AE15C3B36.mobileprovision" "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/embedded.mobileprovision"
+s311189510.938150
+e311189510.971269
+r1
+xProcessProductPackaging
+x/Users/admin/Library/MobileDevice/Provisioning Profiles/187A9A26-C454-407E-ADDD-4D3AE15C3B36.mobileprovision
+x/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/embedded.mobileprovision
+lSLF07#2@194"ProcessProductPackaging "/Users/admin/Library/MobileDevice/Provisioning Profiles/187A9A26-C454-407E-ADDD-4D3AE15C3B36.mobileprovision" build/Debug-iphoneos/accelDemo.app/embedded.mobileprovision311189510#311189510#0(0"0(0#0#114"/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/embedded.mobileprovision8659469536#523"    cd "/Users/admin/educational demos/accelDemo/accelerometer"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    <com.apple.tools.product-pkg-utility> "/Users/admin/Library/MobileDevice/Provisioning Profiles/187A9A26-C454-407E-ADDD-4D3AE15C3B36.mobileprovision" -o "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/embedded.mobileprovision"0#
+
+CProcessProductPackaging "/Users/admin/Library/MobileDevice/Provisioning Profiles/187A9A26-C454-407E-ADDD-4D3AE15C3B36.mobileprovision" /Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/embedded.mobileprovision
+s311055259.694865
+e311055259.735027
+r1
+xProcessProductPackaging
+x/Users/admin/Library/MobileDevice/Provisioning Profiles/187A9A26-C454-407E-ADDD-4D3AE15C3B36.mobileprovision
+x/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/embedded.mobileprovision
+lSLF07#2@194"ProcessProductPackaging "/Users/admin/Library/MobileDevice/Provisioning Profiles/187A9A26-C454-407E-ADDD-4D3AE15C3B36.mobileprovision" build/Debug-iphoneos/accelDemo.app/embedded.mobileprovision311055259#311055259#0(0"0(0#0#95"/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/embedded.mobileprovision8637015936#481"    cd /Users/admin/Documents/accelDemo/MW    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    <com.apple.tools.product-pkg-utility> "/Users/admin/Library/MobileDevice/Provisioning Profiles/187A9A26-C454-407E-ADDD-4D3AE15C3B36.mobileprovision" -o /Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app/embedded.mobileprovision0#
+
+CProcessProductPackaging "/Users/admin/Library/MobileDevice/Provisioning Profiles/463B3041-A4D3-4A43-B46F-902416633BB4.mobileprovision" "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/embedded.mobileprovision"
+s311214079.907445
+e311214079.924697
+r1
+xProcessProductPackaging
+x/Users/admin/Library/MobileDevice/Provisioning Profiles/463B3041-A4D3-4A43-B46F-902416633BB4.mobileprovision
+x/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/embedded.mobileprovision
+lSLF07#2@194"ProcessProductPackaging "/Users/admin/Library/MobileDevice/Provisioning Profiles/463B3041-A4D3-4A43-B46F-902416633BB4.mobileprovision" build/Debug-iphoneos/accelDemo.app/embedded.mobileprovision311214079#311214079#0(0"0(0#0#114"/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/embedded.mobileprovision8659003584#523"    cd "/Users/admin/educational demos/accelDemo/accelerometer"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    <com.apple.tools.product-pkg-utility> "/Users/admin/Library/MobileDevice/Provisioning Profiles/463B3041-A4D3-4A43-B46F-902416633BB4.mobileprovision" -o "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app/embedded.mobileprovision"0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist "/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo.xcent"
+s311214652.391012
+e311214652.405699
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
+x/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo.xcent
+lSLF07#2@181"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo.xcent311214652#311214652#0(0"0(0#0#123"/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo.xcent8674813152#536"    cd "/Users/admin/educational demos/accelDemo/accelerometer"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist -entitlements -format xml -o "/Users/admin/educational demos/accelDemo/accelerometer/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo.xcent"0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist /Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo.xcent
+s311055259.740868
+e311055259.759338
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
+x/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo.xcent
+lSLF07#2@181"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo.xcent311055259#311055259#0(0"0(0#0#104"/Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo.xcent8610112832#494"    cd /Users/admin/Documents/accelDemo/MW    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/admin/Documents/accelDemo/MW/build/accelDemo.build/Debug-iphoneos/accelDemo.build/accelDemo.xcent0#
+
+CTouch "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app"
+s311214915.814308
+e311214915.817741
+r1
+xTouch
+x/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app
+lSLF07#2@95"Touch /Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app311214915#311214915#0(0"0(0#0#0"8613998592#364"    cd "/Users/admin/educational demos/accelDemo/accelerometer"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c "/Users/admin/educational demos/accelDemo/accelerometer/build/Debug-iphoneos/accelDemo.app"0#
+
+CTouch /Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app
+s311138290.082266
+e311138290.085081
+r1
+xTouch
+x/Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app
+lSLF07#2@76"Touch /Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app311138290#311138290#0(0"0(0#0#0"8637795328#322"    cd /Users/admin/Documents/accelDemo/MW    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/admin/Documents/accelDemo/MW/build/Debug-iphoneos/accelDemo.app0#
+

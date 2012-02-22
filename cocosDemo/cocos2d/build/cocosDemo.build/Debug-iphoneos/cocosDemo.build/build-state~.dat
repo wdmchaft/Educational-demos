@@ -1,0 +1,1194 @@
+TcocosDemo
+v7
+r0
+t311189749.890796
+cCheck dependencies
+cCpResource build/Debug-iphoneos/cocosDemo.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+cProcessInfoPlistFile "/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/Info.plist" Resources/Info.plist
+cCopyPNGFile "/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/Default.png" Resources/Default.png
+cCopyPNGFile "/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/fps_images.png" Resources/fps_images.png
+cCopyPNGFile "/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/Icon.png" Resources/Icon.png
+cCopyPNGFile "/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/bat.png" Resources/bat.png
+cCopyPNGFile "/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/cyanbat.png" Resources/cyanbat.png
+cCopyPNGFile "/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/redbat.png" Resources/redbat.png
+cCopyPNGFile "/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/whitebat.png" Resources/whitebat.png
+cCopyPNGFile "/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/explosion.png" Resources/explosion.png
+cCpResource build/Debug-iphoneos/cocosDemo.app/kaboom!.wav Resources/kaboom!.wav
+cProcessPCH++ /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-bvviudmbkjxxsdbsfntmcvckciyp/MW_Prefix.pch.gch MW_Prefix.pch normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-fpvvgrhcjtfwwxelexcktnomkpds/MW_Prefix.pch.gch MW_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/Objects-normal/armv6/cocosDemoAppDelegate.o "/Users/admin/educational demos/cocosDemo/cocos2d/Classes/cocosDemoAppDelegate.mm" normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/Objects-normal/armv6/gameScene.o "/Users/admin/educational demos/cocosDemo/cocos2d/Classes/gameScene.mm" normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/Objects-normal/armv6/menuScene.o "/Users/admin/educational demos/cocosDemo/cocos2d/Classes/../menuScene.mm" normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/Objects-normal/armv6/main.o "/Users/admin/educational demos/cocosDemo/cocos2d/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/cocosDemo" normal armv6
+cGenerateDSYMFile "/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app.dSYM" "/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/cocosDemo"
+cProcessProductPackaging "/Users/admin/Library/MobileDevice/Provisioning Profiles/187A9A26-C454-407E-ADDD-4D3AE15C3B36.mobileprovision" "/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/embedded.mobileprovision"
+cTouch "/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app"
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist "/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/cocosDemo.xcent"
+cCodeSign "/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app"
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk
+c000000004C7436AA0000000000000110
+t1282684586
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
+c000000004C5B401F00000000000001A7
+t1281048607
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+c000000004C5B401F00000000000001E5
+t1281048607
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004C0473C400000000001AA470
+t1275360196
+s1746032
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004BFF3B9E000000000037E540
+t1275018142
+s3663168
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004BFF3B700000000000000A23
+t1275018096
+s2595
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c000000004BFE064A00000000000D4300
+t1274938954
+s869120
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c000000004BFE05C8000000000037F880
+t1274938824
+s3668096
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFE06FA000000000034A850
+t1274939130
+s3450960
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+c000000004BFE05F600000000000022F0
+t1274938870
+s8944
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFE07D200000000003E1EB0
+t1274939346
+s4071088
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFE07B10000000000001466
+t1274939313
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c000000004BFF3BC30000000000043900
+t1275018179
+s276736
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004BFE09B7000000000000094F
+t1274939831
+s2383
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGLDrawable.h
+c000000004BFE09B70000000000000A61
+t1274939831
+s2657
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004BFE09B70000000000009369
+t1274939831
+s37737
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004BFE09B70000000000003C4A
+t1274939831
+s15434
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004BFE09CA000000000002C690
+t1274939850
+s181904
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004C045AEF0000000000253180
+t1275353839
+s2437504
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C296E2A00000000000009CD
+t1277783594
+s2509
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C296F120000000002D563E0
+t1277783826
+s47539168
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/math.h
+c000000004BF4BCB400000000000004F1
+t1274330292
+s1265
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/objc/objc.h
+c000000004BFDF9B70000000000000A2F
+t1274935735
+s2607
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/stdlib.h
+c000000004BF75A3D0000000000002DF5
+t1274501693
+s11765
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/string.h
+c000000004BF75A3D0000000000001731
+t1274501693
+s5937
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/include/sys/time.h
+c000000004C5A15120000000000001E17
+t1280972050
+s7703
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/usr/lib/libz.dylib
+c000000004BFDF16F0000000000020FF0
+t1274933615
+s135152
+
+N/Users/admin/Library/MobileDevice/Provisioning Profiles/187A9A26-C454-407E-ADDD-4D3AE15C3B36.mobileprovision
+c000000004CCC14BB0000000000001D72
+t1288443067
+s7538
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/Classes/../menuScene.mm
+c000000004CDC27410000000000000175
+t1289496385
+s373
+i"menuScene.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/Classes/cocosDemoAppDelegate.h
+c000000004CDC275400000000000000C1
+t1289496404
+s193
+i<UIKit/UIKit.h>
+i"menuScene.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/Classes/cocosDemoAppDelegate.mm
+c000000004CDC27650000000000000908
+t1289496421
+s2312
+i"cocosDemoAppDelegate.h"
+i"cocos2d.h"
+i"gameScene.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/Classes/gameScene.h
+c000000004CDC26F000000000000001AD
+t1289496304
+s429
+i"cocos2d.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/Classes/gameScene.mm
+c000000004CDC26E60000000000001363
+t1289496294
+s4963
+i<stdlib.h>
+i<AudioToolbox/AudioToolbox.h>
+i"gameScene.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/MW_Prefix.pch
+c000000004CC31FA700000000000000E3
+t1287856039
+s227
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/Resources/Default.png
+c000000004CC31FA700000000000077AB
+t1287856039
+s30635
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/Resources/Icon.png
+c000000004CC31FA7000000000000246F
+t1287856039
+s9327
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/Resources/bat.png
+c000000004CCB92BE000000000000085D
+t1288409790
+s2141
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/Resources/cyanbat.png
+c000000004CCB93AF0000000000000D2A
+t1288410031
+s3370
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/Resources/explosion.png
+c000000004CCBA2690000000000009964
+t1288413801
+s39268
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/Resources/fps_images.png
+c000000004CC31FA7000000000000183B
+t1287856039
+s6203
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/Resources/kaboom!.wav
+c000000004CCBA34F000000000000E362
+t1288414031
+s58210
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/Resources/redbat.png
+c000000004CCB93BC0000000000000D14
+t1288410044
+s3348
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/Resources/whitebat.png
+c000000004CCB93930000000000000D25
+t1288410003
+s3365
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app
+t1289496949
+s612
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app.dSYM
+t1289496949
+s102
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/Default.png
+t1289496947
+s31932
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/Icon.png
+t1289496947
+s10022
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/Info.plist
+t1289496947
+s750
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/PkgInfo
+t1289496947
+s8
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/ResourceRules.plist
+t1289496947
+s485
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/bat.png
+t1289496947
+s2317
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/cocosDemo
+t1289496949
+s1138996
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/cyanbat.png
+t1289496947
+s3318
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/embedded.mobileprovision
+t1289496949
+s7538
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/explosion.png
+t1289496947
+s38926
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/fps_images.png
+t1289496947
+s7188
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/kaboom!.wav
+t1289496947
+s58210
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/redbat.png
+t1289496947
+s3295
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/whitebat.png
+t1289496947
+s3312
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/libcocos2d libraries.a
+c000000004CDC29730000000000351268
+t1289496947
+s3478120
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/Objects-normal/armv6/cocosDemo.LinkFileList
+c000000004CDC29730000000000000222
+t1289496947
+s546
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/Objects-normal/armv6/cocosDemoAppDelegate.o
+t1289496949
+s56268
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/Objects-normal/armv6/gameScene.o
+t1289496949
+s62756
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/Objects-normal/armv6/main.o
+t1289496949
+s6592
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/Objects-normal/armv6/menuScene.o
+t1289496949
+s43072
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/cocosDemo.xcent
+t1289496949
+s430
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCAction.h
+c000000004CC31FA70000000000001325
+t1287856039
+s4901
+i<UIKit/UIKit.h>
+i<sys/time.h>
+i"ccTypes.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCActionManager.h
+c000000004CC31FA70000000000000C0E
+t1287856039
+s3086
+i"CCAction.h"
+i"Support/ccArray.h"
+i"Support/ccHashSet.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCAtlasNode.h
+c000000004CC31FA70000000000000912
+t1287856039
+s2322
+i"CCTextureAtlas.h"
+i"CCNode.h"
+i"CCProtocols.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCBitmapFontAtlas.h
+c000000004CC31FA70000000000001009
+t1287856039
+s4105
+i"CCAtlasNode.h"
+i"CCSpriteSheet.h"
+i"Support/ccHashSet.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCBlockSupport.h
+c000000004CC31FA70000000000000430
+t1287856039
+s1072
+i<Foundation/Foundation.h>
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCCamera.h
+c000000004CC31FA70000000000000815
+t1287856039
+s2069
+i"CCNode.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCCameraAction.h
+c000000004CC31FA70000000000000676
+t1287856039
+s1654
+i"CCIntervalAction.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCCompatibility.h
+c000000004CC31FA70000000000003A7C
+t1287856039
+s14972
+i<Foundation/Foundation.h>
+i"cocos2d.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCConfiguration.h
+c000000004CC31FA70000000000000680
+t1287856039
+s1664
+i<OpenGLES/ES1/gl.h>
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCDirector.h
+c000000004CC31FA700000000000035F1
+t1287856039
+s13809
+i"ccConfig.h"
+i"ccTypes.h"
+i"Support/EAGLView.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCDrawingPrimitives.h
+c000000004CC31FA7000000000000084A
+t1287856039
+s2122
+i<CoreGraphics/CGGeometry.h>
+i<objc/objc.h>
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCEaseAction.h
+c000000004CC31FA70000000000001338
+t1287856039
+s4920
+i"CCIntervalAction.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCGrabber.h
+c000000004CC31FA700000000000002C0
+t1287856039
+s704
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<UIKit/UIKit.h>
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCGrid.h
+c000000004CC31FA70000000000000B16
+t1287856039
+s2838
+i<UIKit/UIKit.h>
+i"CCNode.h"
+i"CCCamera.h"
+i"ccTypes.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCGrid3DAction.h
+c000000004CC31FA700000000000016A5
+t1287856039
+s5797
+i"CCGridAction.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCGridAction.h
+c000000004CC31FA7000000000000116D
+t1287856039
+s4461
+i<UIKit/UIKit.h>
+i"CCIntervalAction.h"
+i"CCInstantAction.h"
+i"CCGrid.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCInstantAction.h
+c000000004CC31FA70000000000000DD5
+t1287856039
+s3541
+i<UIKit/UIKit.h>
+i"CCAction.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCIntervalAction.h
+c000000004CC31FA70000000000002F31
+t1287856039
+s12081
+i"CCNode.h"
+i"CCAction.h"
+i"CCProtocols.h"
+i<sys/time.h>
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCLabel.h
+c000000004CC31FA700000000000006E7
+t1287856039
+s1767
+i"CCTexture2D.h"
+i"CCSprite.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCLabelAtlas.h
+c000000004CC31FA70000000000000653
+t1287856039
+s1619
+i"CCAtlasNode.h"
+i"CCTextureAtlas.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCLayer.h
+c000000004CC31FA70000000000001063
+t1287856039
+s4195
+i<UIKit/UIKit.h>
+i"CCProtocols.h"
+i"CCNode.h"
+i"CCTouchDelegateProtocol.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCMenu.h
+c000000004CC31FA700000000000007B3
+t1287856039
+s1971
+i<UIKit/UIKit.h>
+i"CCMenuItem.h"
+i"CCLayer.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCMenuItem.h
+c000000004CC31FA70000000000002EC1
+t1287856039
+s11969
+i"CCBlockSupport.h"
+i"CCNode.h"
+i"CCProtocols.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCMotionStreak.h
+c000000004CC31FA700000000000007F3
+t1287856039
+s2035
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCRibbon.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCNode.h
+c000000004CC31FA70000000000003594
+t1287856039
+s13716
+i<OpenGLES/ES1/gl.h>
+i"CCAction.h"
+i"ccTypes.h"
+i"CCTexture2D.h"
+i"CCProtocols.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCPVRTexture.h
+c000000004CC31FA70000000000000CA5
+t1287856039
+s3237
+i<UIKit/UIKit.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCPageTurn3DAction.h
+c000000004CC31FA7000000000000030A
+t1287856039
+s778
+i"CCGrid3DAction.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCPageTurnTransition.h
+c000000004CC31FA700000000000005BA
+t1287856039
+s1466
+i"CCTransition.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCParallaxNode.h
+c000000004CC31FA7000000000000041B
+t1287856039
+s1051
+i"CCNode.h"
+i"Support/ccArray.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCParticleExamples.h
+c000000004CC31FA70000000000000591
+t1287856039
+s1425
+i"CCPointParticleSystem.h"
+i"CCQuadParticleSystem.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCParticleSystem.h
+c000000004CC31FA700000000000021B8
+t1287856039
+s8632
+i"CCProtocols.h"
+i"CCNode.h"
+i"ccTypes.h"
+i"ccConfig.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCPointParticleSystem.h
+c000000004CC31FA700000000000003B4
+t1287856039
+s948
+i"CCParticleSystem.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCProgressTimer.h
+c000000004CC31FA7000000000000080F
+t1287856039
+s2063
+i<Foundation/Foundation.h>
+i"CCSprite.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCProgressTimerActions.h
+c000000004CC31FA70000000000000553
+t1287856039
+s1363
+i<Foundation/Foundation.h>
+i"CCProgressTimer.h"
+i"CCIntervalAction.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCPropertyAction.h
+c000000004CC31FA70000000000000607
+t1287856039
+s1543
+i<Foundation/Foundation.h>
+i"CCIntervalAction.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCProtocols.h
+c000000004CC31FA70000000000000AC3
+t1287856039
+s2755
+i"ccTypes.h"
+i"CCTexture2D.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCQuadParticleSystem.h
+c000000004CC31FA7000000000000045E
+t1287856039
+s1118
+i"CCParticleSystem.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCRadialTransition.h
+c000000004CC31FA700000000000002B8
+t1287856039
+s696
+i"CCTransition.h"
+i"CCProgressTimer.h"
+i"CCProgressTimerActions.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCRenderTexture.h
+c000000004CC31FA7000000000000072F
+t1287856039
+s1839
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCSprite.h"
+i"Support/OpenGL_Internal.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCRibbon.h
+c000000004CC31FA70000000000000C96
+t1287856039
+s3222
+i"CCNode.h"
+i"CCTexture2D.h"
+i"CCProtocols.h"
+i<OpenGLES/ES1/gl.h>
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCScene.h
+c000000004CC31FA70000000000000356
+t1287856039
+s854
+i<UIKit/UIKit.h>
+i"CCNode.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCScheduler.h
+c000000004CC31FA70000000000000A9F
+t1287856039
+s2719
+i<UIKit/UIKit.h>
+i"ccTypes.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCSprite.h
+c000000004CC31FA70000000000002B45
+t1287856039
+s11077
+i"CCNode.h"
+i"CCProtocols.h"
+i"CCTextureAtlas.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCSpriteFrame.h
+c000000004CC31FA70000000000000EE7
+t1287856039
+s3815
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCProtocols.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCSpriteFrameCache.h
+c000000004CC31FA70000000000000CC0
+t1287856039
+s3264
+i<Foundation/Foundation.h>
+i"CCSpriteFrame.h"
+i"CCTexture2D.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCSpriteSheet.h
+c000000004CC31FA7000000000000145F
+t1287856039
+s5215
+i"CCNode.h"
+i"CCProtocols.h"
+i"CCTextureAtlas.h"
+i"ccMacros.h"
+i"Support/ccArray.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCTMXLayer.h
+c000000004CC31FA700000000000014D2
+t1287856039
+s5330
+i"CCAtlasNode.h"
+i"CCSpriteSheet.h"
+i"Support/ccArray.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCTMXObjectGroup.h
+c000000004CC31FA700000000000005CC
+t1287856039
+s1484
+i"CCAtlasNode.h"
+i"CCSpriteSheet.h"
+i"Support/ccArray.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCTMXTiledMap.h
+c000000004CC31FA70000000000001181
+t1287856039
+s4481
+i"CCAtlasNode.h"
+i"CCSpriteSheet.h"
+i"Support/ccArray.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCTMXXMLParser.h
+c000000004CC31FA700000000000012A4
+t1287856039
+s4772
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCTexture2D.h
+c000000004CC31FA70000000000002609
+t1287856039
+s9737
+i<UIKit/UIKit.h>
+i<OpenGLES/ES1/gl.h>
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCTextureAtlas.h
+c000000004CC31FA7000000000000113D
+t1287856039
+s4413
+i"CCTexture2D.h"
+i"ccTypes.h"
+i"ccConfig.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCTextureCache.h
+c000000004CC31FA70000000000000EE7
+t1287856039
+s3815
+i<Foundation/Foundation.h>
+i"CCTexture2D.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCTileMapAtlas.h
+c000000004CC31FA7000000000000085A
+t1287856039
+s2138
+i"CCTextureAtlas.h"
+i"CCAtlasNode.h"
+i"Support/TGAlib.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCTiledGridAction.h
+c000000004CC31FA700000000000016DC
+t1287856039
+s5852
+i"CCGridAction.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCTouchDelegateProtocol.h
+c000000004CC31FA7000000000000078B
+t1287856039
+s1931
+i<UIKit/UIKit.h>
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCTouchDispatcher.h
+c000000004CC31FA70000000000000C8C
+t1287856039
+s3212
+i"CCTouchDelegateProtocol.h"
+i"Support/EAGLView.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCTouchHandler.h
+c000000004CC31FA70000000000000886
+t1287856039
+s2182
+i"CCTouchDelegateProtocol.h"
+i"CCTouchDispatcher.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/CCTransition.h
+c000000004CC31FA70000000000001DF5
+t1287856039
+s7669
+i"CCScene.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/Support/CCFileUtils.h
+c000000004CC31FA70000000000000251
+t1287856039
+s593
+i<Foundation/Foundation.h>
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/Support/CCProfiling.h
+c000000004CC31FA700000000000002DC
+t1287856039
+s732
+i<Foundation/Foundation.h>
+i<sys/time.h>
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/Support/CGPointExtension.h
+c000000004CC31FA70000000000001E13
+t1287856039
+s7699
+i<CoreGraphics/CGGeometry.h>
+i<math.h>
+i<objc/objc.h>
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/Support/EAGLView.h
+c000000004CC31FA70000000000001781
+t1287856039
+s6017
+i<UIKit/UIKit.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/EAGLDrawable.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/Support/OpenGL_Internal.h
+c000000004CC31FA700000000000011A7
+t1287856039
+s4519
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/Support/TGAlib.h
+c000000004CC31FA70000000000000444
+t1287856039
+s1092
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/Support/ccArray.h
+c000000004CC31FA70000000000002E36
+t1287856039
+s11830
+i<Foundation/Foundation.h>
+i<stdlib.h>
+i<string.h>
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/Support/ccHashSet.h
+c000000004CC31FA700000000000011BE
+t1287856039
+s4542
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/ccConfig.h
+c000000004CC31FA70000000000001159
+t1287856039
+s4441
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/ccMacros.h
+c000000004CC31FA70000000000000A61
+t1287856039
+s2657
+i<math.h>
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/ccTypes.h
+c000000004CC31FA7000000000000131E
+t1287856039
+s4894
+i<objc/objc.h>
+i<CoreGraphics/CGGeometry.h>
+i<OpenGLES/ES1/gl.h>
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/libs/cocos2d/cocos2d.h
+c000000004CC31FA70000000000000B14
+t1287856039
+s2836
+i"ccConfig.h"
+i"CCBlockSupport.h"
+i"CCAction.h"
+i"CCCamera.h"
+i"CCCameraAction.h"
+i"CCProtocols.h"
+i"CCNode.h"
+i"CCDirector.h"
+i"CCTouchDispatcher.h"
+i"CCTouchDelegateProtocol.h"
+i"CCInstantAction.h"
+i"CCIntervalAction.h"
+i"CCEaseAction.h"
+i"CCLabel.h"
+i"CCLayer.h"
+i"CCMenu.h"
+i"CCMenuItem.h"
+i"CCParticleSystem.h"
+i"CCPointParticleSystem.h"
+i"CCQuadParticleSystem.h"
+i"CCParticleExamples.h"
+i"CCDrawingPrimitives.h"
+i"CCScene.h"
+i"CCScheduler.h"
+i"CCSprite.h"
+i"CCSpriteFrame.h"
+i"CCSpriteSheet.h"
+i"CCSpriteFrameCache.h"
+i"CCTextureCache.h"
+i"CCTransition.h"
+i"CCTextureAtlas.h"
+i"CCLabelAtlas.h"
+i"CCAtlasNode.h"
+i"CCEaseAction.h"
+i"CCTiledGridAction.h"
+i"CCGrabber.h"
+i"CCGrid.h"
+i"CCGrid3DAction.h"
+i"CCGridAction.h"
+i"CCBitmapFontAtlas.h"
+i"CCParallaxNode.h"
+i"CCActionManager.h"
+i"CCTMXTiledMap.h"
+i"CCTMXLayer.h"
+i"CCTMXObjectGroup.h"
+i"CCTMXXMLParser.h"
+i"CCTileMapAtlas.h"
+i"CCRenderTexture.h"
+i"CCMotionStreak.h"
+i"CCPageTurn3DAction.h"
+i"CCPageTurnTransition.h"
+i"CCTexture2D.h"
+i"CCPVRTexture.h"
+i"CCTouchHandler.h"
+i"CCConfiguration.h"
+i"CCRadialTransition.h"
+i"CCProgressTimerActions.h"
+i"CCPropertyAction.h"
+i"ccTypes.h"
+i"ccMacros.h"
+i"Support/OpenGL_Internal.h"
+i"Support/EAGLView.h"
+i"Support/CCFileUtils.h"
+i"Support/CGPointExtension.h"
+i"Support/ccArray.h"
+i"Support/CCProfiling.h"
+i"CCCompatibility.h"
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/main.m
+c000000004CDC268B00000000000000DF
+t1289496203
+s223
+i<UIKit/UIKit.h>
+
+N/Users/admin/educational demos/cocosDemo/cocos2d/menuScene.h
+c000000004CDC27380000000000000097
+t1289496376
+s151
+i<Foundation/Foundation.h>
+i"cocos2d.h"
+i"gameScene.h"
+
+N/var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-bvviudmbkjxxsdbsfntmcvckciyp/MW_Prefix.pch.gch
+t1289496948
+s10458560
+
+N/var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-fpvvgrhcjtfwwxelexcktnomkpds/MW_Prefix.pch.gch
+t1289496948
+s9852464
+
+NResources/Info.plist
+c000000004CCC161100000000000003A5
+t1288443409
+s933
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies311189747#311189747#0(0"0(0#1#0"8667865056#0"0#
+
+CCodeSign "/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app"
+s311189749.667354
+e311189749.890746
+r1
+xCodeSign
+x/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app
+lSLF07#2@43"CodeSign build/Debug-iphoneos/cocosDemo.app311189749#311189749#0(0"0(0#0#83"/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app8660448800#776"    cd "/Users/admin/educational demos/cocosDemo/cocos2d"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Christian Damianidis (A56ENZNJ65)" "--resource-rules=/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/ResourceRules.plist" --entitlements "/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/cocosDemo.xcent" "/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app"0#
+
+CCompileC build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/Objects-normal/armv6/cocosDemoAppDelegate.o "/Users/admin/educational demos/cocosDemo/cocos2d/Classes/cocosDemoAppDelegate.mm" normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+s311189748.890738
+e311189749.056337
+r1
+xCompileC
+xbuild/cocosDemo.build/Debug-iphoneos/cocosDemo.build/Objects-normal/armv6/cocosDemoAppDelegate.o
+x/Users/admin/educational demos/cocosDemo/cocos2d/Classes/cocosDemoAppDelegate.mm
+xnormal
+xarmv6
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/admin/educational demos/cocosDemo/cocos2d/Classes/cocosDemoAppDelegate.mm311189748#311189749#0(0"0(0#0#80"/Users/admin/educational demos/cocosDemo/cocos2d/Classes/cocosDemoAppDelegate.mm8660094688#2040"    cd "/Users/admin/educational demos/cocosDemo/cocos2d"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote "/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/cocosDemo-generated-files.hmap" "-I/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/cocosDemo-own-target-headers.hmap" "-I/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/cocosDemo-all-target-headers.hmap" -iquote "/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/cocosDemo-project-headers.hmap" -Wall "-F/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos" "-I/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/include" -Iapi/inc "-I/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/DerivedSources/armv6" "-I/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/DerivedSources" -include /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-bvviudmbkjxxsdbsfntmcvckciyp/MW_Prefix.pch -c "/Users/admin/educational demos/cocosDemo/cocos2d/Classes/cocosDemoAppDelegate.mm" -o "/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/Objects-normal/armv6/cocosDemoAppDelegate.o"0#
+
+CCompileC build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/Objects-normal/armv6/gameScene.o "/Users/admin/educational demos/cocosDemo/cocos2d/Classes/gameScene.mm" normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+s311189748.892923
+e311189749.165691
+r1
+xCompileC
+xbuild/cocosDemo.build/Debug-iphoneos/cocosDemo.build/Objects-normal/armv6/gameScene.o
+x/Users/admin/educational demos/cocosDemo/cocos2d/Classes/gameScene.mm
+xnormal
+xarmv6
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/admin/educational demos/cocosDemo/cocos2d/Classes/gameScene.mm311189748#311189749#0(0"0(0#0#69"/Users/admin/educational demos/cocosDemo/cocos2d/Classes/gameScene.mm8659987264#2018"    cd "/Users/admin/educational demos/cocosDemo/cocos2d"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote "/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/cocosDemo-generated-files.hmap" "-I/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/cocosDemo-own-target-headers.hmap" "-I/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/cocosDemo-all-target-headers.hmap" -iquote "/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/cocosDemo-project-headers.hmap" -Wall "-F/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos" "-I/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/include" -Iapi/inc "-I/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/DerivedSources/armv6" "-I/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/DerivedSources" -include /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-bvviudmbkjxxsdbsfntmcvckciyp/MW_Prefix.pch -c "/Users/admin/educational demos/cocosDemo/cocos2d/Classes/gameScene.mm" -o "/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/Objects-normal/armv6/gameScene.o"0#
+
+CCompileC build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/Objects-normal/armv6/main.o "/Users/admin/educational demos/cocosDemo/cocos2d/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s311189749.165963
+e311189749.226866
+r1
+xCompileC
+xbuild/cocosDemo.build/Debug-iphoneos/cocosDemo.build/Objects-normal/armv6/main.o
+x/Users/admin/educational demos/cocosDemo/cocos2d/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/admin/educational demos/cocosDemo/cocos2d/main.m311189749#311189749#0(0"0(0#0#55"/Users/admin/educational demos/cocosDemo/cocos2d/main.m8666783840#1978"    cd "/Users/admin/educational demos/cocosDemo/cocos2d"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote "/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/cocosDemo-generated-files.hmap" "-I/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/cocosDemo-own-target-headers.hmap" "-I/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/cocosDemo-all-target-headers.hmap" -iquote "/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/cocosDemo-project-headers.hmap" -Wall "-F/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos" "-I/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/include" -Iapi/inc "-I/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/DerivedSources/armv6" "-I/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/DerivedSources" -include /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-fpvvgrhcjtfwwxelexcktnomkpds/MW_Prefix.pch -c "/Users/admin/educational demos/cocosDemo/cocos2d/main.m" -o "/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/Objects-normal/armv6/main.o"0#
+
+CCompileC build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/Objects-normal/armv6/menuScene.o "/Users/admin/educational demos/cocosDemo/cocos2d/Classes/../menuScene.mm" normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+s311189749.056459
+e311189749.211781
+r1
+xCompileC
+xbuild/cocosDemo.build/Debug-iphoneos/cocosDemo.build/Objects-normal/armv6/menuScene.o
+x/Users/admin/educational demos/cocosDemo/cocos2d/Classes/../menuScene.mm
+xnormal
+xarmv6
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/admin/educational demos/cocosDemo/cocos2d/Classes/../menuScene.mm311189749#311189749#0(0"0(0#0#72"/Users/admin/educational demos/cocosDemo/cocos2d/Classes/../menuScene.mm8659736672#2021"    cd "/Users/admin/educational demos/cocosDemo/cocos2d"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote "/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/cocosDemo-generated-files.hmap" "-I/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/cocosDemo-own-target-headers.hmap" "-I/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/cocosDemo-all-target-headers.hmap" -iquote "/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/cocosDemo-project-headers.hmap" -Wall "-F/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos" "-I/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/include" -Iapi/inc "-I/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/DerivedSources/armv6" "-I/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/DerivedSources" -include /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-bvviudmbkjxxsdbsfntmcvckciyp/MW_Prefix.pch -c "/Users/admin/educational demos/cocosDemo/cocos2d/Classes/../menuScene.mm" -o "/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/Objects-normal/armv6/menuScene.o"0#
+
+CCopyPNGFile "/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/Default.png" Resources/Default.png
+s311189747.416560
+e311189747.764537
+r1
+xCopyPNGFile
+x/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/Default.png
+xResources/Default.png
+lSLF07#2@80"CopyPNGFile build/Debug-iphoneos/cocosDemo.app/Default.png Resources/Default.png311189747#311189747#0(0"0(0#0#70"/Users/admin/educational demos/cocosDemo/cocos2d/Resources/Default.png8660667168#672"    cd "/Users/admin/educational demos/cocosDemo/cocos2d"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/admin/educational demos/cocosDemo/cocos2d/Resources/Default.png" "/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/Default.png"0#
+
+CCopyPNGFile "/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/Icon.png" Resources/Icon.png
+s311189747.475565
+e311189747.524784
+r1
+xCopyPNGFile
+x/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/Icon.png
+xResources/Icon.png
+lSLF07#2@74"CopyPNGFile build/Debug-iphoneos/cocosDemo.app/Icon.png Resources/Icon.png311189747#311189747#0(0"0(0#0#67"/Users/admin/educational demos/cocosDemo/cocos2d/Resources/Icon.png8660186432#666"    cd "/Users/admin/educational demos/cocosDemo/cocos2d"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/admin/educational demos/cocosDemo/cocos2d/Resources/Icon.png" "/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/Icon.png"0#
+
+CCopyPNGFile "/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/bat.png" Resources/bat.png
+s311189747.524882
+e311189747.596852
+r1
+xCopyPNGFile
+x/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/bat.png
+xResources/bat.png
+lSLF07#2@72"CopyPNGFile build/Debug-iphoneos/cocosDemo.app/bat.png Resources/bat.png311189747#311189747#0(0"0(0#0#66"/Users/admin/educational demos/cocosDemo/cocos2d/Resources/bat.png8641987104#664"    cd "/Users/admin/educational demos/cocosDemo/cocos2d"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/admin/educational demos/cocosDemo/cocos2d/Resources/bat.png" "/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/bat.png"0#
+
+CCopyPNGFile "/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/cyanbat.png" Resources/cyanbat.png
+s311189747.597121
+e311189747.635509
+r1
+xCopyPNGFile
+x/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/cyanbat.png
+xResources/cyanbat.png
+lSLF07#2@80"CopyPNGFile build/Debug-iphoneos/cocosDemo.app/cyanbat.png Resources/cyanbat.png311189747#311189747#0(0"0(0#0#70"/Users/admin/educational demos/cocosDemo/cocos2d/Resources/cyanbat.png8666952224#672"    cd "/Users/admin/educational demos/cocosDemo/cocos2d"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/admin/educational demos/cocosDemo/cocos2d/Resources/cyanbat.png" "/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/cyanbat.png"0#
+
+CCopyPNGFile "/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/explosion.png" Resources/explosion.png
+s311189747.721114
+e311189747.866174
+r1
+xCopyPNGFile
+x/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/explosion.png
+xResources/explosion.png
+lSLF07#2@84"CopyPNGFile build/Debug-iphoneos/cocosDemo.app/explosion.png Resources/explosion.png311189747#311189747#0(0"0(0#0#72"/Users/admin/educational demos/cocosDemo/cocos2d/Resources/explosion.png8662023072#676"    cd "/Users/admin/educational demos/cocosDemo/cocos2d"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/admin/educational demos/cocosDemo/cocos2d/Resources/explosion.png" "/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/explosion.png"0#
+
+CCopyPNGFile "/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/fps_images.png" Resources/fps_images.png
+s311189747.417690
+e311189747.475466
+r1
+xCopyPNGFile
+x/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/fps_images.png
+xResources/fps_images.png
+lSLF07#2@86"CopyPNGFile build/Debug-iphoneos/cocosDemo.app/fps_images.png Resources/fps_images.png311189747#311189747#0(0"0(0#0#73"/Users/admin/educational demos/cocosDemo/cocos2d/Resources/fps_images.png8660503008#678"    cd "/Users/admin/educational demos/cocosDemo/cocos2d"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/admin/educational demos/cocosDemo/cocos2d/Resources/fps_images.png" "/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/fps_images.png"0#
+
+CCopyPNGFile "/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/redbat.png" Resources/redbat.png
+s311189747.635616
+e311189747.682553
+r1
+xCopyPNGFile
+x/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/redbat.png
+xResources/redbat.png
+lSLF07#2@78"CopyPNGFile build/Debug-iphoneos/cocosDemo.app/redbat.png Resources/redbat.png311189747#311189747#0(0"0(0#0#69"/Users/admin/educational demos/cocosDemo/cocos2d/Resources/redbat.png8665638592#670"    cd "/Users/admin/educational demos/cocosDemo/cocos2d"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/admin/educational demos/cocosDemo/cocos2d/Resources/redbat.png" "/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/redbat.png"0#
+
+CCopyPNGFile "/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/whitebat.png" Resources/whitebat.png
+s311189747.682651
+e311189747.721008
+r1
+xCopyPNGFile
+x/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/whitebat.png
+xResources/whitebat.png
+lSLF07#2@82"CopyPNGFile build/Debug-iphoneos/cocosDemo.app/whitebat.png Resources/whitebat.png311189747#311189747#0(0"0(0#0#71"/Users/admin/educational demos/cocosDemo/cocos2d/Resources/whitebat.png8662284800#674"    cd "/Users/admin/educational demos/cocosDemo/cocos2d"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/admin/educational demos/cocosDemo/cocos2d/Resources/whitebat.png" "/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/whitebat.png"0#
+
+CCpResource build/Debug-iphoneos/cocosDemo.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+s311189747.406086
+e311189747.413483
+r1
+xCpResource
+xbuild/Debug-iphoneos/cocosDemo.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist311189747#311189747#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist8661753312#568"    cd "/Users/admin/educational demos/cocosDemo/cocos2d"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist "/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app"0#
+
+CCpResource build/Debug-iphoneos/cocosDemo.app/kaboom!.wav Resources/kaboom!.wav
+s311189747.764627
+e311189747.769745
+r1
+xCpResource
+xbuild/Debug-iphoneos/cocosDemo.app/kaboom!.wav
+xResources/kaboom!.wav
+lSLF07#2@26"Copy Resources/kaboom!.wav311189747#311189747#0(0"0(0#0#70"/Users/admin/educational demos/cocosDemo/cocos2d/Resources/kaboom!.wav8661431392#551"    cd "/Users/admin/educational demos/cocosDemo/cocos2d"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/admin/educational demos/cocosDemo/cocos2d/Resources/kaboom!.wav" "/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app"0#
+
+CGenerateDSYMFile "/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app.dSYM" "/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/cocosDemo"
+s311189749.492543
+e311189749.605265
+r1
+xGenerateDSYMFile
+x/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app.dSYM
+x/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/cocosDemo
+lSLF07#2@101"GenerateDSYMFile build/Debug-iphoneos/cocosDemo.app.dSYM build/Debug-iphoneos/cocosDemo.app/cocosDemo311189749#311189749#0(0"0(0#0#93"/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/cocosDemo8663480544#466"    cd "/Users/admin/educational demos/cocosDemo/cocos2d"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil "/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/cocosDemo" -o "/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app.dSYM"0#
+
+CLd "/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/cocosDemo" normal armv6
+s311189749.226965
+e311189749.492426
+r1
+xLd
+x/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/cocosDemo
+xnormal
+xarmv6
+lSLF07#2@98"Link /Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/cocosDemo311189749#311189749#0(0"0(0#0#0"8665412448#1222"    cd "/Users/admin/educational demos/cocosDemo/cocos2d"    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/g++-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk "-L/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos" -Lapi/lib "-L/Users/admin/educational demos/cocosDemo/cocos2d/api/lib" "-F/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos" -filelist "/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/Objects-normal/armv6/cocosDemo.LinkFileList" -dead_strip -all_load -ObjC -miphoneos-version-min=3.1 -framework CoreGraphics -framework Foundation -framework OpenGLES -framework QuartzCore -framework UIKit -framework AudioToolbox -framework OpenAL -lz -framework AVFoundation "-lcocos2d libraries" -framework CoreAudio -framework CoreFoundation -o "/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/cocosDemo"0#
+
+CProcessInfoPlistFile "/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/Info.plist" Resources/Info.plist
+s311189747.407144
+e311189747.416459
+r1
+xProcessInfoPlistFile
+x/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/Info.plist
+xResources/Info.plist
+lSLF07#2@28"Process Resources/Info.plist311189747#311189747#0(0"0(0#0#69"/Users/admin/educational demos/cocosDemo/cocos2d/Resources/Info.plist8661367936#680"    cd "/Users/admin/educational demos/cocosDemo/cocos2d"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility Resources/Info.plist -genpkginfo "/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/ResourceRules.plist" -o "/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/Info.plist"0#
+
+CProcessPCH /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-fpvvgrhcjtfwwxelexcktnomkpds/MW_Prefix.pch.gch MW_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s311189747.867422
+e311189748.717368
+r1
+xProcessPCH
+x/var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-fpvvgrhcjtfwwxelexcktnomkpds/MW_Prefix.pch.gch
+xMW_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@24"Precompile MW_Prefix.pch311189747#311189748#0(0"0(0#0#62"/Users/admin/educational demos/cocosDemo/cocos2d/MW_Prefix.pch8660615808#1855"    cd "/Users/admin/educational demos/cocosDemo/cocos2d"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote "/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/cocosDemo-generated-files.hmap" "-I/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/cocosDemo-own-target-headers.hmap" "-I/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/cocosDemo-all-target-headers.hmap" -iquote "/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/cocosDemo-project-headers.hmap" -Wall "-F/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos" "-I/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/include" -Iapi/inc "-I/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/DerivedSources/armv6" "-I/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/DerivedSources" -c "/Users/admin/educational demos/cocosDemo/cocos2d/MW_Prefix.pch" -o /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-fpvvgrhcjtfwwxelexcktnomkpds/MW_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-bvviudmbkjxxsdbsfntmcvckciyp/MW_Prefix.pch.gch MW_Prefix.pch normal armv6 objective-c++ com.apple.compilers.gcc.4_2
+s311189747.866309
+e311189748.890474
+r1
+xProcessPCH++
+x/var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-bvviudmbkjxxsdbsfntmcvckciyp/MW_Prefix.pch.gch
+xMW_Prefix.pch
+xnormal
+xarmv6
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@24"Precompile MW_Prefix.pch311189747#311189748#0(0"0(0#0#62"/Users/admin/educational demos/cocosDemo/cocos2d/MW_Prefix.pch8660858816#1876"    cd "/Users/admin/educational demos/cocosDemo/cocos2d"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++-header -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DCOCOS2D_DEBUG=1 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote "/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/cocosDemo-generated-files.hmap" "-I/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/cocosDemo-own-target-headers.hmap" "-I/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/cocosDemo-all-target-headers.hmap" -iquote "/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/cocosDemo-project-headers.hmap" -Wall "-F/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos" "-I/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/include" -Iapi/inc "-I/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/DerivedSources/armv6" "-I/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/DerivedSources" -c "/Users/admin/educational demos/cocosDemo/cocos2d/MW_Prefix.pch" -o /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MW_Prefix-bvviudmbkjxxsdbsfntmcvckciyp/MW_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/admin/Library/MobileDevice/Provisioning Profiles/187A9A26-C454-407E-ADDD-4D3AE15C3B36.mobileprovision" "/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/embedded.mobileprovision"
+s311189749.605378
+e311189749.642976
+r1
+xProcessProductPackaging
+x/Users/admin/Library/MobileDevice/Provisioning Profiles/187A9A26-C454-407E-ADDD-4D3AE15C3B36.mobileprovision
+x/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/embedded.mobileprovision
+lSLF07#2@194"ProcessProductPackaging "/Users/admin/Library/MobileDevice/Provisioning Profiles/187A9A26-C454-407E-ADDD-4D3AE15C3B36.mobileprovision" build/Debug-iphoneos/cocosDemo.app/embedded.mobileprovision311189749#311189749#0(0"0(0#0#108"/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/embedded.mobileprovision8662459552#511"    cd "/Users/admin/educational demos/cocosDemo/cocos2d"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    <com.apple.tools.product-pkg-utility> "/Users/admin/Library/MobileDevice/Provisioning Profiles/187A9A26-C454-407E-ADDD-4D3AE15C3B36.mobileprovision" -o "/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app/embedded.mobileprovision"0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist "/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/cocosDemo.xcent"
+s311189749.646591
+e311189749.667270
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
+x/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/cocosDemo.xcent
+lSLF07#2@181"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/cocosDemo.xcent311189749#311189749#0(0"0(0#0#117"/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/cocosDemo.xcent8661005504#524"    cd "/Users/admin/educational demos/cocosDemo/cocos2d"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist -entitlements -format xml -o "/Users/admin/educational demos/cocosDemo/cocos2d/build/cocosDemo.build/Debug-iphoneos/cocosDemo.build/cocosDemo.xcent"0#
+
+CTouch "/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app"
+s311189749.643056
+e311189749.646494
+r1
+xTouch
+x/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app
+lSLF07#2@89"Touch /Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app311189749#311189749#0(0"0(0#0#0"8662076832#352"    cd "/Users/admin/educational demos/cocosDemo/cocos2d"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c "/Users/admin/educational demos/cocosDemo/cocos2d/build/Debug-iphoneos/cocosDemo.app"0#
+

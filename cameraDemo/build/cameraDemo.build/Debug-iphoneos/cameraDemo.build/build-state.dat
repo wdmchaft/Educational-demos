@@ -1,0 +1,996 @@
+TcameraDemo
+v7
+r0
+t311217924.067223
+cCheck dependencies
+cCpResource build/Debug-iphoneos/cameraDemo.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile "/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app/Info.plist" cameraDemo-Info.plist
+cCompileXIB "/Users/admin/educational demos/cameraDemo/MainWindow.xib"
+cCompileXIB "/Users/admin/educational demos/cameraDemo/cameraDemoViewController.xib"
+cCopyPNGFile "/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app/cyanbat.png" cyanbat.png
+cCopyPNGFile "/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app/explosion.png" explosion.png
+cCopyPNGFile "/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app/redbat.png" redbat.png
+cCopyPNGFile "/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app/whitebat.png" whitebat.png
+cCopyPNGFile "/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app/batCam.png" batCam.png
+cProcessPCH /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraDemo_Prefix-ecuqkfymrbydppcubiubpwbyiybz/cameraDemo_Prefix.pch.gch cameraDemo_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraDemo_Prefix-dnhztshysuqknsgldrpupolvorgs/cameraDemo_Prefix.pch.gch cameraDemo_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv6/main.o "/Users/admin/educational demos/cameraDemo/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv6/cameraDemoAppDelegate.o "/Users/admin/educational demos/cameraDemo/Classes/cameraDemoAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv6/cameraDemoViewController.o "/Users/admin/educational demos/cameraDemo/Classes/cameraDemoViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv7/main.o "/Users/admin/educational demos/cameraDemo/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv7/cameraDemoAppDelegate.o "/Users/admin/educational demos/cameraDemo/Classes/cameraDemoAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv6/cameraDemo" normal armv6
+cCompileC build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv7/cameraDemoViewController.o "/Users/admin/educational demos/cameraDemo/Classes/cameraDemoViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv7/cameraDemo" normal armv7
+cCreateUniversalBinary "/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app/cameraDemo" normal "armv6 armv7"
+cGenerateDSYMFile "/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app.dSYM" "/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app/cameraDemo"
+cProcessProductPackaging "/Users/admin/Library/MobileDevice/Provisioning Profiles/425B5389-1C95-4924-9991-8B4538C74408.mobileprovision" "/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app/embedded.mobileprovision"
+cTouch "/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app"
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist "/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo.xcent"
+cCodeSign "/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app"
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk
+c000000004C7436A60000000000000110
+t1282684582
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist
+c000000004C06E99F00000000000001A7
+t1275521439
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
+c000000004C06E99F00000000000001E5
+t1275521439
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C005A1C00000000003B4B70
+t1275091484
+s3885936
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C005A45000000000036A640
+t1275091525
+s3581504
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C005A310000000000001355
+t1275091505
+s4949
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C00642C000000000000098F
+t1275094060
+s2447
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0064A60000000002703220
+t1275094182
+s40907296
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk
+c000000004C7436AA0000000000000110
+t1282684586
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
+c000000004C5B401F00000000000001A7
+t1281048607
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+c000000004C5B401F00000000000001E5
+t1281048607
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFE06FA000000000034A850
+t1274939130
+s3450960
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFE07D200000000003E1EB0
+t1274939346
+s4071088
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFE07B10000000000001466
+t1274939313
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C296E2A00000000000009CD
+t1277783594
+s2509
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C296F120000000002D563E0
+t1277783826
+s47539168
+
+N/Users/admin/Documents/cameraDemo/Classes/cameraDemoAppDelegate.h
+c000000004CDB5DCF00000000000001FA
+t1289444815
+s506
+i<UIKit/UIKit.h>
+
+N/Users/admin/Documents/cameraDemo/Classes/cameraDemoAppDelegate.m
+c000000004CDB5DCF0000000000000AA3
+t1289444815
+s2723
+i"cameraDemoAppDelegate.h"
+i"cameraDemoViewController.h"
+
+N/Users/admin/Documents/cameraDemo/Classes/cameraDemoViewController.h
+c000000004CDB75FF000000000000038B
+t1289451007
+s907
+i<UIKit/UIKit.h>
+
+N/Users/admin/Documents/cameraDemo/Classes/cameraDemoViewController.m
+c000000004CDB790200000000000014F5
+t1289451778
+s5365
+i"cameraDemoViewController.h"
+
+N/Users/admin/Documents/cameraDemo/MainWindow.xib
+c000000004CDB5DCF0000000000004E4D
+t1289444815
+s20045
+
+N/Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app
+t1289451783
+s510
+
+N/Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app.dSYM
+t1289451783
+s102
+
+N/Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app/Info.plist
+t1289445190
+s738
+
+N/Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app/MainWindow.nib
+t1289445191
+s1129
+
+N/Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app/PkgInfo
+t1289445190
+s8
+
+N/Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app/ResourceRules.plist
+t1289445190
+s485
+
+N/Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app/cameraDemo
+t1289451783
+s67400
+
+N/Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app/cameraDemoViewController.nib
+t1289449250
+s2268
+
+N/Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app/cyanbat.png
+t1289447819
+s3318
+
+N/Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app/embedded.mobileprovision
+t1289445192
+s7588
+
+N/Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app/explosion.png
+t1289447819
+s38926
+
+N/Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app/redbat.png
+t1289447819
+s3295
+
+N/Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app/whitebat.png
+t1289447819
+s3312
+
+N/Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv6/cameraDemo
+t1289451783
+s30536
+
+N/Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv6/cameraDemo.LinkFileList
+c000000004CDB5F460000000000000184
+t1289445190
+s388
+
+N/Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv6/cameraDemoAppDelegate.o
+t1289451408
+s47516
+
+N/Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv6/cameraDemoViewController.o
+t1289451783
+s62080
+
+N/Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv6/main.o
+t1289445192
+s6428
+
+N/Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv7/cameraDemo
+t1289451783
+s30536
+
+N/Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv7/cameraDemo.LinkFileList
+c000000004CDB5F460000000000000184
+t1289445190
+s388
+
+N/Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv7/cameraDemoAppDelegate.o
+t1289451408
+s47436
+
+N/Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv7/cameraDemoViewController.o
+t1289451783
+s61656
+
+N/Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv7/main.o
+t1289445192
+s6412
+
+N/Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo.xcent
+t1289445192
+s426
+
+N/Users/admin/Documents/cameraDemo/cameraDemoViewController.xib
+c000000004CDB6F1E0000000000006BF7
+t1289449246
+s27639
+
+N/Users/admin/Documents/cameraDemo/cameraDemo_Prefix.pch
+c000000004CDB5DCF00000000000000BD
+t1289444815
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/admin/Documents/cameraDemo/cyanbat.png
+c000000004CCB93AF0000000000000D2A
+t1288410031
+s3370
+
+N/Users/admin/Documents/cameraDemo/explosion.png
+c000000004CCBA2690000000000009964
+t1288413801
+s39268
+
+N/Users/admin/Documents/cameraDemo/main.m
+c000000004CDB5DCF0000000000000175
+t1289444815
+s373
+i<UIKit/UIKit.h>
+
+N/Users/admin/Documents/cameraDemo/redbat.png
+c000000004CCB93BC0000000000000D14
+t1288410044
+s3348
+
+N/Users/admin/Documents/cameraDemo/whitebat.png
+c000000004CCB93930000000000000D25
+t1288410003
+s3365
+
+N/Users/admin/Library/MobileDevice/Provisioning Profiles/425B5389-1C95-4924-9991-8B4538C74408.mobileprovision
+c000000004CDC87DF0000000000001DE3
+t1289521119
+s7651
+
+N/Users/admin/Library/MobileDevice/Provisioning Profiles/A62C2E3F-D144-48A7-A277-7866DC027F02.mobileprovision
+c000000004C7413970000000000001DA4
+t1282675607
+s7588
+
+N/Users/admin/educational demos/cameraDemo/Classes/cameraDemoAppDelegate.h
+c000000004CDB5DCF00000000000001FA
+t1289444815
+s506
+i<UIKit/UIKit.h>
+
+N/Users/admin/educational demos/cameraDemo/Classes/cameraDemoAppDelegate.m
+c000000004CDB5DCF0000000000000AA3
+t1289444815
+s2723
+i"cameraDemoAppDelegate.h"
+i"cameraDemoViewController.h"
+
+N/Users/admin/educational demos/cameraDemo/Classes/cameraDemoViewController.h
+c000000004CDB75FF000000000000038B
+t1289451007
+s907
+i<UIKit/UIKit.h>
+
+N/Users/admin/educational demos/cameraDemo/Classes/cameraDemoViewController.m
+c000000004CDC25A900000000000014F6
+t1289495977
+s5366
+i"cameraDemoViewController.h"
+
+N/Users/admin/educational demos/cameraDemo/MainWindow.xib
+c000000004CDB5DCF0000000000004E4D
+t1289444815
+s20045
+
+N/Users/admin/educational demos/cameraDemo/batCam.png
+c000000004CDC89F90000000000000401
+t1289521657
+s1025
+
+N/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app
+t1289525124
+s544
+
+N/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app.dSYM
+t1289525123
+s102
+
+N/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app/Info.plist
+t1289525120
+s770
+
+N/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app/MainWindow.nib
+t1289445191
+s1129
+
+N/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app/PkgInfo
+t1289525120
+s8
+
+N/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app/ResourceRules.plist
+t1289445190
+s485
+
+N/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app/batCam.png
+t1289521718
+s1146
+
+N/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app/cameraDemo
+t1289525123
+s77504
+
+N/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app/cameraDemoViewController.nib
+t1289449250
+s2268
+
+N/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app/cyanbat.png
+t1289447819
+s3318
+
+N/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app/embedded.mobileprovision
+t1289521720
+s7651
+
+N/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app/explosion.png
+t1289447819
+s38926
+
+N/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app/redbat.png
+t1289447819
+s3295
+
+N/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app/whitebat.png
+t1289447819
+s3312
+
+N/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv6/cameraDemo
+t1289525123
+s30584
+
+N/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv6/cameraDemo.LinkFileList
+c000000004CDC8A36000000000000019C
+t1289521718
+s412
+
+N/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv6/cameraDemoAppDelegate.o
+t1289525123
+s45704
+
+N/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv6/cameraDemoViewController.o
+t1289525123
+s61460
+
+N/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv6/main.o
+t1289525123
+s6444
+
+N/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv7/cameraDemo
+t1289525123
+s30584
+
+N/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv7/cameraDemo.LinkFileList
+c000000004CDC8A36000000000000019C
+t1289521718
+s412
+
+N/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv7/cameraDemoAppDelegate.o
+t1289525123
+s45620
+
+N/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv7/cameraDemoViewController.o
+t1289525123
+s61040
+
+N/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv7/main.o
+t1289525123
+s6428
+
+N/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo.xcent
+t1289525123
+s418
+
+N/Users/admin/educational demos/cameraDemo/cameraDemoViewController.xib
+c000000004CDB6F1E0000000000006BF7
+t1289449246
+s27639
+
+N/Users/admin/educational demos/cameraDemo/cameraDemo_Prefix.pch
+c000000004CDB5DCF00000000000000BD
+t1289444815
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/admin/educational demos/cameraDemo/cyanbat.png
+c000000004CCB93AF0000000000000D2A
+t1288410031
+s3370
+
+N/Users/admin/educational demos/cameraDemo/explosion.png
+c000000004CCBA2690000000000009964
+t1288413801
+s39268
+
+N/Users/admin/educational demos/cameraDemo/main.m
+c000000004CDB5DCF0000000000000175
+t1289444815
+s373
+i<UIKit/UIKit.h>
+
+N/Users/admin/educational demos/cameraDemo/redbat.png
+c000000004CCB93BC0000000000000D14
+t1288410044
+s3348
+
+N/Users/admin/educational demos/cameraDemo/whitebat.png
+c000000004CCB93930000000000000D25
+t1288410003
+s3365
+
+N/var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraDemo_Prefix-aqpuebenokztkzbslpfvpgzhmaln/cameraDemo_Prefix.pch.gch
+t1289521719
+s10290736
+
+N/var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraDemo_Prefix-coiztyfypkbphhgyjsztncksqunb/cameraDemo_Prefix.pch.gch
+t1289445192
+s10290736
+
+N/var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraDemo_Prefix-dnhztshysuqknsgldrpupolvorgs/cameraDemo_Prefix.pch.gch
+t1289525123
+s9421460
+
+N/var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraDemo_Prefix-ecuqkfymrbydppcubiubpwbyiybz/cameraDemo_Prefix.pch.gch
+t1289525123
+s8958612
+
+N/var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraDemo_Prefix-ekedvvnfcavqkucnucjbafhzddck/cameraDemo_Prefix.pch.gch
+t1289445192
+s9831984
+
+N/var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraDemo_Prefix-eviklqgvavdlxjflomhnohmwcakr/cameraDemo_Prefix.pch.gch
+t1289521719
+s9831984
+
+NcameraDemo-Info.plist
+c000000004CDC8A36000000000000037C
+t1289521718
+s892
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies311217920#311217920#0(129"[BWARN]warning: building with 'Targeted Device Family' set to iPhone only ('1') not supported with SDK 'Device - iPhone OS 3.2'.1(22@121"warning: building with 'Targeted Device Family' set to iPhone only ('1') not supported with SDK 'Device - iPhone OS 3.2'.311217920#18446744073709551615#0#0(1@0"0(0#1#0"8615878048#0"0#
+
+CCodeSign "/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app"
+s311217923.858837
+e311217924.067174
+r1
+xCodeSign
+x/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app
+lSLF07#2@44"CodeSign build/Debug-iphoneos/cameraDemo.app311217923#311217924#0(0"0(0#0#77"/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app8613112352#753"    cd "/Users/admin/educational demos/cameraDemo"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Christian Damianidis (A56ENZNJ65)" "--resource-rules=/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app/ResourceRules.plist" --entitlements "/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo.xcent" "/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app"0#
+
+CCodeSign /Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app
+s311144583.552892
+e311144583.745104
+r1
+xCodeSign
+x/Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app
+lSLF07#2@44"CodeSign build/Debug-iphoneos/cameraDemo.app311144583#311144583#0(0"0(0#0#69"/Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app8641300992#713"    cd /Users/admin/Documents/cameraDemo    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Christian Damianidis (A56ENZNJ65)" --resource-rules=/Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app/ResourceRules.plist --entitlements /Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo.xcent /Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app0#
+
+CCompileC build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv6/cameraDemoAppDelegate.o "/Users/admin/educational demos/cameraDemo/Classes/cameraDemoAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s311217923.199484
+e311217923.294797
+r1
+xCompileC
+xbuild/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv6/cameraDemoAppDelegate.o
+x/Users/admin/educational demos/cameraDemo/Classes/cameraDemoAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/admin/educational demos/cameraDemo/Classes/cameraDemoAppDelegate.m311217923#311217923#0(0"0(0#0#73"/Users/admin/educational demos/cameraDemo/Classes/cameraDemoAppDelegate.m8616117536#1943"    cd "/Users/admin/educational demos/cameraDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-generated-files.hmap" "-I/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-own-target-headers.hmap" "-I/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-all-target-headers.hmap" -iquote "/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-project-headers.hmap" "-F/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos" "-I/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/include" "-I/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/DerivedSources/armv6" "-I/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/DerivedSources" -include /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraDemo_Prefix-ecuqkfymrbydppcubiubpwbyiybz/cameraDemo_Prefix.pch -c "/Users/admin/educational demos/cameraDemo/Classes/cameraDemoAppDelegate.m" -o "/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv6/cameraDemoAppDelegate.o"0#
+
+CCompileC build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv6/cameraDemoAppDelegate.o /Users/admin/Documents/cameraDemo/Classes/cameraDemoAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s311144208.205205
+e311144208.321952
+r1
+xCompileC
+xbuild/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv6/cameraDemoAppDelegate.o
+x/Users/admin/Documents/cameraDemo/Classes/cameraDemoAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/admin/Documents/cameraDemo/Classes/cameraDemoAppDelegate.m311144208#311144208#0(0"0(0#0#65"/Users/admin/Documents/cameraDemo/Classes/cameraDemoAppDelegate.m8640991808#1833"    cd /Users/admin/Documents/cameraDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-generated-files.hmap -I/Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-own-target-headers.hmap -I/Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-all-target-headers.hmap -iquote /Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-project-headers.hmap -F/Users/admin/Documents/cameraDemo/build/Debug-iphoneos -I/Users/admin/Documents/cameraDemo/build/Debug-iphoneos/include -I/Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/DerivedSources/armv6 -I/Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/DerivedSources -include /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraDemo_Prefix-ekedvvnfcavqkucnucjbafhzddck/cameraDemo_Prefix.pch -c /Users/admin/Documents/cameraDemo/Classes/cameraDemoAppDelegate.m -o /Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv6/cameraDemoAppDelegate.o0#
+
+CCompileC build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv6/cameraDemoViewController.o "/Users/admin/educational demos/cameraDemo/Classes/cameraDemoViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s311217923.254792
+e311217923.418846
+r1
+xCompileC
+xbuild/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv6/cameraDemoViewController.o
+x/Users/admin/educational demos/cameraDemo/Classes/cameraDemoViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/admin/educational demos/cameraDemo/Classes/cameraDemoViewController.m311217923#311217923#0(0"0(0#0#76"/Users/admin/educational demos/cameraDemo/Classes/cameraDemoViewController.m8607265888#1949"    cd "/Users/admin/educational demos/cameraDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-generated-files.hmap" "-I/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-own-target-headers.hmap" "-I/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-all-target-headers.hmap" -iquote "/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-project-headers.hmap" "-F/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos" "-I/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/include" "-I/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/DerivedSources/armv6" "-I/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/DerivedSources" -include /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraDemo_Prefix-ecuqkfymrbydppcubiubpwbyiybz/cameraDemo_Prefix.pch -c "/Users/admin/educational demos/cameraDemo/Classes/cameraDemoViewController.m" -o "/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv6/cameraDemoViewController.o"0#
+
+CCompileC build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv6/cameraDemoViewController.o /Users/admin/Documents/cameraDemo/Classes/cameraDemoViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s311144583.197445
+e311144583.476231
+r1
+xCompileC
+xbuild/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv6/cameraDemoViewController.o
+x/Users/admin/Documents/cameraDemo/Classes/cameraDemoViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/admin/Documents/cameraDemo/Classes/cameraDemoViewController.m311144583#311144583#0(0"0(0#0#68"/Users/admin/Documents/cameraDemo/Classes/cameraDemoViewController.m8634930912#1839"    cd /Users/admin/Documents/cameraDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-generated-files.hmap -I/Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-own-target-headers.hmap -I/Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-all-target-headers.hmap -iquote /Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-project-headers.hmap -F/Users/admin/Documents/cameraDemo/build/Debug-iphoneos -I/Users/admin/Documents/cameraDemo/build/Debug-iphoneos/include -I/Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/DerivedSources/armv6 -I/Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/DerivedSources -include /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraDemo_Prefix-ekedvvnfcavqkucnucjbafhzddck/cameraDemo_Prefix.pch -c /Users/admin/Documents/cameraDemo/Classes/cameraDemoViewController.m -o /Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv6/cameraDemoViewController.o0#
+
+CCompileC build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv6/main.o "/Users/admin/educational demos/cameraDemo/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s311217923.198413
+e311217923.254686
+r1
+xCompileC
+xbuild/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv6/main.o
+x/Users/admin/educational demos/cameraDemo/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/admin/educational demos/cameraDemo/main.m311217923#311217923#0(0"0(0#0#48"/Users/admin/educational demos/cameraDemo/main.m8611528288#1901"    cd "/Users/admin/educational demos/cameraDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-generated-files.hmap" "-I/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-own-target-headers.hmap" "-I/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-all-target-headers.hmap" -iquote "/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-project-headers.hmap" "-F/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos" "-I/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/include" "-I/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/DerivedSources/armv6" "-I/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/DerivedSources" -include /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraDemo_Prefix-ecuqkfymrbydppcubiubpwbyiybz/cameraDemo_Prefix.pch -c "/Users/admin/educational demos/cameraDemo/main.m" -o "/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv6/main.o"0#
+
+CCompileC build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv6/main.o /Users/admin/Documents/cameraDemo/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s311137992.226685
+e311137992.283610
+r1
+xCompileC
+xbuild/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv6/main.o
+x/Users/admin/Documents/cameraDemo/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/admin/Documents/cameraDemo/main.m311137992#311137992#0(0"0(0#0#40"/Users/admin/Documents/cameraDemo/main.m8656969024#1791"    cd /Users/admin/Documents/cameraDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-generated-files.hmap -I/Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-own-target-headers.hmap -I/Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-all-target-headers.hmap -iquote /Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-project-headers.hmap -F/Users/admin/Documents/cameraDemo/build/Debug-iphoneos -I/Users/admin/Documents/cameraDemo/build/Debug-iphoneos/include -I/Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/DerivedSources/armv6 -I/Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/DerivedSources -include /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraDemo_Prefix-ekedvvnfcavqkucnucjbafhzddck/cameraDemo_Prefix.pch -c /Users/admin/Documents/cameraDemo/main.m -o /Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv7/cameraDemoAppDelegate.o "/Users/admin/educational demos/cameraDemo/Classes/cameraDemoAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s311217923.363176
+e311217923.460174
+r1
+xCompileC
+xbuild/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv7/cameraDemoAppDelegate.o
+x/Users/admin/educational demos/cameraDemo/Classes/cameraDemoAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/admin/educational demos/cameraDemo/Classes/cameraDemoAppDelegate.m311217923#311217923#0(0"0(0#0#73"/Users/admin/educational demos/cameraDemo/Classes/cameraDemoAppDelegate.m8616405312#1943"    cd "/Users/admin/educational demos/cameraDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-generated-files.hmap" "-I/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-own-target-headers.hmap" "-I/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-all-target-headers.hmap" -iquote "/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-project-headers.hmap" "-F/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos" "-I/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/include" "-I/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/DerivedSources/armv7" "-I/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/DerivedSources" -include /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraDemo_Prefix-dnhztshysuqknsgldrpupolvorgs/cameraDemo_Prefix.pch -c "/Users/admin/educational demos/cameraDemo/Classes/cameraDemoAppDelegate.m" -o "/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv7/cameraDemoAppDelegate.o"0#
+
+CCompileC build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv7/cameraDemoAppDelegate.o /Users/admin/Documents/cameraDemo/Classes/cameraDemoAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s311144208.322160
+e311144208.437504
+r1
+xCompileC
+xbuild/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv7/cameraDemoAppDelegate.o
+x/Users/admin/Documents/cameraDemo/Classes/cameraDemoAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/admin/Documents/cameraDemo/Classes/cameraDemoAppDelegate.m311144208#311144208#0(0"0(0#0#65"/Users/admin/Documents/cameraDemo/Classes/cameraDemoAppDelegate.m8653375616#1833"    cd /Users/admin/Documents/cameraDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-generated-files.hmap -I/Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-own-target-headers.hmap -I/Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-all-target-headers.hmap -iquote /Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-project-headers.hmap -F/Users/admin/Documents/cameraDemo/build/Debug-iphoneos -I/Users/admin/Documents/cameraDemo/build/Debug-iphoneos/include -I/Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/DerivedSources/armv7 -I/Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/DerivedSources -include /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraDemo_Prefix-coiztyfypkbphhgyjsztncksqunb/cameraDemo_Prefix.pch -c /Users/admin/Documents/cameraDemo/Classes/cameraDemoAppDelegate.m -o /Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv7/cameraDemoAppDelegate.o0#
+
+CCompileC build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv7/cameraDemoViewController.o "/Users/admin/educational demos/cameraDemo/Classes/cameraDemoViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s311217923.460273
+e311217923.572850
+r1
+xCompileC
+xbuild/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv7/cameraDemoViewController.o
+x/Users/admin/educational demos/cameraDemo/Classes/cameraDemoViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/admin/educational demos/cameraDemo/Classes/cameraDemoViewController.m311217923#311217923#0(0"0(0#0#76"/Users/admin/educational demos/cameraDemo/Classes/cameraDemoViewController.m8615397280#1949"    cd "/Users/admin/educational demos/cameraDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-generated-files.hmap" "-I/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-own-target-headers.hmap" "-I/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-all-target-headers.hmap" -iquote "/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-project-headers.hmap" "-F/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos" "-I/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/include" "-I/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/DerivedSources/armv7" "-I/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/DerivedSources" -include /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraDemo_Prefix-dnhztshysuqknsgldrpupolvorgs/cameraDemo_Prefix.pch -c "/Users/admin/educational demos/cameraDemo/Classes/cameraDemoViewController.m" -o "/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv7/cameraDemoViewController.o"0#
+
+CCompileC build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv7/cameraDemoViewController.o /Users/admin/Documents/cameraDemo/Classes/cameraDemoViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s311144583.249926
+e311144583.418872
+r1
+xCompileC
+xbuild/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv7/cameraDemoViewController.o
+x/Users/admin/Documents/cameraDemo/Classes/cameraDemoViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/admin/Documents/cameraDemo/Classes/cameraDemoViewController.m311144583#311144583#0(0"0(0#0#68"/Users/admin/Documents/cameraDemo/Classes/cameraDemoViewController.m8653390816#1839"    cd /Users/admin/Documents/cameraDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-generated-files.hmap -I/Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-own-target-headers.hmap -I/Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-all-target-headers.hmap -iquote /Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-project-headers.hmap -F/Users/admin/Documents/cameraDemo/build/Debug-iphoneos -I/Users/admin/Documents/cameraDemo/build/Debug-iphoneos/include -I/Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/DerivedSources/armv7 -I/Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/DerivedSources -include /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraDemo_Prefix-coiztyfypkbphhgyjsztncksqunb/cameraDemo_Prefix.pch -c /Users/admin/Documents/cameraDemo/Classes/cameraDemoViewController.m -o /Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv7/cameraDemoViewController.o0#
+
+CCompileC build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv7/main.o "/Users/admin/educational demos/cameraDemo/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s311217923.294911
+e311217923.363071
+r1
+xCompileC
+xbuild/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv7/main.o
+x/Users/admin/educational demos/cameraDemo/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/admin/educational demos/cameraDemo/main.m311217923#311217923#0(0"0(0#0#48"/Users/admin/educational demos/cameraDemo/main.m8618390016#1901"    cd "/Users/admin/educational demos/cameraDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-generated-files.hmap" "-I/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-own-target-headers.hmap" "-I/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-all-target-headers.hmap" -iquote "/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-project-headers.hmap" "-F/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos" "-I/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/include" "-I/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/DerivedSources/armv7" "-I/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/DerivedSources" -include /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraDemo_Prefix-dnhztshysuqknsgldrpupolvorgs/cameraDemo_Prefix.pch -c "/Users/admin/educational demos/cameraDemo/main.m" -o "/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv7/main.o"0#
+
+CCompileC build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv7/main.o /Users/admin/Documents/cameraDemo/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s311137992.322221
+e311137992.487129
+r1
+xCompileC
+xbuild/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv7/main.o
+x/Users/admin/Documents/cameraDemo/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/admin/Documents/cameraDemo/main.m311137992#311137992#0(0"0(0#0#40"/Users/admin/Documents/cameraDemo/main.m8656512320#1791"    cd /Users/admin/Documents/cameraDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-generated-files.hmap -I/Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-own-target-headers.hmap -I/Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-all-target-headers.hmap -iquote /Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-project-headers.hmap -F/Users/admin/Documents/cameraDemo/build/Debug-iphoneos -I/Users/admin/Documents/cameraDemo/build/Debug-iphoneos/include -I/Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/DerivedSources/armv7 -I/Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/DerivedSources -include /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraDemo_Prefix-coiztyfypkbphhgyjsztncksqunb/cameraDemo_Prefix.pch -c /Users/admin/Documents/cameraDemo/main.m -o /Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB "/Users/admin/educational demos/cameraDemo/MainWindow.xib"
+r0
+
+CCompileXIB "/Users/admin/educational demos/cameraDemo/cameraDemoViewController.xib"
+r0
+
+CCompileXIB /Users/admin/Documents/cameraDemo/MainWindow.xib
+s311137990.553339
+e311137991.093099
+r1
+xCompileXIB
+x/Users/admin/Documents/cameraDemo/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib311137990#311137991#0(0"0(0#0#48"/Users/admin/Documents/cameraDemo/MainWindow.xib8656634432#592"    cd /Users/admin/Documents/cameraDemo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app/MainWindow.nib /Users/admin/Documents/cameraDemo/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCompileXIB /Users/admin/Documents/cameraDemo/cameraDemoViewController.xib
+s311142050.254133
+e311142050.710740
+r1
+xCompileXIB
+x/Users/admin/Documents/cameraDemo/cameraDemoViewController.xib
+lSLF07#2@39"CompileXIB cameraDemoViewController.xib311142050#311142050#0(0"0(0#0#62"/Users/admin/Documents/cameraDemo/cameraDemoViewController.xib8638944864#620"    cd /Users/admin/Documents/cameraDemo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app/cameraDemoViewController.nib /Users/admin/Documents/cameraDemo/cameraDemoViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCopyPNGFile "/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app/batCam.png" batCam.png
+s311214518.650603
+e311214518.710178
+r1
+xCopyPNGFile
+x/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app/batCam.png
+xbatCam.png
+lSLF07#2@69"CopyPNGFile build/Debug-iphoneos/cameraDemo.app/batCam.png batCam.png311214518#311214518#0(0"0(0#0#52"/Users/admin/educational demos/cameraDemo/batCam.png8690412576#640"    cd "/Users/admin/educational demos/cameraDemo"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/admin/educational demos/cameraDemo/batCam.png" "/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app/batCam.png"0#
+
+CCopyPNGFile "/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app/cyanbat.png" cyanbat.png
+r0
+
+CCopyPNGFile "/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app/explosion.png" explosion.png
+r0
+
+CCopyPNGFile "/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app/redbat.png" redbat.png
+r0
+
+CCopyPNGFile "/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app/whitebat.png" whitebat.png
+r0
+
+CCopyPNGFile /Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app/cyanbat.png cyanbat.png
+s311140619.482051
+e311140619.635916
+r1
+xCopyPNGFile
+x/Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app/cyanbat.png
+xcyanbat.png
+lSLF07#2@71"CopyPNGFile build/Debug-iphoneos/cameraDemo.app/cyanbat.png cyanbat.png311140619#311140619#0(0"0(0#0#45"/Users/admin/Documents/cameraDemo/cyanbat.png8651057984#612"    cd /Users/admin/Documents/cameraDemo    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/admin/Documents/cameraDemo/cyanbat.png /Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app/cyanbat.png0#
+
+CCopyPNGFile /Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app/explosion.png explosion.png
+s311140619.636011
+e311140619.801478
+r1
+xCopyPNGFile
+x/Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app/explosion.png
+xexplosion.png
+lSLF07#2@75"CopyPNGFile build/Debug-iphoneos/cameraDemo.app/explosion.png explosion.png311140619#311140619#0(0"0(0#0#47"/Users/admin/Documents/cameraDemo/explosion.png8648007168#616"    cd /Users/admin/Documents/cameraDemo    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/admin/Documents/cameraDemo/explosion.png /Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app/explosion.png0#
+
+CCopyPNGFile /Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app/redbat.png redbat.png
+s311140619.801583
+e311140619.839967
+r1
+xCopyPNGFile
+x/Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app/redbat.png
+xredbat.png
+lSLF07#2@69"CopyPNGFile build/Debug-iphoneos/cameraDemo.app/redbat.png redbat.png311140619#311140619#0(0"0(0#0#44"/Users/admin/Documents/cameraDemo/redbat.png8633536928#610"    cd /Users/admin/Documents/cameraDemo    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/admin/Documents/cameraDemo/redbat.png /Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app/redbat.png0#
+
+CCopyPNGFile /Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app/whitebat.png whitebat.png
+s311140619.840065
+e311140619.880043
+r1
+xCopyPNGFile
+x/Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app/whitebat.png
+xwhitebat.png
+lSLF07#2@73"CopyPNGFile build/Debug-iphoneos/cameraDemo.app/whitebat.png whitebat.png311140619#311140619#0(0"0(0#0#46"/Users/admin/Documents/cameraDemo/whitebat.png8632093152#614"    cd /Users/admin/Documents/cameraDemo    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/admin/Documents/cameraDemo/whitebat.png /Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app/whitebat.png0#
+
+CCpResource build/Debug-iphoneos/cameraDemo.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/ResourceRules.plist
+r0
+
+CCpResource build/Debug-iphoneos/cameraDemo.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+s311137990.523985
+e311137990.553015
+r1
+xCpResource
+xbuild/Debug-iphoneos/cameraDemo.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist311137990#311137990#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist8653994944#535"    cd /Users/admin/Documents/cameraDemo    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist /Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app0#
+
+CCreateUniversalBinary "/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app/cameraDemo" normal "armv6 armv7"
+s311217923.799320
+e311217923.805554
+r1
+xCreateUniversalBinary
+x/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app/cameraDemo
+xnormal
+xarmv6 armv7
+lSLF07#2@89"CreateUniversalBinary build/Debug-iphoneos/cameraDemo.app/cameraDemo normal "armv6 armv7"311217923#311217923#0(0"0(0#0#53"/Users/admin/educational demos/cameraDemo/armv6 armv78616001248#624"    cd "/Users/admin/educational demos/cameraDemo"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/lipo -create "/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv6/cameraDemo" "/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv7/cameraDemo" -output "/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app/cameraDemo"0#
+
+CCreateUniversalBinary /Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app/cameraDemo normal "armv6 armv7"
+s311144583.511558
+e311144583.515861
+r1
+xCreateUniversalBinary
+x/Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app/cameraDemo
+xnormal
+xarmv6 armv7
+lSLF07#2@89"CreateUniversalBinary build/Debug-iphoneos/cameraDemo.app/cameraDemo normal "armv6 armv7"311144583#311144583#0(0"0(0#0#45"/Users/admin/Documents/cameraDemo/armv6 armv78622702528#584"    cd /Users/admin/Documents/cameraDemo    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/lipo -create /Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv6/cameraDemo /Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv7/cameraDemo -output /Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app/cameraDemo0#
+
+CGenerateDSYMFile "/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app.dSYM" "/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app/cameraDemo"
+s311217923.805680
+e311217923.836388
+r1
+xGenerateDSYMFile
+x/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app.dSYM
+x/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app/cameraDemo
+lSLF07#2@104"GenerateDSYMFile build/Debug-iphoneos/cameraDemo.app.dSYM build/Debug-iphoneos/cameraDemo.app/cameraDemo311217923#311217923#0(0"0(0#0#88"/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app/cameraDemo8615429184#448"    cd "/Users/admin/educational demos/cameraDemo"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil "/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app/cameraDemo" -o "/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app.dSYM"0#
+
+CGenerateDSYMFile /Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app.dSYM /Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app/cameraDemo
+s311144583.515941
+e311144583.549240
+r1
+xGenerateDSYMFile
+x/Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app.dSYM
+x/Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app/cameraDemo
+lSLF07#2@104"GenerateDSYMFile build/Debug-iphoneos/cameraDemo.app.dSYM build/Debug-iphoneos/cameraDemo.app/cameraDemo311144583#311144583#0(0"0(0#0#80"/Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app/cameraDemo8638611104#418"    cd /Users/admin/Documents/cameraDemo    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app/cameraDemo -o /Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app.dSYM0#
+
+CLd "/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv6/cameraDemo" normal armv6
+s311217923.418947
+e311217923.705429
+r1
+xLd
+x/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv6/cameraDemo
+xnormal
+xarmv6
+lSLF07#2@133"Link /Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv6/cameraDemo311217923#311217923#0(0"0(0#0#0"8616221664#964"    cd "/Users/admin/educational demos/cameraDemo"    setenv IPHONEOS_DEPLOYMENT_TARGET 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk "-L/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos" "-F/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos" -filelist "/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv6/cameraDemo.LinkFileList" -dead_strip -miphoneos-version-min=3.2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv6/cameraDemo"0#
+
+CLd "/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv7/cameraDemo" normal armv7
+s311217923.572951
+e311217923.799175
+r1
+xLd
+x/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv7/cameraDemo
+xnormal
+xarmv7
+lSLF07#2@133"Link /Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv7/cameraDemo311217923#311217923#0(0"0(0#0#0"8616815200#964"    cd "/Users/admin/educational demos/cameraDemo"    setenv IPHONEOS_DEPLOYMENT_TARGET 3.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk "-L/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos" "-F/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos" -filelist "/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv7/cameraDemo.LinkFileList" -dead_strip -miphoneos-version-min=3.2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv7/cameraDemo"0#
+
+CLd /Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv6/cameraDemo normal armv6
+s311144583.476330
+e311144583.511456
+r1
+xLd
+x/Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv6/cameraDemo
+xnormal
+xarmv6
+lSLF07#2@125"Link /Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv6/cameraDemo311144583#311144583#0(0"0(0#0#0"8654038240#914"    cd /Users/admin/Documents/cameraDemo    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/admin/Documents/cameraDemo/build/Debug-iphoneos -F/Users/admin/Documents/cameraDemo/build/Debug-iphoneos -filelist /Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv6/cameraDemo.LinkFileList -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv6/cameraDemo0#
+
+CLd /Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv7/cameraDemo normal armv7
+s311144583.418967
+e311144583.461377
+r1
+xLd
+x/Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv7/cameraDemo
+xnormal
+xarmv7
+lSLF07#2@125"Link /Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv7/cameraDemo311144583#311144583#0(0"0(0#0#0"8651914432#914"    cd /Users/admin/Documents/cameraDemo    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/admin/Documents/cameraDemo/build/Debug-iphoneos -F/Users/admin/Documents/cameraDemo/build/Debug-iphoneos -filelist /Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv7/cameraDemo.LinkFileList -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/Objects-normal/armv7/cameraDemo0#
+
+CProcessInfoPlistFile "/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app/Info.plist" cameraDemo-Info.plist
+s311217920.549406
+e311217920.591855
+r1
+xProcessInfoPlistFile
+x/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app/Info.plist
+xcameraDemo-Info.plist
+lSLF07#2@29"Process cameraDemo-Info.plist311217920#311217920#0(0"0(0#0#63"/Users/admin/educational demos/cameraDemo/cameraDemo-Info.plist8610500704#656"    cd "/Users/admin/educational demos/cameraDemo"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility cameraDemo-Info.plist -genpkginfo "/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app/ResourceRules.plist" -o "/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app/Info.plist"0#
+
+CProcessInfoPlistFile /Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app/Info.plist cameraDemo-Info.plist
+s311137990.525008
+e311137990.553271
+r1
+xProcessInfoPlistFile
+x/Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app/Info.plist
+xcameraDemo-Info.plist
+lSLF07#2@29"Process cameraDemo-Info.plist311137990#311137990#0(0"0(0#0#55"/Users/admin/Documents/cameraDemo/cameraDemo-Info.plist8652559616#616"    cd /Users/admin/Documents/cameraDemo    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility cameraDemo-Info.plist -genpkginfo /Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app/ResourceRules.plist -o /Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app/Info.plist0#
+
+CProcessPCH /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraDemo_Prefix-aqpuebenokztkzbslpfvpgzhmaln/cameraDemo_Prefix.pch.gch cameraDemo_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s311214518.738745
+e311214519.750059
+r1
+xProcessPCH
+x/var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraDemo_Prefix-aqpuebenokztkzbslpfvpgzhmaln/cameraDemo_Prefix.pch.gch
+xcameraDemo_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile cameraDemo_Prefix.pch311214518#311214519#0(0"0(0#0#63"/Users/admin/educational demos/cameraDemo/cameraDemo_Prefix.pch8700355840#1791"    cd "/Users/admin/educational demos/cameraDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-generated-files.hmap" "-I/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-own-target-headers.hmap" "-I/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-all-target-headers.hmap" -iquote "/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-project-headers.hmap" "-F/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos" "-I/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/include" "-I/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/DerivedSources/armv7" "-I/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/DerivedSources" -c "/Users/admin/educational demos/cameraDemo/cameraDemo_Prefix.pch" -o /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraDemo_Prefix-aqpuebenokztkzbslpfvpgzhmaln/cameraDemo_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraDemo_Prefix-coiztyfypkbphhgyjsztncksqunb/cameraDemo_Prefix.pch.gch cameraDemo_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s311137991.123697
+e311137992.188305
+r1
+xProcessPCH
+x/var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraDemo_Prefix-coiztyfypkbphhgyjsztncksqunb/cameraDemo_Prefix.pch.gch
+xcameraDemo_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile cameraDemo_Prefix.pch311137991#311137992#0(0"0(0#0#55"/Users/admin/Documents/cameraDemo/cameraDemo_Prefix.pch8634429664#1691"    cd /Users/admin/Documents/cameraDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-generated-files.hmap -I/Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-own-target-headers.hmap -I/Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-all-target-headers.hmap -iquote /Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-project-headers.hmap -F/Users/admin/Documents/cameraDemo/build/Debug-iphoneos -I/Users/admin/Documents/cameraDemo/build/Debug-iphoneos/include -I/Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/DerivedSources/armv7 -I/Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/DerivedSources -c /Users/admin/Documents/cameraDemo/cameraDemo_Prefix.pch -o /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraDemo_Prefix-coiztyfypkbphhgyjsztncksqunb/cameraDemo_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraDemo_Prefix-dnhztshysuqknsgldrpupolvorgs/cameraDemo_Prefix.pch.gch cameraDemo_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s311217920.593275
+e311217923.198302
+r1
+xProcessPCH
+x/var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraDemo_Prefix-dnhztshysuqknsgldrpupolvorgs/cameraDemo_Prefix.pch.gch
+xcameraDemo_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile cameraDemo_Prefix.pch311217920#311217923#0(0"0(0#0#63"/Users/admin/educational demos/cameraDemo/cameraDemo_Prefix.pch8616768384#1791"    cd "/Users/admin/educational demos/cameraDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-generated-files.hmap" "-I/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-own-target-headers.hmap" "-I/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-all-target-headers.hmap" -iquote "/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-project-headers.hmap" "-F/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos" "-I/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/include" "-I/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/DerivedSources/armv7" "-I/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/DerivedSources" -c "/Users/admin/educational demos/cameraDemo/cameraDemo_Prefix.pch" -o /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraDemo_Prefix-dnhztshysuqknsgldrpupolvorgs/cameraDemo_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraDemo_Prefix-ecuqkfymrbydppcubiubpwbyiybz/cameraDemo_Prefix.pch.gch cameraDemo_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s311217920.592261
+e311217923.100444
+r1
+xProcessPCH
+x/var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraDemo_Prefix-ecuqkfymrbydppcubiubpwbyiybz/cameraDemo_Prefix.pch.gch
+xcameraDemo_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile cameraDemo_Prefix.pch311217920#311217923#0(0"0(0#0#63"/Users/admin/educational demos/cameraDemo/cameraDemo_Prefix.pch8617742688#1791"    cd "/Users/admin/educational demos/cameraDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-generated-files.hmap" "-I/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-own-target-headers.hmap" "-I/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-all-target-headers.hmap" -iquote "/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-project-headers.hmap" "-F/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos" "-I/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/include" "-I/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/DerivedSources/armv6" "-I/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/DerivedSources" -c "/Users/admin/educational demos/cameraDemo/cameraDemo_Prefix.pch" -o /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraDemo_Prefix-ecuqkfymrbydppcubiubpwbyiybz/cameraDemo_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraDemo_Prefix-ekedvvnfcavqkucnucjbafhzddck/cameraDemo_Prefix.pch.gch cameraDemo_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s311137991.122685
+e311137992.226579
+r1
+xProcessPCH
+x/var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraDemo_Prefix-ekedvvnfcavqkucnucjbafhzddck/cameraDemo_Prefix.pch.gch
+xcameraDemo_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile cameraDemo_Prefix.pch311137991#311137992#0(0"0(0#0#55"/Users/admin/Documents/cameraDemo/cameraDemo_Prefix.pch8646949408#1691"    cd /Users/admin/Documents/cameraDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-generated-files.hmap -I/Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-own-target-headers.hmap -I/Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-all-target-headers.hmap -iquote /Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-project-headers.hmap -F/Users/admin/Documents/cameraDemo/build/Debug-iphoneos -I/Users/admin/Documents/cameraDemo/build/Debug-iphoneos/include -I/Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/DerivedSources/armv6 -I/Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/DerivedSources -c /Users/admin/Documents/cameraDemo/cameraDemo_Prefix.pch -o /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraDemo_Prefix-ekedvvnfcavqkucnucjbafhzddck/cameraDemo_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraDemo_Prefix-eviklqgvavdlxjflomhnohmwcakr/cameraDemo_Prefix.pch.gch cameraDemo_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s311214518.710550
+e311214519.793574
+r1
+xProcessPCH
+x/var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraDemo_Prefix-eviklqgvavdlxjflomhnohmwcakr/cameraDemo_Prefix.pch.gch
+xcameraDemo_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile cameraDemo_Prefix.pch311214518#311214519#0(0"0(0#0#63"/Users/admin/educational demos/cameraDemo/cameraDemo_Prefix.pch8700420032#1791"    cd "/Users/admin/educational demos/cameraDemo"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-generated-files.hmap" "-I/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-own-target-headers.hmap" "-I/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-all-target-headers.hmap" -iquote "/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo-project-headers.hmap" "-F/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos" "-I/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/include" "-I/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/DerivedSources/armv6" "-I/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/DerivedSources" -c "/Users/admin/educational demos/cameraDemo/cameraDemo_Prefix.pch" -o /var/folders/qw/qwp6kQ2oH2OVEFn3F1g23E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/cameraDemo_Prefix-eviklqgvavdlxjflomhnohmwcakr/cameraDemo_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/admin/Library/MobileDevice/Provisioning Profiles/425B5389-1C95-4924-9991-8B4538C74408.mobileprovision" "/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app/embedded.mobileprovision"
+s311214520.347185
+e311214520.348877
+r1
+xProcessProductPackaging
+x/Users/admin/Library/MobileDevice/Provisioning Profiles/425B5389-1C95-4924-9991-8B4538C74408.mobileprovision
+x/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app/embedded.mobileprovision
+lSLF07#2@195"ProcessProductPackaging "/Users/admin/Library/MobileDevice/Provisioning Profiles/425B5389-1C95-4924-9991-8B4538C74408.mobileprovision" build/Debug-iphoneos/cameraDemo.app/embedded.mobileprovision311214520#311214520#0(0"0(0#0#102"/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app/embedded.mobileprovision8699644320#498"    cd "/Users/admin/educational demos/cameraDemo"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    <com.apple.tools.product-pkg-utility> "/Users/admin/Library/MobileDevice/Provisioning Profiles/425B5389-1C95-4924-9991-8B4538C74408.mobileprovision" -o "/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app/embedded.mobileprovision"0#
+
+CProcessProductPackaging "/Users/admin/Library/MobileDevice/Provisioning Profiles/A62C2E3F-D144-48A7-A277-7866DC027F02.mobileprovision" "/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app/embedded.mobileprovision"
+r0
+
+CProcessProductPackaging "/Users/admin/Library/MobileDevice/Provisioning Profiles/A62C2E3F-D144-48A7-A277-7866DC027F02.mobileprovision" /Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app/embedded.mobileprovision
+s311137992.645076
+e311137992.663728
+r1
+xProcessProductPackaging
+x/Users/admin/Library/MobileDevice/Provisioning Profiles/A62C2E3F-D144-48A7-A277-7866DC027F02.mobileprovision
+x/Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app/embedded.mobileprovision
+lSLF07#2@195"ProcessProductPackaging "/Users/admin/Library/MobileDevice/Provisioning Profiles/A62C2E3F-D144-48A7-A277-7866DC027F02.mobileprovision" build/Debug-iphoneos/cameraDemo.app/embedded.mobileprovision311137992#311137992#0(0"0(0#0#94"/Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app/embedded.mobileprovision8645474240#478"    cd /Users/admin/Documents/cameraDemo    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    <com.apple.tools.product-pkg-utility> "/Users/admin/Library/MobileDevice/Provisioning Profiles/A62C2E3F-D144-48A7-A277-7866DC027F02.mobileprovision" -o /Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist "/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo.xcent"
+s311217923.839570
+e311217923.858728
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist
+x/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo.xcent
+lSLF07#2@184"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo.xcent311217923#311217923#0(0"0(0#0#113"/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo.xcent8603119488#513"    cd "/Users/admin/educational demos/cameraDemo"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/Entitlements.plist -entitlements -format xml -o "/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo.xcent"0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist "/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo.xcent"
+s311214520.351944
+e311214520.372194
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
+x/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo.xcent
+lSLF07#2@184"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo.xcent311214520#311214520#0(0"0(0#0#113"/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo.xcent8694441184#513"    cd "/Users/admin/educational demos/cameraDemo"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist -entitlements -format xml -o "/Users/admin/educational demos/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo.xcent"0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist /Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo.xcent
+s311137992.668072
+e311137992.685742
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
+x/Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo.xcent
+lSLF07#2@184"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo.xcent311137992#311137992#0(0"0(0#0#105"/Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo.xcent8644412000#493"    cd /Users/admin/Documents/cameraDemo    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/admin/Documents/cameraDemo/build/cameraDemo.build/Debug-iphoneos/cameraDemo.build/cameraDemo.xcent0#
+
+CTouch "/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app"
+s311217923.836585
+e311217923.839479
+r1
+xTouch
+x/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app
+lSLF07#2@83"Touch /Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app311217923#311217923#0(0"0(0#0#0"8613257632#339"    cd "/Users/admin/educational demos/cameraDemo"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c "/Users/admin/educational demos/cameraDemo/build/Debug-iphoneos/cameraDemo.app"0#
+
+CTouch /Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app
+s311144583.549447
+e311144583.552694
+r1
+xTouch
+x/Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app
+lSLF07#2@75"Touch /Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app311144583#311144583#0(0"0(0#0#0"8634348352#319"    cd /Users/admin/Documents/cameraDemo    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/admin/Documents/cameraDemo/build/Debug-iphoneos/cameraDemo.app0#
+
